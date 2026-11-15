@@ -11,7 +11,8 @@ Om publicering inte sker automatiskt: öppna **Settings → Pages → Build and 
 - **Pipeline:** CS1/EPIMODE (PAH), CS014 (PH-ILD), CS585 (APS).
 - **Finansiering:** planerad 400 Mkr-unitsemission; skillnad mellan brutto och verklig kassa; Fenjas 70 Mkr-kvittning och kontant återbetalning som en varierbar simulator.
 - **Utspädning:** antagen teckningskurs, nya aktier och utspädningskvot, utan att gissa kommande faktiska emissionsvillkor.
-- **Emissionsbarometer:** den nuvarande emissionen är redan aviserad, varför den inte hanteras som en ny framtida riskhändelse. För ytterligare framtida emissioner finns ett **subjektivt, explicit villkorat scenario** med 3/6/12 månader; användaren kan ändra basantagandet och klicka på ∑ för uträkning och känslighet.
+- **Emissionsavsnitt:** konkreta kända villkor för aviserad 400 Mkr-emission, teckningskurs när den beslutas och Fenja/utspädningssimulator.
+- **Konkursbarometer:** riskbedömning för betalningsförmåga, villkorad emissionsfinansiering och skuld; två tydligt åtskilda lägen (aktuellt respektive scenario), utan fabricerade konkursprocentsatser.
 - **Varningssignaler:** källänkade, datumstämplade observationer. Informationsdatum i datafilen ska uppdateras redaktionellt efter nya finansbesked.
 - **Milstolpar:** kvartalsbaserad klickbar tidslinje med filtrering och orange förseningsmarkering. Q1→Q3 2027 för CS014 är källstyrkt; FPI försenat, men utan påhittat antal kvartal.
 - **Värderingsgraf:** klickbara hypotetiska bolagsvärden och härledd kurs per aktie före/efter ett illustrativt emissionsscenario. Inga fabricerade analytikerriktkurser.
@@ -37,3 +38,9 @@ Automatiken ändrar **inte** kassa, lån, kliniska data, emissionsvillkor eller 
 `.github/workflows/` – daglig nyhetshämtning och Pages-publicering.
 
 Senaste redaktionella kontroll: 15 november 2026.
+
+## Uppdatering 15 november 2026: konkursbarometer
+
+Emissionsbarometern har ersatts av två delar: den aviserade företrädesemissionen och Konkursbarometern. Emissionsvillkoren är ännu inte formellt beslutade per 15 november 2026; extra bolagsstämma väntas 15 december och styrelsebeslut omkring 17–18 december. Konkursbarometern bygger på rapporterad Q3-kassa och historiskt kassaflöde, plus scenarier för teckning och Fenja-reglering; poäng 1–10 är ett illustrativt index och **inte** statistisk konkurssannolikhet. Finansieringsmisslyckande innebär inte automatiskt juridisk konkurs. Ingen automatisk RSS-rubrik ändrar verifierade kassasiffror eller risknivåer utan manuell kontroll.
+
+Källor: [Cerenos regulatoriska emissionserbjudande](https://www.cerenoscientific.com/sv/nyhetsrum/pressmeddelanden?slug=cereno-scientific-avser-genomfora-en-foretradesemission-av-units-om-cirka-400-msek-med-fokus-pa-den-globala-fas-iib-studien-epimode-och-erhaller-forlangd-lanefinansiering-om-upp-till-175-msek), [Cerenos Q3-rapport](https://www.cerenoscientific.com/sv/nyhetsrum/pressmeddelanden?slug=cereno-scientific-publicerar-delarsrapport-for-tredje-kvartal-2026).
