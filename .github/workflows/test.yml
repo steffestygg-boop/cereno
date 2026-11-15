@@ -1,0 +1,28 @@
+name: Testa Cereno-dashboard
+on:
+  push:
+    branches: [main]
+  workflow_dispatch:
+permissions:
+  contents: read
+jobs:
+  test:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+      - name: Kontrollera datamodeller
+        run: python -m unittest discover -s tests -v
+      - name: Extrahera dashboard-JavaScript
+        run: |
+          python - <<'PY'
+          import pathlib, re
+          html = pathlib.Path('index.html').read_text(encoding='utf-8')
+          blocks = re.findall(r'<script(?:\s[^>]*)?>(.*?)</script>', html, re.S)
+          assert len(blocks) >= 2 and 'function drawRisk' in blocks[-1]
+          pathlib.Path('/tmp/cereno-app.js').write_text(blocks[-1], encoding='utf-8')
+          PY
+      - name: Kontrollera JavaScript-syntax
+        run: node --check /tmp/cereno-app.js

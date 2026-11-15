@@ -1,0 +1,26 @@
+name: Veckovis Cereno-riskbevakning
+on:
+  schedule:
+    - cron: '15 7 * * 1'
+  workflow_dispatch:
+permissions:
+  contents: write
+concurrency:
+  group: cereno-data-updates
+  cancel-in-progress: false
+jobs:
+  signals:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+      - name: Läs RSS och markera verifieringsbehov
+        run: python scripts/check_financing_signals.py --weekly
+      - name: Spara avläst signalstatus
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add data/financing.json
+          git diff --cached --quiet || (git commit -m "Weekly Cereno risk source check" && git push)
