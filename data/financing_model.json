@@ -1,0 +1,63 @@
+{
+  "version": "1.0.0",
+  "curated_at": "2026-11-15",
+  "sources": {
+    "report": "https://www.cerenoscientific.com/~/media/Files/C/cereno-scientific/corp/results-and-presentations/2026/Cereno%20Scientific%20Delarsrapport%20Q3%202026.pdf",
+    "announcement": "https://mfn.se/a/cereno-scientific/cereno-scientific-avser-genomfora-en-foretradesemission-av-units-om-cirka-400-msek-med-fokus-pa-den-globala-fas-iib-studien-epimode-och-erhaller-forlangd-lanefinansiering-om-upp-till-175-msek",
+    "epimode": "https://view.news.eu.nasdaq.com/view?id=bac2b3efd349cf90706b8cf56dc46c45d&lang=en&src=micro",
+    "cs014": "https://www.cerenoscientific.com/sv/vetenskap-pipeline/cs014"
+  },
+  "company": {
+    "report_date": "2026-09-30",
+    "report_published": "2026-11-04",
+    "cash_msek": 40.238566,
+    "operating_cashflow_q3_msek": -33.740891,
+    "investment_cashflow_q3_msek": -24.001259,
+    "shares_outstanding_at_report": 323852029,
+    "share_quota_value_sek": 0.1,
+    "cashflow_note": "Q3:s operativa + investeringskassaflöde summeras som historisk förbrukning. Detta är inte ett framtida kassaflödesestimat.",
+    "financing_guidance": "Fulltecknad emission beräknas stödja verksamheten in i Q1 2028; TO6/TO7 kan ge ytterligare finansiering av EPIMODE fram till Q4 2028 men är inte säkrad."
+  },
+  "issue": {
+    "announced_at": "2026-11-12",
+    "status": "avsikt offentliggjord, villkor ej fastställda",
+    "target_msek": 400,
+    "shares_per_unit": 4,
+    "to6_per_unit": 2,
+    "to7_per_unit": 1,
+    "discount_to_terp_percent": 35,
+    "additional_share_price_cap_discount_percent": 40,
+    "shares_price_known": false,
+    "unit_rights_ratio_known": false,
+    "egm_date": "2026-12-15",
+    "final_terms_approx": "2026-12-17/18",
+    "to6_window": "2027-05-24–2027-06-07",
+    "to7_window": "2027-10-25–2027-11-08",
+    "to6_potential_msek": 250,
+    "to7_potential_msek": 150,
+    "external_subscription_cash_not_guaranteed": true
+  },
+  "fenja": {
+    "old_debt_msek": 175,
+    "extended_debt_msek": 105,
+    "debt_to_repay_or_offset_msek": 70,
+    "offset_cap_msek": 70,
+    "offset_full_below_external_msek": 125,
+    "offset_zero_above_external_msek": 265,
+    "loan_facility_msek": 70,
+    "facility_window": "2027-10-01–2027-12-31",
+    "maturity": "2028-11-12",
+    "interest_floor_percent": 12,
+    "undrawn_interest_floor_percent": 6,
+    "arrangement_fee_msek": 8.75,
+    "warrants_extra_dilution_percent": 5,
+    "loan_not_cash_now": true,
+    "agreement_conditional_on_issue": true
+  },
+  "scenario": {
+    "baseline_monthly_hazard_after_funding": 0.02,
+    "low_multiplier": 0.6,
+    "high_multiplier": 1.7,
+    "description": "Endast ett illustrativt scenario för YTTERLIGARE emissioner efter antagen full finansiering. Ingen empiriskt kalibrerad modell. Den redan aviserade emissionen är ett separat, känt faktum."
+  }
+}

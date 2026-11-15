@@ -1,0 +1,76 @@
+{
+  "updated_at": "2026-11-15",
+  "based_on_report": "2026-09-30",
+  "emission_status": "aviserad_2026-11-12",
+  "coverage_status": "redaktionellt_granskad",
+  "automated_checked": false,
+  "latest_information": [
+    "12 nov: aviserad företrädesemission om cirka 400 Mkr, villkor ännu ej fastställda.",
+    "Fenja: 105 Mkr av 175 Mkr befintligt lån förlängs villkorat, återstående 70 Mkr ska kvittas eller betalas kontant.",
+    "Fenjas nya 70 Mkr-facilitet kan avropas först Q4 2027 och under finansiella villkor.",
+    "Q3 2026: 40,24 Mkr kassa; Q3 operativt kassaflöde −33,74 Mkr och investeringskassaflöde −24,00 Mkr.",
+    "Bolagets Q1 2028-finansieringshorisont förutsätter att den planerade emissionen fulltecknas."
+  ],
+  "alerts": [
+    {
+      "level": "kritisk",
+      "title": "Företrädesemission annonserad, men ännu inte beslutad i slutliga villkor",
+      "detail": "400 Mkr är ett bruttomål, inte erhållen kassa. Extra bolagsstämma den 15 december och därefter formella villkor återstår.",
+      "status": "Verifierat bolagsbesked",
+      "date": "2026-11-12",
+      "source": "https://mfn.se/a/cereno-scientific/cereno-scientific-avser-genomfora-en-foretradesemission-av-units-om-cirka-400-msek-med-fokus-pa-den-globala-fas-iib-studien-epimode-och-erhaller-forlangd-lanefinansiering-om-upp-till-175-msek",
+      "next_step": "Bevaka styrelsebeslut, villkor, teckningsperiod och utfall."
+    },
+    {
+      "level": "förhöjd",
+      "title": "Kassaflöde inklusive utvecklingsinvesteringar",
+      "detail": "Q3:s operativa kassaflöde (−33,74 Mkr) och investeringskassaflöde (−24,00 Mkr) ger ett historiskt nettoutflöde på 57,74 Mkr före finansieringsaktiviteter.",
+      "status": "Verifierad rapport; förenklad tolkning",
+      "date": "2026-11-04",
+      "source": "https://www.cerenoscientific.com/~/media/Files/C/cereno-scientific/corp/results-and-presentations/2026/Cereno%20Scientific%20Delarsrapport%20Q3%202026.pdf",
+      "next_step": "Se nästa kassarapport, leverantörsbetalningar och emissionslikvid."
+    },
+    {
+      "level": "förhöjd",
+      "title": "Fenjas åtagande ger ingen ny kassa",
+      "detail": "Kvittning om upp till 70 Mkr reducerar skuld, inte bolagets kontanta medel. Även resterande skuld kan behöva återbetalas kontant.",
+      "status": "Verifierade avtalsvillkor",
+      "date": "2026-11-12",
+      "source": "https://mfn.se/a/cereno-scientific/cereno-scientific-avser-genomfora-en-foretradesemission-av-units-om-cirka-400-msek-med-fokus-pa-den-globala-fas-iib-studien-epimode-och-erhaller-forlangd-lanefinansiering-om-upp-till-175-msek",
+      "next_step": "Bevaka hur mycket som kvittas respektive betalas kontant."
+    },
+    {
+      "level": "förhöjd",
+      "title": "Fenjas villkorade kredit har ränta och fönster",
+      "detail": "Ny facilitet om 70 Mkr kan utnyttjas först Q4 2027 och är villkorad. Lägre gräns för ränta på draget 12 % per år; på outnyttjat 6 %.",
+      "status": "Verifierade avtalsvillkor",
+      "date": "2026-11-12",
+      "source": "https://mfn.se/a/cereno-scientific/cereno-scientific-avser-genomfora-en-foretradesemission-av-units-om-cirka-400-msek-med-fokus-pa-den-globala-fas-iib-studien-epimode-och-erhaller-forlangd-lanefinansiering-om-upp-till-175-msek",
+      "next_step": "Följ villkor om börsvärde, lånets status och faktisk dragning."
+    },
+    {
+      "level": "förhöjd",
+      "title": "Patientrandomisering i EPIMODE försenad",
+      "detail": "Bolaget bekräftar förlängd uppstartsfas, men håller kvar toppdatamålet Q4 2028. Långsammare rekrytering kan öka kapitalbehovet.",
+      "status": "Verifierat operativt besked",
+      "date": "2026-10-08",
+      "source": "https://view.news.eu.nasdaq.com/view?id=bac2b3efd349cf90706b8cf56dc46c45d&lang=en&src=micro",
+      "next_step": "Bevaka FPI, antal aktiva center och faktiskt rekryterade patienter."
+    },
+    {
+      "level": "bevakning",
+      "title": "CS014 fas IIb flyttat Q1 → Q3 2027",
+      "detail": "Bolagets produktwebb anger Q1 men den senare Q3-rapporten anger Q3 2027, villkorat av regulatoriskt godkännande.",
+      "status": "Källjämförelse av bolagets publiceringar",
+      "date": "2026-11-04",
+      "source": "https://www.cerenoscientific.com/sv/nyhetsrum/pressmeddelanden?slug=cereno-scientific-publicerar-delarsrapport-for-tredje-kvartal-2026",
+      "next_step": "Bevaka IND och officiellt startdatum."
+    }
+  ],
+  "latest_items": [],
+  "sources": {
+    "company_report": "https://www.cerenoscientific.com/~/media/Files/C/cereno-scientific/corp/results-and-presentations/2026/Cereno%20Scientific%20Delarsrapport%20Q3%202026.pdf",
+    "announcement": "https://mfn.se/a/cereno-scientific/cereno-scientific-avser-genomfora-en-foretradesemission-av-units-om-cirka-400-msek-med-fokus-pa-den-globala-fas-iib-studien-epimode-och-erhaller-forlangd-lanefinansiering-om-upp-till-175-msek",
+    "official_feed": "https://www.cerenoscientific.com/sv/nyhetsrum/pressmeddelanden"
+  }
+}

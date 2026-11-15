@@ -1,0 +1,887 @@
+<!doctype html><html lang="sv"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+<title>Cereno Scientific · Oberoende investeraröversikt</title><meta name="description" content="Cereno Scientific: CS1, EPIMODE, CS014, CS585, emission, Fenja, milstolpar och emissionsbarometer. Oberoende svensk investerarsida."><meta name="theme-color" content="#0b1119">
+<style>
+:root{
+  color-scheme:dark;
+  --bg:#0b1119;--surface:#141e29;--surface-raised:#1b2935;
+  --text:#ecf3f8;--muted:#9aabba;--subtle:#728596;--line:#2a3b48;
+  --mint:#51d7b3;--arfo:#33c7a5;--japan:#65baff;--company:#b5a2ee;
+}
+*{box-sizing:border-box}
+html{scroll-behavior:smooth}
+body{
+  margin:0;color:var(--text);
+  font:14px/1.58 system-ui,-apple-system,BlinkMacSystemFont,"Segoe UI",sans-serif;
+  background:
+    radial-gradient(ellipse 800px 500px at 84% -135px,rgba(47,142,152,.15),transparent 70%),
+    radial-gradient(ellipse 580px 600px at -210px 650px,rgba(72,87,160,.07),transparent 72%),
+    var(--bg);
+  -webkit-font-smoothing:antialiased;
+}
+a{color:#81c7ff;text-decoration:none;text-underline-offset:3px;transition:color .2s ease}
+a:hover{color:#b4e0ff;text-decoration:underline}
+button{font-family:inherit}
+button:focus-visible,a:focus-visible{outline:2px solid #7ce7c5;outline-offset:4px}
+.wrap{width:min(100%,1560px);margin:0 auto;padding:35px clamp(18px,4.3vw,72px) 75px}
+.hero{
+  isolation:isolate;position:relative;overflow:hidden;
+  min-height:235px;display:flex;align-items:center;
+  padding:32px clamp(27px,4.5vw,66px);
+  border:1px solid #2b474c;border-radius:24px;
+  background:linear-gradient(110deg,#162c33 0%,#12232f 49%,#131d2b 100%);
+  box-shadow:0 16px 50px #020a1260,0 1px 0 #ffffff0c inset;
+}
+.hero:after{
+  content:"";position:absolute;z-index:-1;
+  width:450px;height:450px;right:-60px;top:-120px;border-radius:50%;
+  border:1px solid #78ddc01a;
+  box-shadow:0 0 0 68px #78ddc009,0 0 0 136px #78ddc006,inset 0 0 85px #4bd4b512;
+  background:radial-gradient(circle at 48% 52%,#51d7b310,transparent 67%);
+}
+.hero:before{
+  content:"";position:absolute;left:0;top:0;width:42%;height:2px;
+  background:linear-gradient(90deg,#68e2c6,transparent);
+}
+.hero-content{position:relative;z-index:1;max-width:850px}
+.eyebrow{
+  display:inline-flex;align-items:center;gap:10px;
+  color:#a9dbd0;font-size:10px;line-height:1.3;font-weight:750;
+  letter-spacing:.18em;text-transform:uppercase;
+}
+.eyebrow-dot{width:7px;height:7px;border-radius:50%;background:#5bdfb7;box-shadow:0 0 12px #5bdfb775}
+.hero h1{
+  margin:16px 0 8px;font-size:clamp(30px,3.5vw,51px);
+  line-height:1.1;font-weight:760;letter-spacing:-.048em;
+}
+.hero h1 span{color:#83e6cb}
+.hero p{max-width:680px;margin:0;color:#b5c7cf;font-size:clamp(13px,1.15vw,16px);line-height:1.6}
+.summary{
+  display:inline-flex;align-items:center;justify-content:center;gap:15px;
+  min-height:40px;padding:9px 15px;margin-top:20px;
+  color:#c5fff0!important;font-size:12px;font-weight:720;
+  border:1px solid #3f7970;border-radius:10px;
+  background:#1c4b482a;box-shadow:0 1px 0 #ffffff09 inset;
+}
+.summary:hover{background:#2c71604a;border-color:#6bbaa4;text-decoration:none}
+.summary .arrow{font-size:16px;line-height:1;color:#8de6ca}
+
+.wrap>section{
+  position:relative;overflow:hidden;
+  border:1px solid #2a3d49;border-radius:19px;
+  padding:clamp(20px,2.5vw,32px);
+  margin:22px 0 0;
+  box-shadow:0 1px 0 #ffffff06 inset,0 10px 35px #0000001a;
+}
+.wrap>section:before{
+  content:"";position:absolute;left:0;top:0;bottom:0;width:3px;
+  background:linear-gradient(180deg,var(--section-accent),transparent 72%);opacity:.85;
+}
+.wrap>.stock-overview{
+  --section-accent:#7bbdff;
+  background:linear-gradient(125deg,#17232f,#17212b 67%,#141e29);
+  border-color:#2a3c4d;
+}
+.wrap>section[aria-labelledby="news-heading"]{
+  --section-accent:#59dfb7;
+  background:linear-gradient(125deg,#162923,#15231f 66%,#162420);
+  border-color:#2c453e;
+}
+.wrap>section[aria-labelledby="milestones-heading"]{
+  --section-accent:#b8a0f2;
+  background:linear-gradient(125deg,#211f2f,#1b1d2a 63%,#1a1e2a);
+  border-color:#3a354e;
+}
+.wrap>.valuation{
+  --section-accent:#78bafa;
+  background:linear-gradient(125deg,#182736,#172331 70%,#17202c);
+  border-color:#2d4356;padding-top:clamp(20px,2.5vw,32px);margin-top:22px;
+}
+.section-kicker{
+  display:flex;align-items:center;gap:9px;
+  margin:0 0 6px;color:var(--section-accent);
+  font-size:10px;line-height:1.4;font-weight:740;letter-spacing:.17em;text-transform:uppercase;
+}
+.section-number{font-variant-numeric:tabular-nums;opacity:.65}
+.section-kicker:after{content:"";width:38px;height:1px;background:currentColor;opacity:.3}
+.wrap>section h2,.section{
+  margin:0;font-size:clamp(19px,1.6vw,24px);
+  line-height:1.28;letter-spacing:-.025em;font-weight:730;color:var(--text);
+}
+.intro{color:#a5b5c3;margin:8px 0 21px;font-size:13px;line-height:1.6}
+.status{margin:0 0 16px;color:#a5c6b9;font-size:12px}
+.stock-grid{display:grid;grid-template-columns:repeat(5,minmax(0,1fr));gap:12px;margin-top:19px}
+.stock-tile{
+  position:relative;display:flex;flex-direction:column;align-items:flex-start;
+  min-width:0;min-height:128px;padding:18px 17px 15px;
+  border:1px solid #354555;border-radius:13px;
+  background:linear-gradient(155deg,#24323e,#1e2b36 80%);
+  box-shadow:0 1px 0 #ffffff0c inset;
+  transition:border-color .2s ease,transform .2s ease;
+}
+.stock-tile:hover{border-color:#627b8c;transform:translateY(-2px)}
+.stock-tile:before{
+  content:"";position:absolute;top:0;left:19px;right:19px;height:2px;
+  background:linear-gradient(90deg,#71bbf777,transparent);
+}
+.stock-tile:nth-child(3):before,.stock-tile:nth-child(4):before{background:linear-gradient(90deg,#68d9bb80,transparent)}
+.stock-tile:nth-child(5):before{background:linear-gradient(90deg,#c2a1ed8c,transparent)}
+.stock-tile small{font-size:11px;color:#b3c0ca;line-height:1.45}
+.stock-tile strong{
+  display:block;margin:9px 0 8px;color:#f5f9fc;
+  font-size:clamp(20px,1.6vw,25px);line-height:1.12;
+  font-variant-numeric:tabular-nums;letter-spacing:-.035em;font-weight:740;
+}
+.stock-tile a{margin-top:auto;font-size:11px;font-weight:600;line-height:1.4}
+.stock-footnote{
+  max-width:1200px;color:#94a6b6;font-size:11px;line-height:1.75;
+  margin:15px 0 0;
+}
+.news{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:13px}
+.news-card{
+  display:flex;flex-direction:column;align-items:flex-start;
+  min-width:0;min-height:165px;position:relative;overflow:hidden;
+  padding:20px 20px 17px;
+  background:linear-gradient(155deg,#21342f,#1c2d2a 85%);
+  border:1px solid #335046;border-radius:13px;
+  box-shadow:0 1px 0 #ffffff08 inset;
+  transition:border-color .2s ease,transform .2s ease,box-shadow .2s ease;
+}
+.news-card:hover{transform:translateY(-3px);border-color:#588875;box-shadow:0 12px 28px #07170f3a}
+.news-card:before{
+  content:"";position:absolute;top:0;left:0;width:45px;height:2px;
+  background:linear-gradient(90deg,#52d5ab,transparent);
+}
+.news-card small{display:block;color:#86c1ab;font-size:10px;font-weight:700;letter-spacing:.05em;line-height:1.5}
+.news-card h3{
+  margin:12px 0 18px;color:#eaf5ef;
+  font-size:14px;line-height:1.5;font-weight:640;letter-spacing:-.009em;
+}
+.news-card a{
+  display:inline-flex;align-items:center;margin-top:auto;
+  font-size:12px;font-weight:700;color:#8deac6;
+}
+.news-card a:hover{color:#c8ffe8}
+.toolbar{
+  display:flex;align-items:center;justify-content:space-between;
+  flex-wrap:wrap;gap:15px;margin:24px 0 23px;
+}
+.group{display:flex;align-items:center;flex-wrap:wrap;gap:7px}
+.hint{
+  color:#a6a1bc;font-size:10px;font-weight:700;
+  letter-spacing:.14em;margin-right:8px;
+}
+.toolbar button{
+  min-height:34px;padding:7px 14px;border-radius:9px;
+  border:1px solid #4c465e;background:#201f2c;
+  color:#b9b8cb;font-size:12px;line-height:1.2;font-weight:610;
+  cursor:pointer;transition:background .18s,border-color .18s,transform .18s,opacity .18s;
+}
+.toolbar button:hover{background:#303043;border-color:#7b718e;transform:translateY(-1px)}
+.toolbar button.active.period{
+  color:#1b2030;background:#eef1f7;border-color:#eef1f7;box-shadow:0 2px 9px #0002;
+}
+.toolbar button.track{font-weight:740;color:#0a1723;border-color:transparent}
+.toolbar button.track[data-track="arfo"]{background:var(--arfo)}
+.toolbar button.track[data-track="japan"]{background:var(--japan)}
+.toolbar button.track[data-track="company"]{background:var(--company)}
+.toolbar button.track:not(.active){opacity:.42;filter:saturate(.65)}
+.toolbar button[data-track="all"].active{color:#eff4ff;background:#332c48;border-color:#9990bb}
+.timeline-scroll{
+  overflow-x:auto;overflow-y:visible;border:1px solid #38354b;
+  border-radius:13px;background:#1014205c;padding:12px 12px 14px;
+  scrollbar-color:#675d80 #171624;scrollbar-width:thin;
+}
+.timeline{
+  min-width:1050px;display:grid;
+  grid-template-columns:80px repeat(12,minmax(106px,1fr));position:relative;
+}
+.axis{
+  grid-column:2/-1;display:grid;grid-template-columns:repeat(12,1fr);
+  min-height:41px;border-bottom:1px solid #5b506b;
+}
+.axis span{
+  border-left:1px solid #383447;
+  text-align:center;color:#a7a1bc;padding:10px 2px;
+  font-size:11px;font-weight:680;letter-spacing:.01em;
+}
+.trackrow{display:contents}
+.track-label{
+  position:sticky;left:0;z-index:3;
+  display:flex;align-items:center;padding:12px 7px;
+  background:#181925;border-bottom:1px solid #393447;
+  box-shadow:7px 0 13px #11131c80;
+  font-size:12px;line-height:1.25;font-weight:800;overflow-wrap:anywhere;
+}
+.track-label.arfo{color:var(--arfo)}
+.track-label.japan{color:var(--japan)}
+.track-label.company{color:var(--company)}
+.cell{
+  display:flex;flex-direction:column;align-items:stretch;gap:8px;
+  min-height:178px;padding:9px 6px;border-left:1px solid #353146;
+  border-bottom:1px solid #393447;
+}
+.milestone{
+  position:relative;min-width:0;cursor:pointer;text-align:left;
+  border:1px solid #d4dfe8;border-left:3px solid #b4c4d0;
+  padding:10px 10px 10px 11px;border-radius:9px;
+  background:linear-gradient(150deg,#f3f6f9,#e3eaf1);
+  color:#142231;font:inherit;line-height:1.3;
+  box-shadow:0 2px 10px #08081116;
+  transition:transform .17s,box-shadow .17s,filter .17s;
+}
+.milestone.arfo{border-left-color:var(--arfo)}
+.milestone.japan{border-left-color:var(--japan)}
+.milestone.company{border-left-color:var(--company)}
+.milestone:hover,.milestone:focus-visible{
+  transform:translateY(-4px);box-shadow:0 9px 22px #05050b80;filter:brightness(1.04);z-index:2;
+}
+.milestone.future{
+  background:linear-gradient(135deg,#232536,#1b202d);
+  color:#e7e4f0;border:1px dashed #827d97;border-left:3px solid #89839f;
+  box-shadow:none;
+}
+.milestone.future.arfo{border-left-color:var(--arfo)}
+.milestone.future.japan{border-left-color:var(--japan)}
+.milestone.future.company{border-left-color:var(--company)}
+.milestone strong{display:block;font-size:11px;line-height:1.32;font-weight:760}
+.milestone small{display:block;margin-top:5px;color:#526373;font-size:10px;line-height:1.4}
+.milestone.future small{color:#b0adbf}
+.milestone[hidden],.trackrow[hidden]{display:none!important}
+.trackrow.is-hidden .track-label,.trackrow.is-hidden .cell{display:none}
+.trackrow.is-hidden{display:none}
+.cell:empty:after{content:"";min-height:15px}
+.milestone-key{
+  display:flex;align-items:center;gap:22px;flex-wrap:wrap;
+  margin:16px 0 0;color:#bbb6cb;font-size:11px;
+}
+.milestone-key span{display:inline-flex;align-items:center;gap:8px}
+.milestone-key i{
+  display:inline-block;width:34px;height:18px;
+  border:1px solid #e5ebf0;border-radius:5px;background:#e6edf3;
+}
+.milestone-key i.upcoming{border:1px dashed #9991b2;background:#222335}
+.valuation h2{font-size:clamp(19px,1.6vw,24px);color:var(--text);font-weight:730}
+.valuation svg{
+  display:block;width:100%;height:auto;max-height:none;overflow:visible;
+  margin-top:13px;
+}
+.valuation .note{
+  border-top:1px solid #304356;padding-top:15px;
+  margin-top:5px;color:#9babba;font-size:11px;line-height:1.75;
+}
+.modal{position:fixed;inset:0;display:none;pointer-events:none;z-index:20}
+.modal.open{display:block}
+.modal .dialog{
+  pointer-events:auto;position:fixed;overflow-y:auto;
+  max-height:min(76vh,650px);box-shadow:0 22px 60px #000c;
+}
+.dialog{
+  position:relative;max-width:510px;width:100%;
+  padding:25px;color:#ecf3f8;background:linear-gradient(140deg,#223344,#182633);
+  border:1px solid #547081;border-radius:15px;
+}
+.dialog h2{margin:9px 28px 12px 0;font-size:20px;line-height:1.35}
+.dialog .date{color:#80d7bc;font-size:12px;font-weight:690}
+.dialog p{color:#cad7df;line-height:1.75}
+.dialog button{
+  position:absolute;right:13px;top:10px;cursor:pointer;
+  background:#ffffff0b;border:1px solid #506371;border-radius:7px;
+  width:32px;height:32px;color:#e6edf3;font-size:24px;line-height:1;
+}
+.dialog a{display:block;margin-top:11px;font-size:12px;font-weight:650}
+footer{
+  margin:31px 0 0;padding:20px 4px 0;
+  color:#8596a4;border-top:1px solid #273947;font-size:11px;line-height:1.8;
+}
+@media(max-width:1200px){
+ .stock-grid{grid-template-columns:repeat(3,minmax(0,1fr))}
+ .news{grid-template-columns:repeat(2,minmax(0,1fr))}
+}
+@media(max-width:850px){
+ .wrap{padding-top:19px}
+ .hero{min-height:210px}
+ .stock-grid{grid-template-columns:repeat(2,minmax(0,1fr))}
+ .toolbar{justify-content:flex-start}
+}
+@media(max-width:600px){
+ .wrap{padding:13px 12px 45px}
+ .hero{border-radius:16px;padding:27px 23px;min-height:220px}
+ .hero:after{right:-250px;opacity:.6}
+ .hero h1{font-size:34px}
+ .wrap>section{margin-top:14px;border-radius:14px;padding:20px 17px}
+ .section-kicker{font-size:9px}
+ .stock-grid{gap:9px}
+ .stock-tile{padding:13px 12px;min-height:115px}
+ .stock-tile strong{font-size:19px;overflow-wrap:anywhere}
+ .news{grid-template-columns:1fr}
+ .news-card{min-height:140px;padding:18px}
+ .toolbar{margin:19px 0;gap:17px}
+ .group{gap:6px}
+ .toolbar button{padding:7px 11px;font-size:11px}
+ .timeline-scroll{padding:9px 7px 11px}
+ .timeline{min-width:1080px}
+ .valuation svg{min-width:0}
+ .valuation .note{font-size:11px}
+}
+@media(max-width:350px){
+ .stock-grid{grid-template-columns:1fr}
+ .stock-tile{min-height:100px}
+ .hero h1{font-size:30px}
+}
+@media(prefers-reduced-motion:reduce){
+ *,*:before,*:after{scroll-behavior:auto!important;transition:none!important;animation:none!important}
+}
+.price-change{display:block;color:#93afbe;font-size:11px;line-height:1.3;font-weight:650;margin:-1px 0 9px;min-height:0}.price-change.up{color:#76e0b0}.price-change.down{color:#ff9a99}
+/* TradingView hämtar en ny kurs direkt i webbläsaren vid varje sidöppning. */
+.stock-grid{grid-template-columns:repeat(6,minmax(0,1fr))}
+.stock-price-tile{grid-column:span 2}
+.stock-price-tile .tv-quote{width:100%;min-height:80px;margin:3px 0 5px}
+.stock-price-tile .tradingview-widget-container{width:100%;min-height:75px}
+.stock-price-tile .tradingview-widget-container__widget{min-height:75px}
+.stock-price-tile a{margin-top:auto}
+@media(max-width:1200px){.stock-grid{grid-template-columns:repeat(3,minmax(0,1fr))}}
+@media(max-width:850px){.stock-grid{grid-template-columns:repeat(2,minmax(0,1fr))}}
+@media(max-width:350px){.stock-grid{grid-template-columns:1fr}.stock-price-tile{grid-column:span 1}}
+
+/* TradingView sometimes renders the single-quote iframe with a white theme despite dark settings.
+   Force readable dark contrast at the iframe boundary (cross-origin contents cannot be styled). */
+.stock-price-tile .tradingview-widget-container iframe{
+  filter:invert(1) hue-rotate(180deg);
+  background:#fff;
+  border-radius:5px;
+}
+
+/* Aktieöversikt v2: one unified compact market board instead of five separate cards. */
+.stock-overview .market-heading{
+  display:flex;align-items:flex-end;justify-content:space-between;gap:14px;flex-wrap:wrap;
+}
+.stock-overview .market-exchange{
+  display:inline-flex;gap:8px;align-items:center;white-space:nowrap;
+  color:#a7bdce;font-size:11px;font-weight:700;letter-spacing:.01em;
+  padding:6px 10px;border:1px solid #385364;border-radius:7px;background:#213645;
+}
+.stock-overview .market-exchange:hover{color:#e2f4ff;text-decoration:none;background:#29475a}
+.stock-overview .market-board{
+  display:grid;
+  grid-template-columns:minmax(280px,1.55fr) minmax(170px,.93fr) minmax(210px,1.1fr) minmax(145px,.78fr);
+  margin-top:18px;border:1px solid #385162;border-radius:13px;
+  background:linear-gradient(130deg,#1c2c39 0%,#1a2936 100%);
+  box-shadow:0 2px 14px #07131e42 inset,0 1px 0 #ffffff0c;
+  overflow:hidden;
+}
+.stock-overview .market-quote{
+  padding:14px 16px 11px;
+  min-width:0;display:flex;flex-direction:column;justify-content:center;
+  background:linear-gradient(145deg,#263e4c,#1d3441 75%);
+  border-right:1px solid #3c5663;
+}
+.stock-overview .market-quote-heading{
+  display:flex;align-items:center;justify-content:space-between;gap:9px;
+  font-size:11px;font-weight:700;color:#c5d4dc;
+  margin-bottom:5px;
+}
+.stock-overview .market-quote-heading a{
+  color:#88d9c5;white-space:nowrap;font-size:10px;font-weight:650;
+}
+.stock-overview .tv-quote{min-height:79px;width:100%;margin:0;overflow:hidden;border-radius:7px}
+.stock-overview .tradingview-widget-container{width:100%;min-height:78px}
+.stock-overview .tradingview-widget-container__widget{min-height:78px}
+.stock-overview .tradingview-widget-container iframe{
+  filter:invert(1) hue-rotate(180deg);background:#fff;border-radius:6px;
+}
+.stock-overview .market-metric{
+  min-width:0;min-height:128px;
+  padding:18px clamp(12px,1.35vw,21px) 14px;
+  border-right:1px solid #354756;
+  display:flex;flex-direction:column;align-items:flex-start;
+  justify-content:center;
+}
+.stock-overview .market-metric:last-child{border-right:0}
+.stock-overview .metric-label{
+  color:#91aabd;font-size:10px;font-weight:700;line-height:1.4;
+  text-transform:uppercase;letter-spacing:.065em;
+}
+.stock-overview .market-metric>strong{
+  display:block;margin:11px 0 8px;
+  color:#eff7fc;font-size:clamp(19px,1.5vw,25px);
+  font-weight:740;line-height:1.12;letter-spacing:-.035em;
+  font-variant-numeric:tabular-nums;white-space:nowrap;
+}
+.stock-overview .market-metric strong small{font-size:13px;color:#aec5d5;font-weight:650}
+.stock-overview .market-metric a{
+  color:#75bddb;font-size:10px;font-weight:650;line-height:1.3;
+}
+.stock-overview .owner-pair{
+  display:grid;grid-template-columns:1fr 1fr;gap:15px;
+  width:100%;margin-top:10px;
+}
+.stock-overview .owner-pair>div{min-width:0}
+.stock-overview .owner-pair>div+div{padding-left:15px;border-left:1px solid #3c5060}
+.stock-overview .owner-pair strong{
+  display:block;margin:0 0 6px;font-size:clamp(18px,1.35vw,23px);
+  font-weight:735;line-height:1.15;letter-spacing:-.028em;
+  font-variant-numeric:tabular-nums;color:#eff7fc;white-space:nowrap;
+}
+.stock-overview .market-footline{
+  display:flex;align-items:baseline;justify-content:space-between;gap:9px 20px;
+  margin:10px 0 0;color:#93a9b9;font-size:10px;line-height:1.6;
+}
+.stock-overview .market-footline details{flex:0 0 auto;position:relative}
+.stock-overview .market-footline summary{
+  color:#a4d6e6;cursor:pointer;list-style:revert;font-weight:650;
+}
+.stock-overview .market-footline details[open]{
+  flex-basis:100%;flex-grow:1;
+  padding:10px 13px;border:1px solid #354f60;background:#1c2c39;
+  border-radius:8px;
+}
+.stock-overview .market-footline details p{margin:5px 0 0;max-width:950px;color:#b2c5d0}
+@media(max-width:1160px){
+ .stock-overview .market-board{grid-template-columns:repeat(4,minmax(0,1fr))}
+ .stock-overview .market-quote{grid-column:1/-1;border-right:0;border-bottom:1px solid #3c5663}
+ .stock-overview .market-metric{grid-column:span 1}
+ .stock-overview .market-owners{grid-column:span 2}
+}
+@media(max-width:640px){
+ .stock-overview .market-board{grid-template-columns:repeat(2,minmax(0,1fr))}
+ .stock-overview .market-quote{grid-column:1/-1;padding:12px}
+ .stock-overview .market-metric{min-height:105px;padding:13px 12px}
+ .stock-overview .market-metric:nth-of-type(3){border-right:0}
+ .stock-overview .market-owners{
+   grid-column:1/-1;grid-row:3;
+   border-top:1px solid #354756;border-right:0;min-height:104px;
+ }
+ .stock-overview .market-metric:last-child{grid-column:2;grid-row:2;border-right:0}
+ .stock-overview .market-metric>strong{font-size:20px}
+ .stock-overview .owner-pair{margin-top:8px}
+ .stock-overview .market-footline{flex-wrap:wrap}
+}
+@media(max-width:350px){
+ .stock-overview .market-metric>strong{font-size:18px}
+ .stock-overview .owner-pair strong{font-size:19px}
+}
+
+/* Interactive valuation events use the same details popover as timeline milestones. */
+.valuation-point{cursor:pointer;outline:none}
+.valuation-point:hover,.valuation-point:focus-visible{
+  stroke:#d7e5f5;stroke-width:1.5;fill:#ffffff12;
+}
+
+/* TO2 scenario board, visually coordinated with the stock overview. */
+.wrap>.to2-overview{
+  --section-accent:#eab86d;
+  background:linear-gradient(125deg,#2a251e,#25231f 58%,#20262c);
+  border-color:#4c4130;
+}
+.to2-heading{display:flex;gap:14px;align-items:center;justify-content:space-between;flex-wrap:wrap}
+.to2-heading h2{display:flex;align-items:baseline;gap:14px;flex-wrap:wrap}
+.to2-period{font-size:12px;font-weight:620;color:#d9b789;letter-spacing:0;white-space:nowrap}
+.to2-status{display:inline-flex;align-items:center;gap:8px;border:1px solid #695339;background:#382e22;color:#edc994;border-radius:50px;padding:6px 11px;font-size:11px;font-weight:710}
+.to2-status:before{content:"";width:6px;height:6px;border-radius:50%;background:#ecbd71}
+.to2-status.is-active{color:#acebd2;border-color:#3b7f62;background:#254237}
+.to2-status.is-active:before{background:#5be1aa}
+.to2-grid{
+  display:grid;grid-template-columns:1fr 1.04fr minmax(215px,.83fr);
+  gap:0;margin-top:18px;background:#191e24;border:1px solid #4b493f;border-radius:13px;overflow:hidden;
+}
+.to2-result{
+  min-width:0;display:flex;flex-direction:column;justify-content:center;align-items:flex-start;
+  padding:19px clamp(16px,2vw,27px);
+  border-right:1px solid #43443f;background:linear-gradient(145deg,#302e27,#24272a);
+}
+.to2-caption{color:#dbbb86;font-size:11px;font-weight:720;line-height:1.5}
+.to2-result strong{color:#f7f6ef;font-size:clamp(26px,2.4vw,38px);letter-spacing:-.045em;line-height:1.3;margin:8px 0 7px;font-variant-numeric:tabular-nums;white-space:nowrap}
+.to2-result strong small{font-size:14px;letter-spacing:0;font-weight:600;color:#d6c7a9}
+.to2-subtext{color:#a9acac;font-size:10px;line-height:1.6;max-width:310px}
+.to2-input{padding:17px 20px;background:#252720}
+.to2-input label{display:block;color:#ddd3c0;font-size:11px;font-weight:730;margin-bottom:9px}
+.to2-input label span{color:#a8a399;font-weight:500}
+.to2-input-wrap{display:flex;align-items:center;overflow:hidden;border:1px solid #75664b;border-radius:9px;background:#171d22;max-width:240px}
+.to2-input-wrap:focus-within{outline:2px solid #eabb72;outline-offset:2px}
+.to2-input-wrap input{width:100%;min-width:0;appearance:textfield;border:0;outline:0;background:none;color:#f4eee1;font:700 22px/1.2 system-ui,sans-serif;padding:10px 12px;font-variant-numeric:tabular-nums}
+.to2-input-wrap input::-webkit-inner-spin-button,.to2-input-wrap input::-webkit-outer-spin-button{-webkit-appearance:none;margin:0}
+.to2-input-wrap>span{color:#b4ae9c;font-size:10px;padding-right:13px;font-weight:700}
+.to2-input p{font-size:10px;color:#b0b1ad;margin:10px 0 0;line-height:1.55}
+.to2-input p strong{color:#e4c99b}
+.to2-details{display:flex;flex-wrap:wrap;gap:9px 18px;margin-top:14px;padding:0 2px;color:#b6b8b2;font-size:11px}
+.to2-details span{display:inline-flex;align-items:center;gap:5px}
+.to2-details span+span:before{content:"·";color:#907e62;margin-right:11px}
+.to2-details strong{color:#e8d8b7;font-weight:730}
+.to2-footnote{margin:10px 2px 0;color:#989f9c;font-size:10px;line-height:1.7}
+.to2-footnote a{color:#dcbd8d}
+@media(max-width:1080px){.to2-grid{grid-template-columns:1fr 1fr}.to2-input{grid-column:1/-1;border-top:1px solid #4b493f}.to2-result:nth-child(2){border-right:0}}
+@media(max-width:640px){
+ .to2-grid{grid-template-columns:1fr}
+ .to2-result{padding:16px 18px;border-right:0;border-bottom:1px solid #43443f}
+ .to2-result strong{font-size:29px}
+ .to2-input{grid-column:auto;padding:17px 18px;border-top:0}
+ .to2-details{gap:8px 12px}
+ .to2-details span+span:before{display:none}
+}
+
+/* SynAct – keeps Isofol layout system while adapting brand and sections. */
+/* TradingView dark widget must not inherit Isofol's iframe color inversion. */
+.stock-overview .tradingview-widget-container iframe{filter:none!important;background:#151e29!important;color-scheme:dark}
+
+:root{--arfo:#47d9ad;--japan:#6cbcff;--company:#f0b66f;--mint:#47d9ad}
+.hero{background:linear-gradient(112deg,#152e30,#13232f 50%,#181d2d)}
+.wrap>.partner-overview{--section-accent:#f0b66f;background:linear-gradient(120deg,#2b2522,#211f28 68%,#1c222b);border-color:#514035}
+.wrap>.stock-overview{--section-accent:#6cbcff}
+.partner-intro{display:grid;grid-template-columns:1.15fr 1fr;gap:14px;margin:16px 0 12px}
+.partner-card{background:#1d2731bd;border:1px solid #41505b;border-radius:14px;padding:18px;min-width:0}
+.partner-card .micro,.micro{font-size:10px;color:#a7becc;text-transform:uppercase;letter-spacing:.11em;font-weight:750}
+.partner-card strong{font-size:clamp(22px,2.4vw,32px);color:#f8fafc;display:block;margin:5px 0}
+.partner-card p{font-size:12px;color:#bdcbd7;margin:6px 0 0}
+.partner-calc{display:grid;grid-template-columns:1fr 1fr 1fr;gap:14px;margin:14px 0}
+.partner-calc label{display:block;font-size:11px;color:#c1cfda}
+.partner-calc input{display:block;width:100%;margin-top:7px;padding:11px;background:#12202a;color:#ecf8fa;border:1px solid #526472;border-radius:8px;font-size:17px;font-family:inherit}
+.calc-result{border:1px solid #4b786d;background:#1c3736;border-radius:11px;padding:12px}
+.calc-result strong{font-size:24px;display:block;color:#88e4cd}
+.tiny-note{color:#9fb1bf;font-size:11px;line-height:1.7}
+.market-board{display:grid;grid-template-columns:repeat(6,1fr);background:#17242f;border:1px solid #344a59;border-radius:14px;overflow:hidden;margin-top:15px}
+.market-quote{grid-column:span 2;min-height:130px;border-right:1px solid #344a59;padding:15px}
+.market-metric{grid-column:span 1;border-right:1px solid #344a59;padding:15px;min-height:130px}
+.market-metric:last-child{border-right:0}
+.market-metric strong{font-size:23px}
+.market-metric a{display:block;margin-top:10px}
+.market-owners{grid-column:span 2}
+.market-owners .owner-pair{display:grid;grid-template-columns:repeat(2,1fr);gap:15px}
+.stock-overview .market-footline{margin-top:12px}
+.stock-overview .market-metric>strong{font-size:23px}
+.stock-overview .tv-quote{min-height:78px}
+.news-placeholder{color:#9fc6b8;font-size:12px}
+.timeline{grid-template-columns:95px repeat(9,minmax(132px,1fr));min-width:1280px}
+.timeline .axis{grid-column:2/-1;grid-template-columns:repeat(9,1fr)}
+.track-label.ra,.toolbar [data-track="ra"]{color:#47d9ad}
+.track-label.dengue,.toolbar [data-track="dengue"]{color:#6cbcff}
+.track-label.rvi,.toolbar [data-track="rvi"]{color:#b3a0ef}
+.track-label.company,.toolbar [data-track="company"]{color:#f0b66f}
+.milestone.ra{border-left-color:#47d9ad}.milestone.dengue{border-left-color:#6cbcff}.milestone.rvi{border-left-color:#b3a0ef}.milestone.company{border-left-color:#f0b66f}
+.toolbar button.track[data-track="ra"]{background:#47d9ad;color:#10231e}
+.toolbar button.track[data-track="dengue"]{background:#6cbcff;color:#0d2636}
+.toolbar button.track[data-track="rvi"]{background:#b3a0ef;color:#241b35}
+.toolbar button.track[data-track="company"]{background:#f0b66f;color:#2c2514}
+.timeline .cell{min-height:120px}
+.valuation-header{display:flex;gap:18px;flex-wrap:wrap;align-items:center;justify-content:space-between}
+.valuation-legend{display:flex;gap:14px;flex-wrap:wrap}
+.valuation-legend span{font-size:11px;color:#b9c9d6;display:flex;align-items:center;gap:6px}
+.valuation-legend i{width:9px;height:9px;border-radius:50%;display:inline-block}
+.valuation-chart-panel{position:relative;background:#121f2b;border:1px solid #304457;border-radius:12px;padding:14px}
+.valuation svg{max-width:100%;overflow:visible}
+.valuation-point{cursor:pointer;outline:none;transition:r .15s;stroke:#101822;stroke-width:3}
+.valuation-point:hover,.valuation-point:focus{stroke:#fff;stroke-width:4;r:9}
+.chart-table{display:grid;grid-template-columns:repeat(3,1fr);gap:10px;margin-top:12px}
+.chart-tile{background:#1d3040;border:1px solid #334e61;border-radius:10px;padding:12px;cursor:pointer;text-align:left;color:#edf4f9;font:inherit}
+.chart-tile:hover{background:#294255}
+.chart-tile small{display:block;color:#a4bfd2;font-size:11px}
+.chart-tile strong{font-size:23px}
+.modal{background:#0007}
+.news-card:focus-within{border-color:#70d6ba}
+@media(max-width:930px){.market-board{grid-template-columns:repeat(3,minmax(0,1fr))}.market-quote{grid-column:span 3}.market-metric{grid-column:span 1}.market-owners{grid-column:span 2}.partner-intro{grid-template-columns:1fr}}
+@media(max-width:610px){.market-board{grid-template-columns:repeat(2,minmax(0,1fr))}.market-quote{grid-column:span 2}.market-owners{grid-column:span 2}.partner-calc{grid-template-columns:1fr}.chart-table{grid-template-columns:1fr}.stock-overview .market-metric>strong{font-size:20px}.valuation-chart-panel{padding:5px}}
+
+/* Aktieöversikt: matcha Isofols kompakta fyrdelade layout utan SynActs tidigare sexkolumns-override. */
+.stock-overview .market-board{display:grid;grid-template-columns:minmax(0,2fr) minmax(0,1.2fr) minmax(0,1.55fr) minmax(0,1fr);gap:0;margin-top:15px;background:linear-gradient(120deg,#203746,#192b3a);border:1px solid #355365;border-radius:15px;overflow:hidden}
+.stock-overview .market-quote{grid-column:auto;min-width:0;min-height:144px;padding:18px 20px;border-right:1px solid #395263;border-bottom:0}
+.stock-overview .market-metric{grid-column:auto;min-height:144px;padding:19px 20px;border-right:1px solid #395263;display:flex;flex-direction:column;align-items:flex-start;justify-content:center}
+.stock-overview .market-metric:last-child{border-right:0}
+.stock-overview .market-owners{grid-column:auto}
+.stock-overview .owner-pair{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:0;width:100%;margin-top:9px}
+.stock-overview .owner-pair>div{min-width:0}
+.stock-overview .owner-pair>div+div{padding-left:15px;border-left:1px solid #3c5060}
+.stock-overview .market-metric strong{font-size:clamp(20px,1.9vw,29px);line-height:1.25}
+.stock-overview .market-metric a{margin-top:8px}
+.stock-overview .market-quote-heading{display:flex;align-items:center;justify-content:space-between;gap:8px}
+.stock-overview .tv-quote{width:100%;min-height:86px;overflow:hidden;margin:5px 0 0;border-radius:7px}
+.stock-overview .tradingview-widget-container,.stock-overview .tradingview-widget-container__widget{width:100%;min-height:82px}
+.stock-overview .tradingview-widget-container iframe{filter:invert(1) hue-rotate(180deg)!important;background:#fff!important;border-radius:7px}
+.stock-overview .market-footline{display:flex;justify-content:space-between;align-items:center;gap:15px;flex-wrap:wrap;margin-top:12px;color:#a5bdcb;font-size:11px}
+.stock-overview .market-footline details{position:relative;flex:0 0 auto}
+.stock-overview .market-footline summary{cursor:pointer;color:#a2dfff;font-weight:700}
+.stock-overview .market-footline details p{margin:8px 0 0;max-width:800px;line-height:1.7}
+@media(max-width:1200px){.stock-overview .market-board{grid-template-columns:repeat(4,minmax(0,1fr))}.stock-overview .market-quote{grid-column:1/-1;border-bottom:1px solid #395263;border-right:0}.stock-overview .market-metric{grid-column:span 1}.stock-overview .market-owners{grid-column:span 2}}
+@media(max-width:650px){.stock-overview .market-board{grid-template-columns:repeat(2,minmax(0,1fr))}.stock-overview .market-quote{grid-column:1/-1}.stock-overview .market-metric{min-height:105px;padding:14px 12px}.stock-overview .market-owners{grid-column:1/-1;border-top:1px solid #395263}.stock-overview .market-metric:last-child{border-right:0}.stock-overview .market-metric strong{font-size:21px}}
+
+/* Utökad källkontrollerad historik: skala tidsaxeln efter valt årsintervall. */
+#milestones-heading{display:flex;align-items:baseline;gap:12px;flex-wrap:wrap}
+.milestone-total{font-size:12px;font-weight:650;color:#b7a7de;letter-spacing:0}
+.timeline-overview{display:flex;justify-content:space-between;gap:12px;flex-wrap:wrap;margin:6px 1px 9px;font-size:11px;color:#c6bde1}
+.timeline{display:grid!important;grid-template-columns:114px repeat(var(--timeline-count,7),minmax(154px,1fr))!important;min-width:max-content!important}
+.timeline .axis{grid-column:2/-1!important;display:grid!important;grid-template-columns:repeat(var(--timeline-count,7),minmax(154px,1fr))!important}
+.timeline .axis span{min-width:0;white-space:nowrap}
+.timeline .axis-filler{grid-column:1;position:sticky;left:0;background:#181925;z-index:4;border-bottom:1px solid #393447}
+.timeline .track-label{min-height:105px;white-space:normal}
+.timeline .cell{min-height:120px;min-width:0}
+.timeline .milestone{width:100%;min-width:0;padding:11px 9px 10px;overflow-wrap:anywhere}
+.timeline .milestone-date{border-top:1px solid #29384535;margin-top:9px;padding-top:6px;font-size:10px}
+.timeline .milestone.future .milestone-date{border-color:#a6a1c02e}
+.track-label.renal{color:#e0c782}.track-label.pipeline{color:#e7a1d6}.track-label.ip{color:#a7dddc}
+.milestone.renal,.milestone.future.renal{border-left-color:#e0c782}
+.milestone.pipeline,.milestone.future.pipeline{border-left-color:#e7a1d6}
+.milestone.ip,.milestone.future.ip{border-left-color:#a7dddc}
+.toolbar button.track[data-track="renal"]{background:#e0c782;color:#302515}
+.toolbar button.track[data-track="pipeline"]{background:#e7a1d6;color:#311b2a}
+.toolbar button.track[data-track="ip"]{background:#a7dddc;color:#193032}
+.toolbar .group{flex-wrap:wrap}
+.milestone-disclaimer{flex:1;min-width:200px;line-height:1.6}
+.modal .dialog{max-height:min(85vh,760px)}
+.modal .date{line-height:1.5}
+.modal-body{margin-top:12px}
+.modal-explain{padding-top:11px;margin-top:10px;border-top:1px solid #405564}
+.modal-explain:first-child{border-top:0;margin-top:0;padding-top:0}
+.modal-explain h3{margin:0 0 5px;font-size:12px;color:#83e1c5;text-transform:uppercase;letter-spacing:.07em}
+.modal-explain p{margin:0;font-size:13px;line-height:1.68;color:#d2e0e8}
+#modal-links{margin-top:15px;padding-top:12px;border-top:1px solid #456273}
+#modal-links a{font-size:13px;font-weight:700}
+@media(max-width:650px){.timeline{grid-template-columns:100px repeat(var(--timeline-count,7),minmax(142px,1fr))!important}.timeline .axis{grid-template-columns:repeat(var(--timeline-count,7),minmax(142px,1fr))!important}.timeline .track-label{font-size:11px}.modal .dialog{max-height:87vh}}
+
+/* Compact milestone tiles — same two-line presentation as Isofol.
+   Full dates are intentionally available only in the clickable details. */
+.timeline{grid-template-columns:106px repeat(var(--timeline-count,7),minmax(136px,1fr))!important}
+.timeline .axis{grid-template-columns:repeat(var(--timeline-count,7),minmax(136px,1fr))!important}
+.timeline .track-label{min-height:76px;padding:8px 6px;font-size:11px;line-height:1.22}
+.timeline .cell{min-height:76px;gap:6px;padding:7px 5px}
+.timeline .milestone{width:100%;padding:8px 9px;border-radius:8px;line-height:1.25}
+.timeline .milestone strong{font-size:11px;line-height:1.28}
+.timeline .milestone small{font-size:10px;line-height:1.32;margin-top:4px}
+@media(max-width:650px){
+  .timeline{grid-template-columns:96px repeat(var(--timeline-count,7),minmax(130px,1fr))!important}
+  .timeline .axis{grid-template-columns:repeat(var(--timeline-count,7),minmax(130px,1fr))!important}
+  .timeline .cell{min-height:70px}
+  .timeline .milestone{padding:7px 8px}
+}
+/* Narrow milestone columns: fixed sizes instead of 1fr,
+   so tiles do not expand to fill a wide desktop viewport. */
+.timeline{width:max-content!important;min-width:0!important;grid-template-columns:106px repeat(var(--timeline-count,7),124px)!important}
+.timeline .axis{grid-template-columns:repeat(var(--timeline-count,7),124px)!important}
+.timeline .cell{min-height:86px;gap:7px;padding:7px 5px}
+.timeline .milestone{width:100%;padding:11px 8px;line-height:1.32}
+.timeline .milestone strong{font-size:11px;line-height:1.34}
+.timeline .milestone small{font-size:10px;line-height:1.35}
+@media(max-width:650px){
+ .timeline{grid-template-columns:96px repeat(var(--timeline-count,7),118px)!important}
+ .timeline .axis{grid-template-columns:repeat(var(--timeline-count,7),118px)!important}
+ .timeline .cell{min-height:82px}
+ .timeline .milestone{padding:10px 7px}
+}
+
+.wrap>.financing-overview{--section-accent:#ecc08b;background:linear-gradient(120deg,#2b2928,#1b2931);border-color:#4c4540}
+.fin-head{display:flex;align-items:flex-start;justify-content:space-between;gap:14px;flex-wrap:wrap}
+.fin-head .intro{max-width:850px}.fin-frequency{white-space:nowrap;border:1px solid #876e4c;border-radius:20px;color:#f5d4a5;padding:5px 11px;font-size:11px}
+.fin-grid{display:grid;grid-template-columns:minmax(250px,.8fr) minmax(0,1.2fr);gap:12px}
+.fin-risk,.fin-facts,.fin-box,.fin-comps,.fin-method{background:#1a2a34;border:1px solid #43545d;border-radius:13px;overflow:hidden}
+.fin-risk{padding:19px;background:linear-gradient(135deg,#323332,#1b3038)}
+.fin-caption{font-size:11px;color:#d9c5a9;letter-spacing:.06em;text-transform:uppercase;font-weight:730}
+.fin-main{display:flex;align-items:baseline;gap:12px;flex-wrap:wrap;margin:8px 0 13px}
+.fin-main strong{font-size:clamp(38px,3vw,55px);color:#fcf5e9;letter-spacing:-.04em}
+.fin-main span{font-size:12px;color:#f0c486;font-weight:720}
+.fin-meter{height:9px;background:#35434c;border-radius:6px;overflow:hidden}.fin-meter>div{height:100%;border-radius:6px;background:linear-gradient(90deg,#7bd4b9,#ecc080);transition:width .2s ease}
+.fin-small{font-size:11px;color:#b0c3cc;line-height:1.75;margin:11px 0}
+.fin-horizons{display:grid;grid-template-columns:1fr 1fr;gap:9px;margin:18px 0}
+.fin-horizons>div{border:1px solid #52636a;border-radius:10px;padding:11px;background:#18252e}
+.fin-horizons small{display:block;font-size:11px;color:#bdd0d7}
+.fin-horizons strong{display:block;font-size:24px;color:#eaf4f6}
+.fin-facts{display:grid;grid-template-columns:1fr 1fr}
+.fin-facts>div{min-width:0;display:flex;flex-direction:column;justify-content:center;gap:8px;padding:18px;border-bottom:1px solid #40515b}
+.fin-facts>div:nth-child(odd){border-right:1px solid #40515b}.fin-facts>div:nth-child(n+3){border-bottom:0}
+.fin-facts small{font-size:11px;color:#b1c5cf;line-height:1.4}.fin-facts strong{font-size:clamp(19px,1.8vw,27px);line-height:1.2}
+.fin-facts strong em{font-size:12px;font-style:normal;color:#b7c9d5}
+.fin-facts span,.fin-facts a{font-size:11px;color:#bbd0d8;line-height:1.5}
+.fin-two{display:grid;grid-template-columns:1fr 1fr;gap:12px;margin-top:12px}
+.fin-box{padding:17px 19px}.fin-box h3,.fin-comps h3{margin:0 0 9px;font-size:14px}
+.fin-box p{color:#c1d1d9;line-height:1.7;font-size:12px;margin:6px 0}
+.fin-box p+p{margin-top:9px}.fin-comps{padding:17px 19px;margin-top:12px}
+.fin-comps h3 small{font-size:11px;color:#9fb5c4;font-weight:400;margin-left:7px}
+.fin-cases{display:grid;grid-template-columns:repeat(3,1fr);gap:10px}
+.fin-case{min-width:0;background:#22323c;border:1px solid #455660;border-radius:10px;padding:12px;display:flex;flex-direction:column;gap:7px}
+.fin-case strong{font-size:12px}.fin-case p{font-size:11px;line-height:1.6;color:#bfd0d9;margin:0;flex:1}.fin-case a{font-size:11px}
+.fin-method{margin:12px 0 0;padding:0 17px}
+.fin-method summary{font-size:12px;color:#cfedff;font-weight:700;cursor:pointer;padding:14px 0}
+.fin-method p{font-size:12px;line-height:1.8;color:#b9ccd5}.fin-method code{white-space:normal}
+.fin-news-item{padding:8px 0;border-bottom:1px solid #40535a;font-size:11px;color:#c7d6de}
+.fin-news-item a{display:block;margin-top:4px}
+.fin-warning{font-size:11px;color:#f3c99b;padding:9px;border-radius:8px;background:#50402c70}
+@media(max-width:900px){.fin-grid,.fin-two{grid-template-columns:1fr}.fin-cases{grid-template-columns:repeat(2,1fr)}}
+@media(max-width:540px){.fin-cases{grid-template-columns:1fr}.fin-facts>div{padding:12px}.fin-facts strong{font-size:19px}.fin-facts strong em{display:block;font-size:11px}}
+
+/* Financial early-warning signals: sourced metrics vs unverified headline leads */
+.fin-signals{margin-top:14px;border:1px solid #445761;border-radius:13px;background:#182834;padding:16px 18px}
+.fin-signals-heading{display:flex;align-items:center;justify-content:space-between;gap:12px;flex-wrap:wrap}
+.fin-signals-heading h3{font-size:15px;margin:0 0 4px;color:#f1f4f0}
+.fin-signals-heading p{margin:0;color:#b9cbd4;font-size:11px;line-height:1.55}
+.fin-signals-counter{display:inline-flex;align-items:center;justify-content:center;min-width:23px;padding:2px 5px;border-radius:7px;background:#344753;font-size:11px;color:#e6e9de;vertical-align:middle}
+.fin-signals-frequency{font-size:11px;color:#c7dbe5;border:1px solid #49606a;border-radius:20px;padding:5px 10px;white-space:nowrap}
+.fin-alert-status{font-size:11px;line-height:1.55;color:#a9bcca;margin:10px 0 12px}
+.fin-alert-list{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:9px}
+.fin-alert-list>p{grid-column:1/-1;font-size:12px;color:#c9d0d0}
+.fin-alert-card{background:#1f303a;border:1px solid #415765;border-left:3px solid #7dabb4;border-radius:9px;padding:12px 13px;min-width:0}
+.fin-alert-card[data-level="bevakning"]{border-left-color:#85b6bf}
+.fin-alert-card[data-level="förhöjd"]{border-left-color:#d5a85e}
+.fin-alert-card[data-level="kritisk"]{border-left-color:#de8580}
+.fin-alert-card-top{display:flex;align-items:flex-start;justify-content:space-between;gap:10px}
+.fin-alert-card-top strong{color:#f2f3ee;font-size:12px;line-height:1.4}
+.fin-alert-severity{font-size:10px;white-space:nowrap;color:#e7c99f}
+.fin-alert-card[data-level="kritisk"] .fin-alert-severity{color:#f0a5a2}
+.fin-alert-card[data-level="bevakning"] .fin-alert-severity{color:#abd9df}
+.fin-alert-card>p{font-size:11px;color:#c2d2d8;line-height:1.65;margin:9px 0}
+.fin-alert-verification{display:block;font-size:10px;color:#b2bcc5;line-height:1.5;margin-top:5px}
+.fin-alert-next{font-size:10px;color:#cdd5d4;line-height:1.65;margin:7px 0}
+.fin-alert-card a{display:inline-block;font-size:11px;margin-top:4px}
+.fin-signal-foot{font-size:10px;color:#a7b8c4;line-height:1.7;margin:12px 0 0}
+@media(max-width:700px){.fin-alert-list{grid-template-columns:1fr}.fin-signals{padding:14px}.fin-alert-card{padding:11px}}
+
+/* Framtida milstolpar har alltid kvartalsaxel; våra tidsuppskattningar märks ≈. */
+.timeline .milestone.estimated-time{position:relative;border-style:dashed;border-color:#99815a}
+.timeline .milestone.estimated-time:after{content:"≈";font-size:12px;position:absolute;top:4px;right:5px;color:#e5c08c;font-weight:750}
+.timeline .milestone.estimated-time strong{padding-right:10px}
+
+/* Explicit Fenja refinancing stress: never equate nominal credit with cash */
+.fin-fenja-panel{border:1px solid #686049;border-radius:13px;padding:17px 19px;background:linear-gradient(135deg,#302a23,#1b2a30 72%);margin-top:12px}
+.fin-fenja-head{display:flex;align-items:flex-start;justify-content:space-between;gap:14px;flex-wrap:wrap}
+.fin-fenja-head h3{font-size:15px;color:#f9e9cf;margin:0 0 8px}
+.fin-fenja-head p{max-width:760px;font-size:12px;line-height:1.7;color:#c4d2d9;margin:0}
+.fin-fenja-pill{font-size:10px;border:1px solid #8b7048;border-radius:16px;color:#ebca95;padding:5px 10px;white-space:nowrap}
+.fin-fenja-stats{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:9px;margin:15px 0}
+.fin-fenja-stats>div{display:flex;flex-direction:column;gap:7px;border:1px solid #5c584e;border-radius:9px;padding:14px;background:#192934}
+.fin-fenja-stats span{font-size:11px;color:#c7d1d4;line-height:1.5}
+.fin-fenja-stats strong{font-size:clamp(20px,2.3vw,27px);color:#f6f3e9}
+.fin-fenja-stats strong small{font-size:12px;color:#bfcecf}
+.fin-fenja-stats div>small{font-size:10px;line-height:1.5;color:#aebec7}
+.fin-fenja-simulator{background:#202e34;border:1px solid #455a60;border-radius:10px;padding:13px 15px}
+.fin-fenja-simhead{display:flex;justify-content:space-between;gap:14px;align-items:baseline}
+.fin-fenja-simhead label{font-size:12px;color:#d9e5e6}
+.fin-fenja-simhead strong{font-size:16px;color:#f2d7ae}
+.fin-fenja-simulator input[type="range"]{width:100%;accent-color:#e4b975;margin:14px 0 9px;cursor:pointer}
+.fin-fenja-simulator p{font-size:11px;color:#d0d9d7;line-height:1.6;margin:4px 0}
+.fin-fenja-disclaimer{font-size:10px!important;color:#aebcc0!important}
+.fin-fenja-model-note{font-size:11px;line-height:1.8;color:#bdcbd0;margin-top:11px}
+.fin-fenja-model-note b{color:#f0dec4}
+.fin-fenja-model-note a{display:inline-block;margin-left:5px}
+@media(max-width:860px){.fin-fenja-stats{grid-template-columns:1fr}.fin-fenja-stats>div{padding:11px}}
+
+/* Clickable and fully explained financial calculations */
+.fin-calc-hint{font-size:11px;line-height:1.65;color:#c4cfd4;margin:8px 0 14px}.fin-calc-hint span{color:#f5d397;font-weight:800}
+.fin-calc-trigger{display:inline-flex;align-items:center;justify-content:center;vertical-align:middle;margin-left:7px;padding:0;width:24px;height:24px;border-radius:7px;border:1px solid #a98551;background:#372e24;color:#ffe0a4;font-size:14px;line-height:1;cursor:pointer;flex-shrink:0;transition:background .16s,border-color .16s}
+.fin-calc-trigger:hover,.fin-calc-trigger:focus-visible{background:#655034;border-color:#f0c588;color:#fff;outline-offset:2px}
+.fin-calc-trigger:focus-visible{outline:2px solid #f5d5a0}
+.fin-calc-trigger.fin-calc-inline{margin-left:5px;width:21px;height:21px;font-size:12px}
+.fin-calc-trigger[disabled]{opacity:.55;cursor:default}
+.fin-calc-explain{font-size:10px;color:#e8c58d;white-space:nowrap;vertical-align:middle}
+.fin-calculation-modal[hidden]{display:none!important}
+.fin-calculation-modal{position:fixed;inset:0;z-index:99999;display:flex;align-items:center;justify-content:center;padding:18px;background:rgba(7,12,19,.82);backdrop-filter:blur(3px)}
+.fin-calculation-dialog{position:relative;width:min(620px,100%);max-height:min(85vh,740px);overflow-y:auto;border:1px solid #71818a;border-radius:15px;background:linear-gradient(145deg,#253743,#172530);box-shadow:0 20px 75px rgba(0,0,0,.7);padding:26px 25px 24px;color:#e6eef1}
+.fin-calculation-dialog h2{margin:0 40px 9px 0;font-size:21px;line-height:1.3;color:#fff5e3}
+.fin-calculation-dialog h3{margin:17px 0 8px;font-size:12px;letter-spacing:.02em;color:#f4d4a2}
+.fin-calculation-dialog .fin-calc-lead{margin:0 0 15px;font-size:12px;line-height:1.7;color:#c8d9e0}
+.fin-calculation-dialog .fin-calc-formula{font-size:12px;line-height:1.7;font-weight:680;color:#f1e4c7;background:#172730;border:1px solid #546879;padding:12px 14px;border-radius:9px;white-space:pre-wrap;overflow-wrap:anywhere}
+.fin-calculation-dialog ol{padding-left:22px;margin:8px 0}
+.fin-calculation-dialog li{font-size:12px;line-height:1.8;color:#d0dce1;margin-bottom:5px}
+.fin-calculation-dialog .fin-calc-result{display:block;font-size:19px;font-weight:760;color:#f7d5a3;margin:13px 0}
+.fin-calculation-dialog .fin-calc-caveat{background:#2c2d2b;border:1px solid #6c604d;border-radius:9px;padding:10px 12px;font-size:11px;line-height:1.75;color:#dfd4c2}
+.fin-calculation-dialog .fin-calc-sources{display:flex;flex-wrap:wrap;gap:8px 16px;margin-top:12px}
+.fin-calculation-dialog .fin-calc-sources a{font-size:11px;color:#f4c980}
+.fin-calculation-close{position:absolute;top:12px;right:13px;display:grid;place-items:center;width:34px;height:34px;border-radius:9px;border:1px solid #637786;background:#263745;color:#e7f1f3;font-size:21px;cursor:pointer}
+.fin-calculation-close:hover,.fin-calculation-close:focus-visible{background:#46606b;outline:2px solid #e0bc8c;outline-offset:2px}
+body.fin-calc-open{overflow:hidden}
+@media(max-width:600px){.fin-calculation-dialog{padding:23px 16px 18px}.fin-calculation-dialog h2{font-size:18px}.fin-calculation-modal{padding:10px}}
+
+
+:root{--mint:#45d9c5;--arfo:#38c6b5;--company:#b4a5f4}
+.sitenav{display:flex;justify-content:space-between;align-items:center;gap:16px;flex-wrap:wrap;margin:-8px 0 17px;color:#91adb6;font-size:12px}.sitenav a{color:#bad6df}.navlinks{display:flex;flex-wrap:wrap;gap:16px}
+.hero{min-height:220px}.hero .eyebrow{letter-spacing:.13em}.hero p{max-width:800px}
+.notice{display:flex;gap:14px;align-items:flex-start;border:1px solid #9d634a;border-radius:13px;background:#65372038;padding:17px 19px;margin-top:19px}.notice strong{color:#ffcca0}.notice p{margin:2px 0 0;font-size:13px;color:#e6c8b3}
+.statsline{display:grid;grid-template-columns:repeat(4,minmax(0,1fr));gap:14px;margin-top:17px}
+.statbox,.tile{border:1px solid #334b58;background:#101e29ad;border-radius:14px;padding:18px}.statbox small,.tile small{display:block;color:#a3bac6;font-size:12px}.statbox strong,.tile strong{display:block;font-size:clamp(18px,2vw,27px);color:#e6fbf5;margin:4px 0}.tile p{color:#a9beca;font-size:13px;line-height:1.6}.tile a{font-size:12px}
+.section-intro{color:#b4c6d0;max-width:990px}.mini-label{color:#7ae0c4;font-size:11px;font-weight:750;letter-spacing:.12em;text-transform:uppercase}
+.trow{display:flex;gap:10px;align-items:center;flex-wrap:wrap}.pills{display:flex;gap:7px;flex-wrap:wrap;margin:16px 0}.filter{cursor:pointer;border:1px solid #37505c;color:#b9d3da;background:#1d2d38;border-radius:11px;padding:8px 12px;font-weight:650;font-size:12px}.filter.active{background:#26685d;border-color:#54d9b9;color:#eafff9}.filter.orange{border-color:#b77a41;color:#fbc18c}.filter.orange.active{background:#7c4a1d;color:#fff1da}
+.two-grid{display:grid;grid-template-columns:1fr 1fr;gap:15px}.three-grid{display:grid;grid-template-columns:repeat(3,1fr);gap:15px}
+.kcalc{display:grid;grid-template-columns:repeat(3,1fr);gap:12px;align-items:end;margin:14px 0}.kcalc label{font-size:12px;color:#afd1d2}.kcalc input[type=number],.kcalc input[type=range]{display:block;width:100%;background:#0d1a23;border:1px solid #395160;border-radius:9px;color:white;padding:10px;margin:7px 0 0}.kcalc .calcbox{border:1px solid #43645d;background:#15382d;padding:12px;border-radius:10px}.kcalc .calcbox strong{font-size:22px;color:#7ce5c4}.kcalc .calcbox small{display:block;color:#aacbbc}
+.metric-head{display:flex;gap:10px;align-items:center}.mathbtn{cursor:pointer;border-radius:7px;border:1px solid #4c7b72;background:#1e4d45;color:#adf6dc;font-weight:bold;padding:2px 7px;font-size:13px}.mathbtn:hover{background:#366a5e}
+.fin-scenario{background:linear-gradient(115deg,#172a2b,#17202b);border:1px solid #375a52;border-radius:14px;padding:20px}
+.fin-metrics{display:grid;grid-template-columns:repeat(3,1fr);gap:15px;margin:15px 0}.riskmetric{border:1px solid #456058;background:#132323;border-radius:12px;padding:15px}.riskmetric small{display:block;color:#b1d0c7}.riskmetric strong{font-size:24px;color:#7ce5c4}
+.subtle{color:#9fb6c1;font-size:12px}.fine{font-size:12px;color:#91a9b4}.attention{color:#ffd09d}.alert-list{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:12px;margin-top:15px}.alert{padding:14px 17px;border:1px solid #3b4c58;border-radius:13px;background:#101b26}.alert strong{display:block;font-size:14px}.alert small{color:#a9bcc5}.alert .level{display:inline-block;font-size:11px;color:#ffcb92;margin:0 0 8px}.alert p{color:#afc3ce;font-size:12px;margin:7px 0}
+.timeline-scroll{overflow:auto;scrollbar-color:#4f6f75 #14212a}.timeline-header,.timeline-lane{display:grid;grid-template-columns:130px repeat(var(--n),minmax(120px,1fr));min-width:max-content;gap:2px}.timeline-header{position:sticky;top:0;z-index:2;background:#10212d}.timeline-header>div{border-bottom:1px solid #4c696d;padding:12px 6px;font-size:11px;color:#a8ccce;text-align:center}.timeline-header>div:first-child{text-align:left}.timeline-lane>.tracktitle{font-weight:750;padding:15px 8px;position:sticky;left:0;z-index:1;background:#182632;color:#bfe6e1}.timeline-lane>.trackcell{background:#14212c;border-bottom:1px solid #2a3c49;padding:6px;min-height:85px}.event{display:block;cursor:pointer;width:100%;text-align:left;border:1px solid #49766d;border-left:3px solid #55d0aa;background:#203c3a;color:#eef9f4;border-radius:9px;padding:9px;margin:4px 0;font:600 11px/1.35 inherit}.event small{display:block;color:#b2caca;font-weight:400}.event.future{border-color:#666092;border-left-color:#b49bf0;background:#2e294a}.event.delay{box-shadow:inset 0 0 0 1px #c48a43}.event:hover{filter:brightness(1.22)}
+.delay-tag{color:#ffce8a;font-size:11px;display:inline-flex;gap:6px;align-items:center;margin:6px 0}
+.chart-frame{background:#101c26;border:1px solid #364955;border-radius:14px;padding:12px;margin:16px 0}.chart-frame svg{display:block;width:100%;height:auto;overflow:visible}.chart-info{padding:10px 14px;background:#183631;border:1px solid #3d7764;border-radius:10px;font-size:13px}
+.modalbox{position:fixed;inset:0;background:#000b;display:none;align-items:center;justify-content:center;z-index:100;padding:18px}.modalbox.open{display:flex}.modaldialog{position:relative;width:min(100%,680px);max-height:85vh;overflow:auto;background:#162632;border:1px solid #52746f;border-radius:18px;padding:27px;box-shadow:0 20px 100px #000b}.modaldialog h2{font-size:22px;margin:8px 32px 12px 0}.modaldialog p{font-size:14px;color:#c3d4df}.modaldialog ol{padding-left:21px;color:#d5e9e5}.modaldialog li{margin-bottom:6px}.modalclose{position:absolute;top:10px;right:12px;cursor:pointer;background:#243c4a;border:1px solid #496471;border-radius:9px;color:white;font-size:24px;width:36px;height:36px}.modalurls{display:flex;gap:14px;flex-wrap:wrap;margin-top:15px}
+.issuebadge{color:#ffe1b4;border:1px solid #a06b42;background:#68442155;border-radius:30px;padding:5px 10px;font-size:11px;font-weight:750}
+footer{margin-top:30px;color:#90a4b0;border-top:1px solid #33434f;padding:25px 2px;font-size:12px}
+@media(max-width:950px){.statsline{grid-template-columns:repeat(2,1fr)}.two-grid,.alert-list{grid-template-columns:1fr}.three-grid,.fin-metrics{grid-template-columns:1fr 1fr}}
+@media(max-width:640px){.statsline,.three-grid,.fin-metrics,.kcalc{grid-template-columns:1fr}.timeline-header,.timeline-lane{grid-template-columns:105px repeat(var(--n),minmax(128px,1fr))}}
+</style></head><body><main class="wrap">
+<nav class="sitenav" aria-label="Sektionsnavigering"><span>INVESTERARÖVERSIKT / CRNO B</span><div class="navlinks"><a href="#stock-heading">Aktien</a><a href="#pipeline-heading">Pipeline</a><a href="#fin-title">Finansiering</a><a href="#milestones-heading">Milstolpar</a><a href="#valuation-heading">Värdering</a><a href="#news-heading">Nyheter</a></div></nav>
+<header class="hero"><div class="hero-content"><div class="eyebrow"><span class="eyebrow-dot"></span>OBEROENDE ANALYS · NASDAQ FIRST NORTH · CRNO B</div>
+<h1>Cereno <span>Scientific</span></h1>
+<p>En investeraröversikt i SynAct-sidans stil. Följ CS1 i PAH, CS014 i PH-ILD, CS585, finansieringen och kvartalsvisa milstolpar. Källor, faktauppgifter och egna scenarier hålls isär.</p><a class="summary" href="#milestones-heading">Utforska milstolpar och kommande katalysatorer <span class="arrow">→</span></a>
+</div></header>
+<div class="notice" role="status"><span class="issuebadge">AVISERAD · 12 NOV 2026</span><div><strong>Planerad företrädesemission: cirka 400 miljoner kronor</strong><p>Emissionen är ännu inte genomförd. Teckningskurs, rättighetsförhållande och faktisk utspädning fastställs först senare. Extra bolagsstämma planeras 15 december 2026. <a href="https://mfn.se/a/cereno-scientific/cereno-scientific-avser-genomfora-en-foretradesemission-av-units-om-cirka-400-msek-med-fokus-pa-den-globala-fas-iib-studien-epimode-och-erhaller-forlangd-lanefinansiering-om-upp-till-175-msek" target="_blank" rel="noopener">Originalkälla ↗</a></p></div></div>
+<section class="stock-overview" aria-labelledby="stock-heading"><p class="section-kicker"><span class="section-number">01</span> Aktieöversikt</p><div class="market-heading"><h2 id="stock-heading">Aktien · CRNO B</h2><span class="market-exchange">Nasdaq First North Growth Market Stockholm</span></div>
+<div class="market-board"><div class="market-quote"><div class="market-quote-heading"><span>Kurs · extern / kan vara fördröjd</span><a href="https://www.tradingview.com/symbols/OMXSTO-CRNO_B/" target="_blank" rel="noopener">TradingView ↗</a></div><div class="tv-quote"><div class="tradingview-widget-container"><div class="tradingview-widget-container__widget"></div><script type="text/javascript" src="https://s3.tradingview.com/external-embedding/embed-widget-single-quote.js" async>{"symbol":"OMXSTO:CRNO_B","width":"100%","isTransparent":false,"colorTheme":"dark","locale":"sv"}</script></div></div></div>
+<div class="market-metric"><span class="metric-label">Antal aktier 30 sep 2026</span><strong>323 852 029</strong><a href="https://www.cerenoscientific.com/~/media/Files/C/cereno-scientific/corp/results-and-presentations/2026/Cereno%20Scientific%20Delarsrapport%20Q3%202026.pdf" target="_blank" rel="noopener">Q3-rapport ↗</a></div>
+<div class="market-metric"><span class="metric-label">Senast rapporterad kassa</span><strong>40,24 <small>Mkr</small></strong><a href="https://www.cerenoscientific.com/~/media/Files/C/cereno-scientific/corp/results-and-presentations/2026/Cereno%20Scientific%20Delarsrapport%20Q3%202026.pdf" target="_blank" rel="noopener">30 sep 2026 ↗</a></div>
+<div class="market-metric"><span class="metric-label">Status för emission</span><strong>Avsikt</strong><a href="https://mfn.se/a/cereno-scientific/cereno-scientific-avser-genomfora-en-foretradesemission-av-units-om-cirka-400-msek-med-fokus-pa-den-globala-fas-iib-studien-epimode-och-erhaller-forlangd-lanefinansiering-om-upp-till-175-msek" target="_blank" rel="noopener">Villkor väntas i dec ↗</a></div></div>
+<p class="fine">Ingen hårdkodad dagskurs. TradingViews widget laddas från tredje part och kan vara fördröjd eller blockeras av din webbläsare. Antal aktier och kassa är historiska rapportvärden.</p></section>
+<section class="partner-overview" aria-labelledby="pipeline-heading"><p class="section-kicker"><span class="section-number">02</span> Vetenskap &amp; pipeline</p><h2 id="pipeline-heading">Tre program, olika värdedrivare</h2>
+<div class="three-grid"><div class="tile"><small>CS1 · PAH</small><strong>Fas IIb</strong><p>HDAC-hämmare med epigenetisk modulering. Globala EPIMODE planeras inkludera cirka 126 patienter vid cirka 68 center i 12 länder. Topline mål Q4 2028.</p><a href="https://view.news.eu.nasdaq.com/view?id=bac2b3efd349cf90706b8cf56dc46c45d&lang=en&src=micro" target="_blank" rel="noopener">EPIMODE-uppdatering ↗</a></div>
+<div class="tile"><small>CS014 · PH-ILD</small><strong>Fas IIb planeras</strong><p>Ny HDAC-hämmare; positiv PK-bryggstudie. IND planeras Q4 2026 och start av fas IIb Q3 2027, villkorat av FDA.</p><a href="https://www.cerenoscientific.com/sv/nyhetsrum/pressmeddelanden?slug=cereno-scientific-publicerar-delarsrapport-for-tredje-kvartal-2026" target="_blank" rel="noopener">Q3-status ↗</a></div>
+<div class="tile"><small>CS585 · APS</small><strong>Preklinisk</strong><p>IP-receptoragonist som utvärderas i sällsynta trombotiska tillstånd. IND-förberedande aktiviteter och djurmodellstudier pågår.</p><a href="https://www.cerenoscientific.com/~/media/Files/C/cereno-scientific/corp/results-and-presentations/2026/Cereno%20Scientific%20Delarsrapport%20Q3%202026.pdf" target="_blank" rel="noopener">Q3-rapport ↗</a></div></div>
+<p class="fine">Tidiga kliniska signaler, EAP och preklinisk effekt är inte bekräftelse på framtida godkännande. Se de enskilda programmens källor.</p></section>
+<section class="financing-overview" aria-labelledby="fin-title"><p class="section-kicker"><span class="section-number">03</span> Finansiering &amp; risk</p>
+<div class="fin-head"><div><h2 id="fin-title">Emissionsbarometern</h2><p class="section-intro">Den aktuella emissionen är redan annonserad. Därför visar vi den som <b>känd händelse</b>, och skiljer den från en uttryckligen hypotetisk risk för en <b>ytterligare emission</b> efter en fulltecknad finansiering.</p></div><span class="fin-frequency">Villkor uppdaterade 15 nov 2026</span></div>
+<div class="fin-scenario"><div class="trow" style="justify-content:space-between"><div><span class="mini-label">Nuvarande emission</span><h3 style="margin:4px 0">Aviserad – ännu inte fullföljd</h3></div><span class="issuebadge">400 Mkr planerat brutto</span></div><p class="fine">Det finns ingen meningsfull prognosprocent för att Cereno ska tillkännage just den emission som redan offentliggjorts. Scenariot nedan avser en annan, framtida emission, förutsatt att dagens finansiering går igenom.</p>
+<div class="fin-metrics"><div class="riskmetric"><small>Ytterligare emission · 3 mån</small><div class="metric-head"><strong id="risk3">–</strong><button class="mathbtn" data-calc="risk3" aria-label="Visa beräkningen av 3-månadersscenariot">∑</button></div></div><div class="riskmetric"><small>Ytterligare emission · 6 mån</small><div class="metric-head"><strong id="risk6">–</strong><button class="mathbtn" data-calc="risk6" aria-label="Visa beräkningen av 6-månadersscenariot">∑</button></div></div><div class="riskmetric"><small>Ytterligare emission · 12 mån</small><div class="metric-head"><strong id="risk12">–</strong><button class="mathbtn" data-calc="risk12" aria-label="Visa beräkningen av 12-månadersscenariot">∑</button></div></div></div>
+<label for="scenario-hazard" class="fine">Antagen grundrisk per månad efter fullteckning: <b id="hazard-label">2,0 %</b> · justerbart antagande</label><input type="range" id="scenario-hazard" min="0.5" max="8" step="0.1" value="2" style="width:100%;accent-color:#58ddbd">
+<p class="fine">Helt subjektivt räkneexempel, ej statistiskt uppskattad sannolikhet. Välj ∑ för formel och känslighetsintervall. <b>Scenariot bedömer inte chansen att nuvarande emission fulltecknas.</b></p></div>
+<div class="statsline"><div class="statbox"><small>Rapporterad kassa · 30 sep</small><div class="metric-head"><strong>40,24 Mkr</strong></div><a href="https://www.cerenoscientific.com/~/media/Files/C/cereno-scientific/corp/results-and-presentations/2026/Cereno%20Scientific%20Delarsrapport%20Q3%202026.pdf" target="_blank" rel="noopener">Q3-rapport ↗</a></div><div class="statbox"><small>Operativt kassaflöde Q3</small><div class="metric-head"><strong>−33,74 Mkr</strong><button class="mathbtn" data-calc="burn" aria-label="Visa kassaflödesberäkning">∑</button></div><span class="fine">Exkl. investeringar</span></div><div class="statbox"><small>Operativt + investeringar</small><div class="metric-head"><strong>−57,74 Mkr</strong><button class="mathbtn" data-calc="totalburn" aria-label="Visa kassautflöde">∑</button></div><span class="fine">Historiskt Q3-flöde</span></div><div class="statbox"><small>Fulltecknad emission – horisont</small><div class="metric-head"><strong>In i Q1 2028</strong><button class="mathbtn" data-calc="runway" aria-label="Förklara finansieringshorisont">ⓘ</button></div><span class="fine">Bolagets villkorade bedömning</span></div></div>
+<h3 style="margin-top:27px">Emissionssimulator · verklig kontant effekt av Fenja</h3><p class="section-intro">Fenjas kvittningsåtagande är inte kontanter. Ange hypotetisk <b>teckning från andra investerare</b> (0–400 Mkr), så räknas möjlig kvittning och kontant återbetalning av 70 Mkr-lånedelen ut.</p>
+<div class="kcalc"><label>Andra tecknares belopp (Mkr)<input id="outside-subscriptions" type="number" value="265" min="0" max="400" step="5"></label><div class="calcbox"><small>Fenjas möjliga kvittning</small><div class="metric-head"><strong id="fenja-offset">–</strong><button class="mathbtn" data-calc="offset" aria-label="Så beräknas Fenjas kvittning">∑</button></div></div><div class="calcbox"><small>Kontant återbetalning till Fenja</small><div class="metric-head"><strong id="fenja-repayment">–</strong><button class="mathbtn" data-calc="repayment" aria-label="Så beräknas kontant återbetalning">∑</button></div></div></div>
+<div class="chart-info" id="fenja-result">–</div><p class="fine">Teoretiskt scenario, inte teckningsprognos. Fenjas åtagande är osäkrat. Emissionskostnader, 8,75 Mkr uppläggningsavgift (kvittas i separata units), eventuell ny kredit och andra transaktioner ingår inte.</p>
+<div class="three-grid"><div class="tile"><small>Fenjas befintliga konvertibler</small><strong>105 Mkr</strong><p>Förlängs villkorat till 12 november 2028. Återstående 70 Mkr kvittas eller återbetalas kontant.</p></div><div class="tile"><small>Ny Fenja-facilitet</small><strong>70 Mkr</strong><p>Kan avropas Q4 2027 om finansiella villkor uppfylls. Ej kontant tillgänglig idag.</p></div><div class="tile"><small>Minsta räntenivå</small><div class="metric-head"><strong>12 % / år</strong><button class="mathbtn" data-calc="interest" aria-label="Beräkna låneränta">∑</button></div><p>STIBOR 3M minst 3 % + 9 procentenheter på draget. Minst 6 % på outnyttjad 70 Mkr-facilitet; extra uppläggningsavgift.</p></div></div>
+<h3 style="margin-top:29px">Utspädningsscenario – när emissionskursen är okänd</h3><p class="section-intro">Ingen officiell teckningskurs finns per 15 november. Testa en <b>egen antagen</b> aktiekurs för att se hur många nya aktier ett bruttobelopp på 400 Mkr skulle kräva.</p>
+<div class="kcalc"><label>Hypotetisk emissionskurs (kr/aktie)<input id="issue-price" type="number" min="0.1" max="3" step="0.01" value="0.20"></label><div class="calcbox"><small>Beräknat antal nya B-aktier</small><div class="metric-head"><strong id="new-shares">–</strong><button class="mathbtn" data-calc="dilution" aria-label="Visa utspädningsformeln">∑</button></div></div><div class="calcbox"><small>Utspädning efter enbart aktieemission</small><strong id="dilution-pct">–</strong><small>Ej TO6, TO7 eller Fenja-optioner</small></div></div>
+<p class="fine">Varje unit innehåller 4 aktier, 2 TO6 och 1 TO7. Full TO6/TO7-övning kan öka antalet aktier ytterligare. Fenja-optioner om 5 % efter emission och konverteringsrisk tillkommer. Det faktiska utfallet beror på kommande prospekt.</p>
+<div class="fin-signals"><div class="fin-signals-heading"><div><h3>Varningssignaler <span class="fin-signals-counter" id="warning-count">–</span></h3><p>Specificerade finansierings- och genomföranderisker, med direktlänkade originalkällor.</p></div><span class="fin-signals-frequency">Datumstämplat</span></div><p class="fine" id="fin-updated">Finansieringsgrund kontrollerad 15 november 2026</p><div class="alert-list" id="warning-list"></div><p class="fine">Nyhetsrubriker ensamma ändrar inte procentscenariot. Nya finansieringsfakta måste verifieras mot originalmeddelanden.</p></div>
+</section>
+<section aria-labelledby="milestones-heading"><p class="section-kicker"><span class="section-number">04</span> Kliniska och finansiella händelser</p><h2 id="milestones-heading" class="section">Milstolpar <span id="milestone-total" class="milestone-total"></span></h2>
+<p class="section-intro">Klicka på en händelse för datum, betydelse och originalkälla. Prognoser ligger i kvartal. Orange markerar verifierade förändringar i tidplanen. Ett årsbaserat mål som ”under 2027” läggs i Q4 endast som sista uppföljningspunkt.</p>
+<div class="pills" id="periods"><button class="filter active" data-period="upcoming">Aktuellt & framåt</button><button class="filter" data-period="all">Alla år</button><button class="filter" data-period="done">Levererat</button><button class="filter" data-period="future">Planerat</button><button class="filter orange active" id="show-delays" aria-pressed="true">Förseningar: på</button></div>
+<div class="pills" id="tracks"><button class="filter active" data-track="all">Alla program</button><button class="filter" data-track="cs1">CS1 · PAH</button><button class="filter" data-track="cs014">CS014 · PH-ILD</button><button class="filter" data-track="cs585">CS585 · APS</button><button class="filter" data-track="company">Bolaget & kapital</button></div>
+<p class="fine" id="milestone-status">Läser källanknutna händelser …</p><div class="timeline-scroll" id="timeline"><p>Kunde inte läsa tidslinjen.</p></div>
+</section>
+<section class="valuation" aria-labelledby="valuation-heading"><p class="section-kicker"><span class="section-number">05</span> Analys &amp; värdering</p><h2 id="valuation-heading">Värderingsscenario · klickbar graf</h2><p class="section-intro">I stället för att uppfinna analytikerriktkurser visar grafen vad olika <b>hypotetiska bolagsvärden</b> innebär per aktie, före och efter ett antaget emissionsutfall. Klicka på en punkt för full beräkning.</p>
+<div class="chart-frame"><svg viewBox="0 0 1000 390" id="valuation-chart" role="img" aria-label="Bolagsvärden 1 till 20 miljarder kronor och scenario-kurser per aktie"><text x="20" y="25" fill="#b6d0d7">Antaget bolagsvärde (miljarder kronor) →</text></svg></div><p class="chart-info" id="valuation-summary">Välj en punkt i grafen.</p><p class="fine">Värderingarna är självvalda räknenivåer – inte riktkurser, exit-prognoser eller rekommendationer. Utspädningsscenariot uppdateras när du ändrar emissionskursen i kalkylen ovan.</p></section>
+<section aria-labelledby="news-heading"><p class="section-kicker"><span class="section-number">06</span> Företagsnyheter</p><h2 id="news-heading">Senaste nyheterna</h2><p class="section-intro">Verifierade ursprungskällor överst; automatiskt inlästa rubriker visas separat och är inte självständigt verifierade.</p><p id="news-status" class="fine">Läser nyhetsfil …</p><div id="news-list" class="three-grid"></div></section>
+<footer>Privat, oberoende investeraröversikt · Grundmaterial kontrollerat 15 november 2026 · Inte investeringsrådgivning. Modellscenarier är inte empiriskt kalibrerade. Nyhetsrubriker uppdateras automatiskt; klinik, finansvillkor och milstolpar redigeras källkritiskt. <a href="https://github.com/steffestygg-boop/cereno" target="_blank" rel="noopener">Källkod & data ↗</a></footer>
+</main>
+<div class="modalbox" id="modal" role="dialog" aria-modal="true" aria-labelledby="modal-title" aria-hidden="true"><div class="modaldialog"><button class="modalclose" id="modal-close" aria-label="Stäng ruta">×</button><span class="mini-label" id="modal-date"></span><h2 id="modal-title">Detaljer</h2><div id="modal-body"></div><div class="modalurls" id="modal-links"></div></div></div>
+<script>
+"use strict";
+var ISSUE={"announced_at":"2026-11-12","status":"avsikt offentliggjord, villkor ej fastställda","target_msek":400,"shares_per_unit":4,"to6_per_unit":2,"to7_per_unit":1,"discount_to_terp_percent":35,"additional_share_price_cap_discount_percent":40,"shares_price_known":false,"unit_rights_ratio_known":false,"egm_date":"2026-12-15","final_terms_approx":"2026-12-17/18","to6_window":"2027-05-24–2027-06-07","to7_window":"2027-10-25–2027-11-08","to6_potential_msek":250,"to7_potential_msek":150,"external_subscription_cash_not_guaranteed":true}, SNAP={"report_date":"2026-09-30","report_published":"2026-11-04","cash_msek":40.238566,"operating_cashflow_q3_msek":-33.740891,"investment_cashflow_q3_msek":-24.001259,"shares_outstanding_at_report":323852029,"share_quota_value_sek":0.1,"cashflow_note":"Q3:s operativa + investeringskassaflöde summeras som historisk förbrukning. Detta är inte ett framtida kassaflödesestimat.","financing_guidance":"Fulltecknad emission beräknas stödja verksamheten in i Q1 2028; TO6/TO7 kan ge ytterligare finansiering av EPIMODE fram till Q4 2028 men är inte säkrad."}, FIN={"old_debt_msek":175,"extended_debt_msek":105,"debt_to_repay_or_offset_msek":70,"offset_cap_msek":70,"offset_full_below_external_msek":125,"offset_zero_above_external_msek":265,"loan_facility_msek":70,"facility_window":"2027-10-01–2027-12-31","maturity":"2028-11-12","interest_floor_percent":12,"undrawn_interest_floor_percent":6,"arrangement_fee_msek":8.75,"warrants_extra_dilution_percent":5,"loan_not_cash_now":true,"agreement_conditional_on_issue":true}, SCENARIO={"baseline_monthly_hazard_after_funding":0.02,"low_multiplier":0.6,"high_multiplier":1.7,"description":"Endast ett illustrativt scenario för YTTERLIGARE emissioner efter antagen full finansiering. Ingen empiriskt kalibrerad modell. Den redan aviserade emissionen är ett separat, känt faktum."};
+var MILESTONES=[], TRACKS=[["cs1","CS1 / PAH"],["cs014","CS014 / PH-ILD"],["cs585","CS585 / APS"],["company","Bolaget / kapital"]], selectedTrack="all",selectedPeriod="upcoming",showDelays=true, currentPrice=0.2, outside=265, hazard=2;
+var $=function(id){return document.getElementById(id)}, round=function(v,d){return Number(v).toLocaleString("sv-SE",{minimumFractionDigits:d||0,maximumFractionDigits:d===undefined?2:d})}, pct=function(v){return round(v,1)+" %"}, money=function(v){return round(v,1)+" Mkr"};
+function openModal(title,dates,body,links){$("modal-title").textContent=title;$("modal-date").textContent=dates||"";$("modal-body").replaceChildren();if(typeof body==="string"){var p=document.createElement("p");p.textContent=body;$("modal-body").append(p)}else if(Array.isArray(body)){var ol=document.createElement("ol");body.forEach(function(line){var li=document.createElement("li");li.textContent=line;ol.append(li)});$("modal-body").append(ol)};$("modal-links").replaceChildren();(links||[]).forEach(function(x){if(!x.url)return;var a=document.createElement("a");a.href=x.url;a.target="_blank";a.rel="noopener noreferrer";a.textContent=x.label+" ↗";$("modal-links").append(a)});$("modal").classList.add("open");$("modal").setAttribute("aria-hidden","false");$("modal-close").focus()}
+function closeModal(){$("modal").classList.remove("open");$("modal").setAttribute("aria-hidden","true")}
+$("modal-close").onclick=closeModal;$("modal").addEventListener("click",function(e){if(e.target===$("modal"))closeModal()});document.addEventListener("keydown",function(e){if(e.key==="Escape")closeModal()});
+function risk(h,monthly){return 100*(1-Math.exp(-h*monthly))}function drawRisk(){hazard=Number($("scenario-hazard").value);$("hazard-label").textContent=round(hazard,1)+" %";[3,6,12].forEach(function(h){$("risk"+h).textContent=pct(risk(h,hazard/100))})}
+function offsetFor(x){return Math.max(0,Math.min(70,70-.5*Math.max(0,x-125)))}
+function drawFenja(){outside=Math.max(0,Math.min(400,Number($("outside-subscriptions").value)||0));var offset=offsetFor(outside),repayment=70-offset,net=outside-repayment;$("fenja-offset").textContent=money(offset);$("fenja-repayment").textContent=money(repayment);$("fenja-result").textContent="Andra investerare betalar "+money(outside)+" kontant; möjlig Fenja-kvittning "+money(offset)+"; kontant skuldåterbetalning "+money(repayment)+". Beräknat nytt kassabidrag efter denna skuldreglering: "+money(net)+" före emissionskostnader. Teoretisk tecknad volym inkl. kvittning: "+money(outside+offset)+" av 400 Mkr."}
+function drawDilution(){var price=Number($("issue-price").value);if(!Number.isFinite(price)||price<.10){$("new-shares").textContent="Ange minst 0,10 kr";$("dilution-pct").textContent="–";return}currentPrice=price;var n=400e6/price, before=SNAP.shares_outstanding_at_report;$("new-shares").textContent=round(n/1e6,1)+" miljoner";$("dilution-pct").textContent=pct(100*n/(before+n));drawChart()}
+$("scenario-hazard").addEventListener("input",drawRisk);$("outside-subscriptions").addEventListener("input",drawFenja);$("issue-price").addEventListener("input",drawDilution);
+var erasAll=["2024","2025","Q2 2026","Q3 2026","Q4 2026","Q1 2027","Q2 2027","Q3 2027","Q4 2027","Q1 2028","Q4 2028"],erasUpcoming=erasAll.slice(3);
+function renderTimeline(){var eras=selectedPeriod==="all"||selectedPeriod==="done"?erasAll:erasUpcoming;var data=MILESTONES.filter(function(m){return eras.includes(m.era)&&(selectedTrack==="all"||m.track===selectedTrack)&&(selectedPeriod!=="done"||m.status==="done")&&(selectedPeriod!=="future"||m.status==="future")});$("milestone-total").textContent=" · "+MILESTONES.length+" händelser";$("milestone-status").textContent=data.length+" händelser visas · orange förseningar "+(showDelays?"visas":"döljs");var host=$("timeline");host.replaceChildren();var header=document.createElement("div");header.className="timeline-header";header.style.setProperty("--n",eras.length);var blank=document.createElement("div");blank.textContent="Program / kvartal";header.append(blank);eras.forEach(function(era){var e=document.createElement("div");e.textContent=era;header.append(e)});host.append(header);TRACKS.forEach(function(t){if(selectedTrack!=="all"&&selectedTrack!==t[0])return;var lane=document.createElement("div");lane.className="timeline-lane";lane.style.setProperty("--n",eras.length);var title=document.createElement("div");title.className="tracktitle";title.textContent=t[1];lane.append(title);eras.forEach(function(era){var cell=document.createElement("div");cell.className="trackcell";data.filter(function(m){return m.track===t[0]&&m.era===era}).forEach(function(m){var b=document.createElement("button");b.className="event "+m.status+(showDelays&&m.delayed?" delay":"");var main=document.createElement("span");main.textContent=m.title;b.append(main);var small=document.createElement("small");small.textContent=m.date+" · "+(m.status==="done"?"Levererat":"Planerat");b.append(small);if(showDelays&&m.delayed){var d=document.createElement("small");d.className="delay-tag";d.textContent=m.delayQuarters?"⏱ +"+m.delayQuarters+" kvartal":"⏱ försenad";b.append(d)}b.addEventListener("click",function(){showMilestone(m)});cell.append(b)});lane.append(cell)});host.append(lane)});}
+function showMilestone(m){var lines=[m.body,"Betydelse: "+m.meaning];if(m.caveat)lines.push("Reservation: "+m.caveat);if(m.delayed)lines.push("Tidsförskjutning: "+m.delayText);openModal(m.title,m.date+" · "+(m.status==="done"?"Rapporterad händelse":"Framtidsbedömning"),lines,[{url:m.url,label:"Primärkälla"},{url:m.secondarySource,label:"Tidigare prognos"}])}
+document.querySelectorAll("[data-period]").forEach(function(b){b.onclick=function(){selectedPeriod=b.dataset.period;document.querySelectorAll("[data-period]").forEach(function(x){x.classList.toggle("active",x===b)});renderTimeline()}});document.querySelectorAll("[data-track]").forEach(function(b){b.onclick=function(){selectedTrack=b.dataset.track;document.querySelectorAll("[data-track]").forEach(function(x){x.classList.toggle("active",x===b)});renderTimeline()}});$("show-delays").onclick=function(){showDelays=!showDelays;this.classList.toggle("active",showDelays);this.setAttribute("aria-pressed",String(showDelays));this.textContent="Förseningar: "+(showDelays?"på":"av");renderTimeline()};
+async function getMilestones(){try{var r=await fetch("./data/milestones.json",{cache:"no-store"});if(!r.ok)throw Error(r.status);var j=await r.json();if(!Array.isArray(j.milestones)||j.milestones.length<15)throw Error("Ofullständig data");MILESTONES=j.milestones;renderTimeline()}catch(e){$("milestone-status").textContent="Kunde inte läsa tidslinjen: "+e.message;MILESTONES=[]}}
+function drawChart(){var svg=$("valuation-chart");while(svg.children.length>1)svg.removeChild(svg.lastChild);var NS="http://www.w3.org/2000/svg",add=function(tag,attrs,text,click){var e=document.createElementNS(NS,tag);Object.entries(attrs).forEach(function(k){e.setAttribute(k[0],k[1])});if(text!==undefined)e.textContent=text;if(click){e.style.cursor="pointer";e.addEventListener("click",click)}svg.append(e);return e};var vals=[1,3,5,8,10,15,20],base=SNAP.shares_outstanding_at_report,newN=400e6/currentPrice,max=1000,plotLeft=64,plotRight=958,plotBottom=325,plotTop=54;var y=function(value){return plotBottom-(value/max)*(plotBottom-plotTop)},x=function(i){return plotLeft+i*(plotRight-plotLeft)/(vals.length-1)};[0,200,400,600,800,1000].forEach(function(v){add("line",{x1:plotLeft,x2:plotRight,y1:y(v),y2:y(v),stroke:"#2d4651","stroke-width":1});add("text",{x:9,y:y(v)+4,fill:"#9eb4bf","font-size":12},String(v))});var paths=[["Före emission",base,"#66b6ff"],["Efter antagen emission",base+newN,"#62dab3"]];paths.forEach(function(p){var d=vals.map(function(v,i){return (i?"L":"M")+x(i)+" "+y(v*1e9/p[1])}).join(" ");add("path",{d:d,stroke:p[2],fill:"none","stroke-width":3});vals.forEach(function(v,i){var price=v*1e9/p[1];var detail=function(){var lines=["Bolagsvärde: "+v+" miljarder kr.","Före emissionsscenario: "+round(v*1e9/base,2)+" kr per aktie vid "+round(base,0)+" historiska aktier.","Efter emissionsscenario: "+round(price,2)+" kr per aktie om "+p[0].toLowerCase()+".","För det antagna emissionspriset "+round(currentPrice,2)+" kr blir antalet nya aktier cirka "+round(newN,0)+".","TO6, TO7, Fenja-optioner, konvertibler och transaktionskostnader är inte inräknade."];openModal(p[0]+" · "+v+" miljarder kr","Illustrativ känslighetsanalys",lines,[{url:SNAP?"https://www.cerenoscientific.com/~/media/Files/C/cereno-scientific/corp/results-and-presentations/2026/Cereno%20Scientific%20Delarsrapport%20Q3%202026.pdf":null,label:"Antal aktier Q3"},{url:"https://mfn.se/a/cereno-scientific/cereno-scientific-avser-genomfora-en-foretradesemission-av-units-om-cirka-400-msek-med-fokus-pa-den-globala-fas-iib-studien-epimode-och-erhaller-forlangd-lanefinansiering-om-upp-till-175-msek",label:"Emissionsvillkor"}]);$("valuation-summary").textContent=p[0]+": "+v+" miljarder kr ⇒ "+round(price,2)+" kr/aktie."};add("circle",{cx:x(i),cy:y(price),r:6,fill:p[2],stroke:"#12252b","stroke-width":2,role:"button",tabindex:"0","aria-label":p[0]+" "+v+" miljarder"},undefined,detail)});});vals.forEach(function(v,i){add("text",{x:x(i),y:350,fill:"#b1c8d3","font-size":13,"text-anchor":"middle"},String(v))});add("text",{x:plotLeft,y:379,fill:"#66b6ff","font-size":13},"● Före emission");add("text",{x:plotLeft+205,y:379,fill:"#62dab3","font-size":13},"● Efter hypotetisk emission");$("valuation-summary").textContent="Exempel: 5 miljarder kr ⇒ "+round(5e9/base,2)+" kr/aktie före och "+round(5e9/(base+newN),2)+" kr/aktie efter antagen emission."}
+function calcInfo(key){var o=outside,off=offsetFor(o),repay=70-off,price=currentPrice,old=SNAP.shares_outstanding_at_report,n=400e6/price,low=SCENARIO.low_multiplier,high=SCENARIO.high_multiplier;var src=[{url:"https://mfn.se/a/cereno-scientific/cereno-scientific-avser-genomfora-en-foretradesemission-av-units-om-cirka-400-msek-med-fokus-pa-den-globala-fas-iib-studien-epimode-och-erhaller-forlangd-lanefinansiering-om-upp-till-175-msek",label:"Finansieringsavtal"},{url:"https://www.cerenoscientific.com/~/media/Files/C/cereno-scientific/corp/results-and-presentations/2026/Cereno%20Scientific%20Delarsrapport%20Q3%202026.pdf",label:"Q3-rapport"}];if(key.startsWith("risk")){var h=Number(key.slice(4)),r=hazard/100;return ["Scenario: ytterligare emission inom "+h+" månader efter antagen fullteckning",["Antagen månatlig riskintensitet: "+round(hazard,2)+" % (användarvalt värde, ingen empirisk frekvens).","Formel P = 100 × (1 − exp(−månader × månatlig intensitet)).","P("+h+") = 100 × (1 − exp(−"+h+" × "+round(r,4)+")) = "+pct(risk(h,r))+".","Känslighet: intensitet × "+low+"–"+high+" ger "+pct(risk(h,r*low))+"–"+pct(risk(h,r*high))+".","Det gäller inte den redan aviserade emissionen och säger inget om fullteckningschansen."],src]}
+if(key==="burn")return ["Q3-operativt kassaflöde",["Bolagets Q3-rapport: −33,740891 Mkr under juli–september.","Kvartalssnitt −33,740891 ÷ 3 = −"+round(33.740891/3,2)+" Mkr/månad.","Historiskt kassaflöde, inte prognos."],src];
+if(key==="totalburn")return ["Kassautflöde inklusive utvecklingsinvesteringar",["Operativt Q3-kassaflöde: −33,740891 Mkr.","Investeringskassaflöde Q3: −24,001259 Mkr.","Summa = −57,742150 Mkr på kvartalet = −"+round(57.742150/3,2)+" Mkr/mån i historiskt snitt.","40,238566 Mkr rapporterad kassa ÷ "+round(57.742150/3,2)+" = "+round(40.238566/(57.742150/3),2)+" månader vid oförändrad historisk takt.","Detta är INTE kassans slutdatum, eftersom kostnadsnivå, skulder och finansieringsaktiviteter förändras."],src];
+if(key==="runway")return ["Så ska Q1 2028 tolkas",["Cereno uppger att om cirka 400 Mkr-emissionen fulltecknas förväntas finansiell uthållighet in i Q1 2028.","Det är bolagets egen villkorade planeringsbedömning – ingen beräkning av historisk kassaförbrukning och inte en bekräftad likviditetsdag.","TO6 och TO7 kan ge ytterligare finansiering för tiden fram till Q4 2028, men intäkterna är inte garanterade."],src];
+if(key==="offset"||key==="repayment")return ["Fenjas kvittning och återbetalning",["Övriga investerares teckning: "+money(o)+".","Maximalt kvittningsåtagande: 70 Mkr.","Kvittning = max(0; 70 − 0,5 × max(0; "+round(o,1)+" − 125)) = "+money(off)+".","Kontant återbetalning = 70 − "+round(off,1)+" = "+money(repay)+".","Teoretiskt nettokassabidrag efter denna skuldreglering = "+round(o,1)+" − "+round(repay,1)+" = "+money(o-repay)+".","Villkor, fullföljande, emissionskostnader och separat kvittad uppläggningsavgift är inte inräknade."],src];
+if(key==="interest")return ["Fenja – minsta räntenivåer",["Rörlig ränta på förlängda konvertibler och dragen facilitet: max(STIBOR 3M; 3 %) + 9 procentenheter.","Lägsta ränta = 3 %+9 % = 12 % per år.","På 105 Mkr förlängt lån motsvarar det minst 105 × 0,12 = 12,6 Mkr i årstakt före eventuell konvertering.","Outnyttjad facilitet: max(STIBOR 3M; 3 %) + 3 % = minst 6 % per år, upp till 4,2 Mkr/år på 70 Mkr.","Dessutom uppläggningsavgift 8,75 Mkr som regleras genom kvittning i units."],src];
+if(key==="dilution")return ["Utspädning – priskänslighet",["Hypotetisk teckningskurs: "+round(price,2)+" kr per B-aktie.","Antagna nya B-aktier = 400 000 000 kr ÷ "+round(price,2)+" = "+round(n,0)+".","Rapporterat befintligt antal 30 sep = "+round(old,0)+".","Ägarutspädning för icke-deltagare = nya / (befintliga + nya) × 100 = "+pct(100*n/(old+n))+".","Per unit: 4 nya B-aktier + 2 TO6 + 1 TO7. Framtida optioner, Fenja-teckning och konvertibler är exkluderade.","Detta är ett scenario; officiala emissionsvillkor är ännu inte beslutade."],src];return ["Beräkning",["Inga ytterligare data."] ,src]}
+document.querySelectorAll("[data-calc]").forEach(function(b){b.addEventListener("click",function(){var p=calcInfo(b.dataset.calc);openModal(p[0],"Stegvis uträkning · 15 nov 2026",p[1],p[2])})});
+async function loadFinance(){try{var r=await fetch("./data/financing.json",{cache:"no-store"});if(!r.ok)throw Error(r.status);var j=await r.json();$("fin-updated").textContent="Finansieringsunderlag kontrollerat "+j.updated_at+" · "+(j.automated_checked?"automatiska rubrikkontroller kompletterar":"manuellt källgranskat");var host=$("warning-list");host.replaceChildren();$("warning-count").textContent=String(j.alerts.length);j.alerts.forEach(function(a){var card=document.createElement("article");card.className="alert";var level=document.createElement("span");level.className="level";level.textContent=a.level.toUpperCase()+" · "+a.status;var title=document.createElement("strong");title.textContent=a.title;var body=document.createElement("p");body.textContent=a.detail;var small=document.createElement("small");small.textContent=a.date+" · Nästa: "+a.next_step;var link=document.createElement("a");link.href=a.source;link.rel="noopener noreferrer";link.target="_blank";link.textContent="Originalkälla ↗";card.append(level,title,body,small,document.createElement("div"),link);host.append(card)})}catch(e){$("fin-updated").textContent="Kunde inte läsa aktuell finansieringsdata. Grunduppgifter ovan avser 15 nov 2026."}}
+async function loadNews(){try{var r=await fetch("./data/news.json",{cache:"no-store"});if(!r.ok)throw Error(r.status);var j=await r.json(),host=$("news-list");host.replaceChildren();(j.items||[]).slice(0,12).forEach(function(n){var card=document.createElement("article");card.className="tile";var meta=document.createElement("small");meta.textContent=n.date+" · "+n.source+(n.verified?" · källkontrollerad":" · automatisk rubrik");var h=document.createElement("h3");h.style.fontSize="14px";h.textContent=n.title;var a=document.createElement("a");a.textContent="Läs original ↗";a.href=n.url;a.rel="noopener noreferrer";a.target="_blank";card.append(meta,h,a);host.append(card)});$("news-status").textContent="Senaste nyhetsfil: "+j.updated_at+" · automatisk rubrikinsamling är inte faktagranskning."}catch(e){$("news-status").textContent="Nyheter kunde inte laddas. Se Cerenos officiella pressmeddelanden."}}
+drawRisk();drawFenja();drawDilution();getMilestones();loadFinance();loadNews();
+</script></body></html>

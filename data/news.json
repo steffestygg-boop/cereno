@@ -1,0 +1,34 @@
+{
+  "updated_at": "2026-11-15",
+  "feed": "Företagets officiella publiceringar, därefter RSS-rubriker separat",
+  "items": [
+    {
+      "date": "2026-11-13",
+      "title": "Cereno förtydligar handelsstoppet – handeln återupptagen",
+      "source": "Cereno",
+      "url": "https://www.cerenoscientific.se/sv/nyhetsrum/pressmeddelanden?slug=cereno-scientific-lamnar-ett-fortydligande-kring-handelsstoppet",
+      "verified": true
+    },
+    {
+      "date": "2026-11-12",
+      "title": "Avsikt att emittera units för cirka 400 Mkr och nytt Fenja-avtal",
+      "source": "Cereno / MFN",
+      "url": "https://mfn.se/a/cereno-scientific/cereno-scientific-avser-genomfora-en-foretradesemission-av-units-om-cirka-400-msek-med-fokus-pa-den-globala-fas-iib-studien-epimode-och-erhaller-forlangd-lanefinansiering-om-upp-till-175-msek",
+      "verified": true
+    },
+    {
+      "date": "2026-11-04",
+      "title": "Q3-rapport: EPIMODE-mål Q4 2028, CS014-fas IIb Q3 2027",
+      "source": "Cereno",
+      "url": "https://www.cerenoscientific.com/sv/nyhetsrum/pressmeddelanden?slug=cereno-scientific-publicerar-delarsrapport-for-tredje-kvartal-2026",
+      "verified": true
+    },
+    {
+      "date": "2026-10-08",
+      "title": "Uppdaterad EPIMODE-plan: fler center, topline Q4 2028 kvarstår",
+      "source": "Cereno",
+      "url": "https://view.news.eu.nasdaq.com/view?id=bac2b3efd349cf90706b8cf56dc46c45d&lang=en&src=micro",
+      "verified": true
+    }
+  ]
+}

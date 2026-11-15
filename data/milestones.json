@@ -1,0 +1,308 @@
+{
+  "updated_at": "2026-11-15",
+  "editorial_note": "Dokumenterade historiska fakta och uttryckligt prognosmarkerade framtidshändelser. Datum är Cerenos officiella uppgifter; kvartalsplacering av årsbaserade mål är endast visning.",
+  "milestones": [
+    {
+      "era": "2024",
+      "track": "cs1",
+      "status": "done",
+      "date": "2024",
+      "title": "CS1 fas IIa – kliniska signaler",
+      "body": "Fas IIa i PAH avslutades. Bolaget rapporterade lovande kliniska och hemodynamiska signaler samt tolerabilitet.",
+      "meaning": "Underlag för fortsatt prövning; effekten måste bekräftas i randomiserad studie.",
+      "url": "https://www.cerenoscientific.com/~/media/Files/C/cereno-scientific/corp/results-and-presentations/2026/Cereno%20Scientific%20Delarsrapport%20Q3%202026.pdf"
+    },
+    {
+      "era": "2025",
+      "track": "cs1",
+      "status": "done",
+      "date": "2025",
+      "title": "Expanded Access Program",
+      "body": "Uppföljning av behandlade PAH-patienter under 12 månader presenterades som stödjande signaler.",
+      "meaning": "EAP är liten och okontrollerad; inte registreringsgrundande evidens.",
+      "url": "https://www.cerenoscientific.com/~/media/Files/C/cereno-scientific/corp/results-and-presentations/2026/Cereno%20Scientific%20Delarsrapport%20Q3%202026.pdf"
+    },
+    {
+      "era": "2025",
+      "track": "company",
+      "status": "done",
+      "date": "2025",
+      "title": "Tidigare Fenja-konvertibellån",
+      "body": "Bolaget hade en befintlig konvertibel skuldfinansiering; förlängning och avveckling av delar beslutades först genom 2026 års nya avtal.",
+      "meaning": "Skulden kan påverka framtida utspädning och likviditet.",
+      "url": "https://mfn.se/a/cereno-scientific/cereno-scientific-avser-genomfora-en-foretradesemission-av-units-om-cirka-400-msek-med-fokus-pa-den-globala-fas-iib-studien-epimode-och-erhaller-forlangd-lanefinansiering-om-upp-till-175-msek"
+    },
+    {
+      "era": "Q2 2026",
+      "track": "company",
+      "status": "done",
+      "date": "Q2 2026",
+      "title": "Riktad emission cirka 60 Mkr",
+      "body": "Under sommaren genomfördes en riktad nyemission på omkring 60 Mkr.",
+      "meaning": "Visar tidigare kapitalanskaffning före den nu aviserade företrädesemissionen.",
+      "url": "https://www.cerenoscientific.com/sv/nyhetsrum/pressmeddelanden?slug=cereno-scientific-publicerar-delarsrapport-for-tredje-kvartal-2026"
+    },
+    {
+      "era": "Q3 2026",
+      "track": "cs014",
+      "status": "done",
+      "date": "7 jul 2026",
+      "title": "PK-bryggstudien – dosering slutförd",
+      "body": "Samtliga doser och planerade deltagarbesök slutförda.",
+      "meaning": "Förberedelser för topline i september.",
+      "url": "https://www.cerenoscientific.com/sv/nyhetsrum/pressmeddelanden?slug=cereno-scientific-publicerar-delarsrapport-for-tredje-kvartal-2026"
+    },
+    {
+      "era": "Q3 2026",
+      "track": "cs1",
+      "status": "done",
+      "date": "13 aug 2026",
+      "title": "Första EPIMODE-centret aktiverat",
+      "body": "Första kliniska centret godkändes för screening och rekrytering av PAH-patienter.",
+      "meaning": "Inte samma sak som första randomiserade patient.",
+      "url": "https://www.cerenoscientific.com/sv/nyhetsrum/pressmeddelanden?slug=cereno-scientific-publicerar-delarsrapport-for-tredje-kvartal-2026"
+    },
+    {
+      "era": "Q3 2026",
+      "track": "cs014",
+      "status": "done",
+      "date": "25 sep 2026",
+      "title": "Positiv topline i PK-bryggstudien",
+      "body": "PK-resultat låg i linje med fördefinierade förväntningar.",
+      "meaning": "Stödjer, men garanterar inte, regulatorisk väg direkt mot fas IIb.",
+      "url": "https://www.cerenoscientific.com/sv/nyhetsrum/pressmeddelanden?slug=cereno-scientific-publicerar-delarsrapport-for-tredje-kvartal-2026"
+    },
+    {
+      "era": "Q3 2026",
+      "track": "company",
+      "status": "done",
+      "date": "30 sep 2026",
+      "title": "Kassa 40,24 Mkr vid kvartalsslut",
+      "body": "Koncernen redovisade 40,238566 Mkr i kassa och −33,741 Mkr i operativt kassaflöde under Q3.",
+      "meaning": "Rapporterad historisk siffra före det aviserade emissionsutfallet.",
+      "url": "https://www.cerenoscientific.com/~/media/Files/C/cereno-scientific/corp/results-and-presentations/2026/Cereno%20Scientific%20Delarsrapport%20Q3%202026.pdf"
+    },
+    {
+      "era": "Q4 2026",
+      "track": "cs1",
+      "status": "done",
+      "date": "8 okt 2026",
+      "title": "EPIMODE – reviderad operativ plan",
+      "body": "Bolaget uppgav upp till 15 aktiva center vid årsskiftet samt mer än hälften av planerade center vid slutet av Q1 2027.",
+      "meaning": "FPI hade tagit längre tid än förväntat; målet Q4 2028 för topline kvarstår.",
+      "url": "https://view.news.eu.nasdaq.com/view?id=bac2b3efd349cf90706b8cf56dc46c45d&lang=en&src=micro",
+      "delayed": true,
+      "delayText": "Första patientrandomisering senare än tidigare förväntat – ingen verifierad ursprunglig kvartalsgräns för en sifferförsening."
+    },
+    {
+      "era": "Q4 2026",
+      "track": "company",
+      "status": "done",
+      "date": "3 nov 2026",
+      "title": "Handelsstopp i Cereno B",
+      "body": "Nasdaq stoppade handeln från den 3 november med hänvisning till icke offentlig insiderinformation.",
+      "meaning": "Börshändelse; inte ett kliniskt utfall.",
+      "url": "https://www.cerenoscientific.se/sv/nyhetsrum/pressmeddelanden?slug=cereno-scientific-lamnar-ett-fortydligande-kring-handelsstoppet"
+    },
+    {
+      "era": "Q4 2026",
+      "track": "company",
+      "status": "done",
+      "date": "4 nov 2026",
+      "title": "Q3-rapport publicerad",
+      "body": "Kassa 40,24 Mkr, betydande kliniska utvecklingskostnader och planerat kapitalbehov.",
+      "meaning": "Riskgrund till finansieringsanalysen.",
+      "url": "https://www.cerenoscientific.com/sv/nyhetsrum/pressmeddelanden?slug=cereno-scientific-publicerar-delarsrapport-for-tredje-kvartal-2026"
+    },
+    {
+      "era": "Q4 2026",
+      "track": "company",
+      "status": "done",
+      "date": "12 nov 2026",
+      "title": "Avsikt till emission om 400 Mkr",
+      "body": "Företrädesemission i units (4 B-aktier, 2 TO6, 1 TO7) och ny Fenja-finansiering annonserades.",
+      "meaning": "Planerad finansiering är inte genomförd, och kontant likvid är inte lika med bruttobelopp.",
+      "url": "https://mfn.se/a/cereno-scientific/cereno-scientific-avser-genomfora-en-foretradesemission-av-units-om-cirka-400-msek-med-fokus-pa-den-globala-fas-iib-studien-epimode-och-erhaller-forlangd-lanefinansiering-om-upp-till-175-msek"
+    },
+    {
+      "era": "Q4 2026",
+      "track": "company",
+      "status": "done",
+      "date": "13 nov 2026",
+      "title": "Handeln återupptas",
+      "body": "Nasdaq återupptog handeln efter emissionsbesked. Bolaget redovisade en extern juridisk genomgång som inte identifierade felaktigt agerande i undersökta frågor.",
+      "meaning": "Bolaget kommenterar inte eventuella externa utredningar.",
+      "url": "https://www.cerenoscientific.se/sv/nyhetsrum/pressmeddelanden?slug=cereno-scientific-lamnar-ett-fortydligande-kring-handelsstoppet"
+    },
+    {
+      "era": "Q4 2026",
+      "track": "cs1",
+      "status": "future",
+      "date": "Q4 2026",
+      "title": "Första patient randomiseras och doseras",
+      "body": "Ledningen anger FPI som prioritet för återstoden av 2026; utfall ännu inte verifierat.",
+      "meaning": "Kritisk rekryteringsmilstolpe för EPIMODE.",
+      "url": "https://www.cerenoscientific.com/sv/nyhetsrum/pressmeddelanden?slug=cereno-scientific-publicerar-delarsrapport-for-tredje-kvartal-2026",
+      "delayed": true,
+      "delayText": "FPI senare än initialt väntat enligt Cerenos Q3-rapport. Ingen säker ursprunglig kvartalstidpunkt att räkna månader från."
+    },
+    {
+      "era": "Q4 2026",
+      "track": "cs1",
+      "status": "future",
+      "date": "Q4 2026",
+      "title": "Upp till 15 EPIMODE-center aktiva",
+      "body": "Bolagets mål för antalet aktiverade center vid årsskiftet.",
+      "meaning": "Mål, inte uppmätt siffra.",
+      "url": "https://view.news.eu.nasdaq.com/view?id=bac2b3efd349cf90706b8cf56dc46c45d&lang=en&src=micro"
+    },
+    {
+      "era": "Q4 2026",
+      "track": "cs014",
+      "status": "future",
+      "date": "Q4 2026",
+      "title": "IND-ansökan CS014 till FDA",
+      "body": "Bolaget planerar att lämna in IND för fas IIb-strategin inom PH-ILD.",
+      "meaning": "Beror på regulatoriskt underlag och FDA:s bedömning.",
+      "url": "https://www.cerenoscientific.com/sv/nyhetsrum/pressmeddelanden?slug=cereno-scientific-publicerar-delarsrapport-for-tredje-kvartal-2026"
+    },
+    {
+      "era": "Q4 2026",
+      "track": "company",
+      "status": "future",
+      "date": "15 dec 2026",
+      "title": "Extra bolagsstämma – emissionsbemyndigande",
+      "body": "Planerat beslut om bolagsordning och bemyndigande för företrädesemission.",
+      "meaning": "Nödvändigt villkor för att kunna slutföra emissionen.",
+      "url": "https://mfn.se/a/cereno-scientific/cereno-scientific-avser-genomfora-en-foretradesemission-av-units-om-cirka-400-msek-med-fokus-pa-den-globala-fas-iib-studien-epimode-och-erhaller-forlangd-lanefinansiering-om-upp-till-175-msek"
+    },
+    {
+      "era": "Q4 2026",
+      "track": "company",
+      "status": "future",
+      "date": "ca 17–18 dec 2026",
+      "title": "Styrelsebeslut om emissionsvillkor",
+      "body": "Avsikten är att fastställa teckningskurs, uniträttsförhållande och utspädning kring mitten av december.",
+      "meaning": "Bolagsmeddelandet nämner både 17 och 18 december; exakt dag är inte fastslagen.",
+      "url": "https://mfn.se/a/cereno-scientific/cereno-scientific-avser-genomfora-en-foretradesemission-av-units-om-cirka-400-msek-med-fokus-pa-den-globala-fas-iib-studien-epimode-och-erhaller-forlangd-lanefinansiering-om-upp-till-175-msek"
+    },
+    {
+      "era": "Q1 2027",
+      "track": "company",
+      "status": "future",
+      "date": "Q1 2027 · datum ej annonserat",
+      "title": "Teckningsperiod och emissionsutfall",
+      "body": "Detaljerad tidsplan publiceras först med slutliga emissionsvillkor.",
+      "meaning": "Kvartalsplacering är illustrativ, inte bolagets verifierade schema.",
+      "url": "https://mfn.se/a/cereno-scientific/cereno-scientific-avser-genomfora-en-foretradesemission-av-units-om-cirka-400-msek-med-fokus-pa-den-globala-fas-iib-studien-epimode-och-erhaller-forlangd-lanefinansiering-om-upp-till-175-msek",
+      "caveat": "Faktiskt teckningsdatum och redovisningsdag ännu inte fastställda; detta är en planeringsplaceholder."
+    },
+    {
+      "era": "Q1 2027",
+      "track": "cs1",
+      "status": "future",
+      "date": "Q1 2027",
+      "title": "Över hälften av EPIMODE-centren aktiva",
+      "body": "Bolagets mål är att över 50 % av det planerade globala centernätverket ska vara aktiverat vid kvartalsslut.",
+      "meaning": "Mätbar operativ milstolpe; antalet ska följas upp.",
+      "url": "https://view.news.eu.nasdaq.com/view?id=bac2b3efd349cf90706b8cf56dc46c45d&lang=en&src=micro"
+    },
+    {
+      "era": "Q3 2027",
+      "track": "cs014",
+      "status": "future",
+      "date": "Q3 2027",
+      "title": "CS014 fas IIb – planerad start",
+      "body": "Senaste Q3-rapporten anger start i PH-ILD i Q3 2027, under förutsättning av regulatoriskt godkännande.",
+      "meaning": "Tidigare produktsida anger Q1 2027; senaste prognosen är två kvartal senare.",
+      "url": "https://www.cerenoscientific.com/sv/nyhetsrum/pressmeddelanden?slug=cereno-scientific-publicerar-delarsrapport-for-tredje-kvartal-2026",
+      "delayed": true,
+      "originalQuarter": "Q1 2027",
+      "currentQuarter": "Q3 2027",
+      "delayQuarters": 2,
+      "secondarySource": "https://www.cerenoscientific.com/sv/vetenskap-pipeline/cs014",
+      "delayText": "Q1 2027 → Q3 2027, +2 kvartal. Produktwebben är inte uppdaterad; senaste Q3-rapporten har företräde."
+    },
+    {
+      "era": "Q3 2027",
+      "track": "company",
+      "status": "future",
+      "date": "Q3 2027",
+      "title": "TO6 – utfall följs upp",
+      "body": "TO6 kan utnyttjas under 24 maj–7 juni 2027, alltså Q2 2027; utfall och eventuell faktisk likvid bör kunna följas i efterföljande kvartal.",
+      "meaning": "Detta är en uppföljningspunkt, inte en ny lösenperiod.",
+      "url": "https://mfn.se/a/cereno-scientific/cereno-scientific-avser-genomfora-en-foretradesemission-av-units-om-cirka-400-msek-med-fokus-pa-den-globala-fas-iib-studien-epimode-och-erhaller-forlangd-lanefinansiering-om-upp-till-175-msek"
+    },
+    {
+      "era": "Q2 2027",
+      "track": "company",
+      "status": "future",
+      "date": "24 maj–7 jun 2027",
+      "title": "TO6 teckningsperiod",
+      "body": "Lösenkurs planeras bli 70 % av VWAP 5–19 maj 2027, max 125 % av emissionskursen och minst kvotvärdet.",
+      "meaning": "Intäkter upp till 250 Mkr enbart om optionerna utnyttjas.",
+      "url": "https://mfn.se/a/cereno-scientific/cereno-scientific-avser-genomfora-en-foretradesemission-av-units-om-cirka-400-msek-med-fokus-pa-den-globala-fas-iib-studien-epimode-och-erhaller-forlangd-lanefinansiering-om-upp-till-175-msek"
+    },
+    {
+      "era": "Q4 2027",
+      "track": "company",
+      "status": "future",
+      "date": "1 okt–31 dec 2027",
+      "title": "Fenjas extra kredit – möjligt uttag",
+      "body": "Ny lånefacilitet upp till 70 Mkr kan avropas under Q4 2027, men endast om marknadsvärdes- och övriga villkor är uppfyllda.",
+      "meaning": "Ej disponibel kassa idag. Kostar minst 12 % på draget och minst 6 % på outnyttjat belopp.",
+      "url": "https://mfn.se/a/cereno-scientific/cereno-scientific-avser-genomfora-en-foretradesemission-av-units-om-cirka-400-msek-med-fokus-pa-den-globala-fas-iib-studien-epimode-och-erhaller-forlangd-lanefinansiering-om-upp-till-175-msek"
+    },
+    {
+      "era": "Q4 2027",
+      "track": "company",
+      "status": "future",
+      "date": "25 okt–8 nov 2027",
+      "title": "TO7 teckningsperiod",
+      "body": "Lösenkurs planeras bli 70 % av VWAP 5–20 oktober 2027, max 150 % av emissionskursen, minst kvotvärdet.",
+      "meaning": "Intäkter upp till 150 Mkr vid fullt utnyttjande.",
+      "url": "https://mfn.se/a/cereno-scientific/cereno-scientific-avser-genomfora-en-foretradesemission-av-units-om-cirka-400-msek-med-fokus-pa-den-globala-fas-iib-studien-epimode-och-erhaller-forlangd-lanefinansiering-om-upp-till-175-msek"
+    },
+    {
+      "era": "Q4 2027",
+      "track": "cs1",
+      "status": "future",
+      "date": "2027 · kvartal ej angivet",
+      "title": "EPIMODE – målsatt slutförd rekrytering",
+      "body": "Cereno siktar på färdig patientrekrytering under kalenderåret 2027.",
+      "meaning": "Placerad i Q4 som sista möjliga kvartal för helårsmålet, inte som bolagets specifika Q4-prognos.",
+      "url": "https://view.news.eu.nasdaq.com/view?id=bac2b3efd349cf90706b8cf56dc46c45d&lang=en&src=micro",
+      "caveat": "Bolaget anger bara 2027, inte specifikt kvartal."
+    },
+    {
+      "era": "Q1 2028",
+      "track": "company",
+      "status": "future",
+      "date": "In i Q1 2028",
+      "title": "Finansieringshorisont efter fullteckning",
+      "body": "Bolaget bedömer att fulltecknad företrädesemission kan stärka uthålligheten in i första kvartalet 2028.",
+      "meaning": "Villkorad vägledning, inte kassa-prognos om emissionen misslyckas.",
+      "url": "https://mfn.se/a/cereno-scientific/cereno-scientific-avser-genomfora-en-foretradesemission-av-units-om-cirka-400-msek-med-fokus-pa-den-globala-fas-iib-studien-epimode-och-erhaller-forlangd-lanefinansiering-om-upp-till-175-msek"
+    },
+    {
+      "era": "Q4 2028",
+      "track": "cs1",
+      "status": "future",
+      "date": "Q4 2028",
+      "title": "EPIMODE fas IIb – topline",
+      "body": "Cereno räknar med topline-data för CS1 i PAH under fjärde kvartalet 2028.",
+      "meaning": "Förutsätter rekrytering enligt plan; största kliniska värdemilstolpen.",
+      "url": "https://view.news.eu.nasdaq.com/view?id=bac2b3efd349cf90706b8cf56dc46c45d&lang=en&src=micro"
+    },
+    {
+      "era": "Q4 2028",
+      "track": "company",
+      "status": "future",
+      "date": "12 nov 2028",
+      "title": "Fenjas förlängda lån förfaller",
+      "body": "105 Mkr av befintliga konvertibler får ny förfallodag efter genomförd emission; kan efter avtal förlängas till maj 2029.",
+      "meaning": "Refinansiering/konvertering är separata framtida kassaflödesrisker.",
+      "url": "https://mfn.se/a/cereno-scientific/cereno-scientific-avser-genomfora-en-foretradesemission-av-units-om-cirka-400-msek-med-fokus-pa-den-globala-fas-iib-studien-epimode-och-erhaller-forlangd-lanefinansiering-om-upp-till-175-msek"
+    }
+  ]
+}
