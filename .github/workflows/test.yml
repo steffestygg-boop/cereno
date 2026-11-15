@@ -21,7 +21,11 @@ jobs:
           import pathlib, re
           html = pathlib.Path('index.html').read_text(encoding='utf-8')
           blocks = re.findall(r'<script(?:\s[^>]*)?>(.*?)</script>', html, re.S)
-          assert len(blocks) >= 2 and 'function drawRisk' in blocks[-1]
+          assert len(blocks) >= 2 and 'function drawBankruptcy' in blocks[-1]
+          assert 'id="bankruptcy-title"' in html
+          assert 'id="fin-title"' in html
+          assert 'id="timeline-axis"' in html
+          assert 'Emissionsbarometern' not in html
           pathlib.Path('/tmp/cereno-app.js').write_text(blocks[-1], encoding='utf-8')
           PY
       - name: Kontrollera JavaScript-syntax
