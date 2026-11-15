@@ -891,14 +891,14 @@ footer{margin-top:30px;color:#90a4b0;border-top:1px solid #33434f;padding:25px 2
 <div class="bank-level">
 <span class="mini-label">Aktuellt läge · emission annonserad men ej genomförd</span>
 <div class="bank-header"><strong id="bank-current-level">Kritiskt finansieringsberoende</strong><button type="button" class="mathbtn" data-calc="bank-current" aria-label="Förklara bedömningen av konkursrisk">ⓘ</button></div>
-<div class="bank-meter"><div class="bank-meter-value" style="width:90%"></div></div>
+<div class="bank-meter" role="img" aria-label="Finansiellt stressindex 9 av 10, inte 90 procents konkurssannolikhet"><div class="bank-meter-value" style="width:90%"></div></div><p class="fine"><b>Riskindex: 9/10</b> · subjektiv stressnivå, inte en konkurssannolikhet.</p>
 <p class="fine">Utgångsläget bygger på rapporterad kassa den 30 september, Q3-kassaflöde och avtalad finansiering som ännu är villkorad. Visar finansiell stress, inte sannolikhet för juridisk konkurs.</p>
 </div>
 <div class="bank-level bank-level-scenario">
 <span class="mini-label">Scenario · om valda teckningar infrias och emissionen kan genomföras</span>
 <div class="bank-header"><strong id="bank-scenario-level">–</strong><button type="button" class="mathbtn" data-calc="bank-scenario" aria-label="Visa beräkningen av konkursbarometerns scenariorisk">∑</button></div>
 <div class="bank-meter"><div class="bank-meter-value" id="bank-scenario-bar" style="width:0%"></div></div>
-<p class="fine" id="bank-scenario-explain">Scenariot räknas med investerarnas teckning i emissionsavsnittet. Varken en riskpoäng eller ett historiskt kassasnitt motsvarar en konkursprocent.</p>
+<p class="fine" id="bank-scenario-explain">Scenariot använder vald teckning i emissionsavsnittet. Riskpoängen är ett jämförelseindex, inte en konkursprocent.</p>
 </div></div>
 <h3>Vad händer om emissionen misslyckas eller blir mindre än planerat?</h3>
 <div class="bank-cases" aria-label="Konkursrisk vid olika finansieringsutfall">
