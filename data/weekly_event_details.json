@@ -1,0 +1,81 @@
+{
+  "schema_version": 1,
+  "updated_at": "2026-11-16",
+  "editorial_policy": "Kort med konkreta tal direkt. Fördjupning i klickbar dialog. Redaktionella uppgifter källgranskade mot varje primärkälla. Framtida RSS-rubriker får inte automatiskt felaktiga fakta.",
+  "by_title": {
+    "Avsikt till emission om 400 Mkr": {
+      "title": "Cereno planerar företrädesemission om 400 Mkr",
+      "summary": "Cereno aviserar units för cirka 400 Mkr brutto: 4 B-aktier, 2 TO6 och 1 TO7 per unit. Fenja-avtal omfattar lånefinansiering om upp till 175 Mkr.",
+      "details": "Den 12 november meddelade Cereno att emissionen ska finansiera bland annat den globala fas IIb-studien EPIMODE. Befintliga konvertibler om 105 Mkr förlängs till 12 november 2028, medan en separat lånefacilitet upp till 70 Mkr kan avropas under Q4 2027 om finansiella villkor uppfylls. Återstående 70 Mkr av befintligt lån ska regleras kontant och/eller genom kvittning mot units. Villkoren är beroende av bolagsbeslut, bland annat extra bolagsstämman 15 december.",
+      "importance": "De 400 Mkr är ett planerat bruttobelopp, inte bekräftad kontant emissionslikvid. Skuldkvittningar ger inte nytt kassatillskott.",
+      "key_facts": [
+        "Planerad emissionsvolym: cirka 400 Mkr brutto",
+        "Per unit: 4 B-aktier + 2 TO6 + 1 TO7",
+        "Förlängt befintligt lån: 105 Mkr till november 2028",
+        "Ny villkorad låneram: högst 70 Mkr under Q4 2027",
+        "Extra bolagsstämma: 15 december 2026"
+      ],
+      "source_url": "https://mfn.se/a/cereno-scientific/cereno-scientific-avser-genomfora-en-foretradesemission-av-units-om-cirka-400-msek-med-fokus-pa-den-globala-fas-iib-studien-epimode-och-erhaller-forlangd-lanefinansiering-om-upp-till-175-msek"
+    },
+    "Cereno Scientific planerar företrädesemission om 400 miljoner kronor för fortsatt klinisk utveckling": {
+      "title": "Cereno: emission om 400 Mkr för EPIMODE",
+      "summary": "Emissionen planeras till cirka 400 Mkr före kostnader och ska stödja EPIMODE. Units föreslås innehålla fyra B-aktier samt TO6 och TO7.",
+      "details": "Bolaget har samtidigt aviserat nytt avtal med Fenja om förlängda konvertibler och framtida villkorad kredit. De slutliga emissionsvillkoren var ännu inte fastställda när nyheten publicerades.",
+      "importance": "Det är ännu ett annonserat finansieringsupplägg, inte inbetald likvid.",
+      "key_facts": [
+        "Avsedd emissionsvolym: 400 Mkr",
+        "Units: 4 B-aktier + 2 TO6 + 1 TO7",
+        "Extra stämma planerad: 15 december 2026"
+      ],
+      "source_url": "https://mfn.se/a/cereno-scientific/cereno-scientific-avser-genomfora-en-foretradesemission-av-units-om-cirka-400-msek-med-fokus-pa-den-globala-fas-iib-studien-epimode-och-erhaller-forlangd-lanefinansiering-om-upp-till-175-msek"
+    },
+    "Cereno förtydligar handelsstoppet – handeln återupptagen": {
+      "title": "Cereno: handeln återupptogs den 13 november",
+      "summary": "Handeln i CRNO B återupptogs efter handelsstoppet som inleddes den 3 november. Bolaget har offentliggjort finansieringsplanen och kommenterat sin granskning av händelserna.",
+      "details": "I bolagets förtydligande uppgav Cereno att en extern juridisk granskning inte hade identifierat felaktigt agerande inom de frågor som undersökts. Handelsstoppet var kopplat till icke offentliggjord insiderinformation. Återupptagen handel ändrar inte i sig villkoren för den aviserade emissionen.",
+      "importance": "Att handeln återupptas innebär inte att finansieringen är genomförd eller att frågan om eventuell informationsläcka är avgjord.",
+      "key_facts": [
+        "Handelsstopp från: 3 november 2026",
+        "Handeln återupptagen: 13 november 2026",
+        "Emissionsbesked: 12 november 2026"
+      ],
+      "source_url": "https://www.cerenoscientific.se/sv/nyhetsrum/pressmeddelanden?slug=cereno-scientific-lamnar-ett-fortydligande-kring-handelsstoppet"
+    },
+    "Cereno Scientifics handelsstopp hävs": {
+      "title": "Nasdaq återupptar handeln i Cereno B",
+      "summary": "Handeln återupptogs 13 november efter stopp sedan 3 november och efter att Cereno presenterat finansieringsplanen om cirka 400 Mkr.",
+      "details": "Handelsstoppet hade motiverats med förekomst av insiderinformation som ännu inte offentliggjorts. Cereno har därefter lämnat ett förtydligande kring händelseförloppet.",
+      "importance": "Det är en handelshändelse; risken i den planerade emissionen kvarstår.",
+      "key_facts": [
+        "Stopp: 3 november",
+        "Återupptagen handel: 13 november",
+        "Emission aviserad: 12 november"
+      ],
+      "source_url": "https://www.cerenoscientific.se/sv/nyhetsrum/pressmeddelanden?slug=cereno-scientific-lamnar-ett-fortydligande-kring-handelsstoppet"
+    },
+    "Q3-rapport: EPIMODE-mål Q4 2028, CS014-fas IIb Q3 2027": {
+      "title": "Cereno Q3: 40,24 Mkr i kassan och nya studiemål",
+      "summary": "Rapporterad kassa 40,24 Mkr per 30 september. EPIMODE har fortfarande målsättning topline Q4 2028, medan CS014 fas IIb anges till Q3 2027.",
+      "details": "Bolaget redovisade fortsatt betydande utgifter för klinisk utveckling. Kassautflöde från drift och investeringar var totalt omkring 57,7 Mkr under Q3 före finansiering. EPIMODE förbereds för global fas IIb och CS014 för nästa kliniska steg. Bolaget pekade på behov av fortsatt finansiering.",
+      "importance": "Det rapporterade kapitalbehovet är bakgrunden till den senare aviserade emissionen.",
+      "key_facts": [
+        "Kassa 30 september: 40,24 Mkr",
+        "Kassaflöde Q3 före finansiering: cirka −57,7 Mkr",
+        "EPIMODE topline: mål Q4 2028",
+        "CS014 fas IIb: planerad Q3 2027"
+      ],
+      "source_url": "https://www.cerenoscientific.com/sv/nyhetsrum/pressmeddelanden?slug=cereno-scientific-publicerar-delarsrapport-for-tredje-kvartal-2026"
+    },
+    "Handelsstopp i Cereno B": {
+      "title": "Cereno B handelsstoppad 3 november",
+      "summary": "Nasdaq stoppade handeln i CRNO B den 3 november med hänvisning till icke offentliggjord insiderinformation. Orsaken var då inte offentlig.",
+      "details": "När handeln stoppades hade bolaget ännu inte publicerat finansieringsbeskedet den 12 november. Det är viktigt att skilja information som var känd vid stoppet från den som kom senare.",
+      "importance": "Handelsstopp kan ha flera orsaker och var i sig inte bevis för en kommande emission.",
+      "key_facts": [
+        "Handelsstopp: 3 november 2026",
+        "Emissionsbesked: 12 november 2026"
+      ],
+      "source_url": "https://www.cerenoscientific.se/sv/nyhetsrum/pressmeddelanden?slug=cereno-scientific-lamnar-ett-fortydligande-kring-handelsstoppet"
+    }
+  }
+}
