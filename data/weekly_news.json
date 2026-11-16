@@ -343,33 +343,44 @@
         },
         {
           "date": "2026-11-04",
-          "title": "Cereno siktar på fas IIb IND-ansökan för CS014 och trappar upp EPIMODE",
+          "title": "Cereno: CS014 IND planeras Q4 2026, fas IIb Q3 2027",
           "category": "Studie och resultat",
-          "summary": "",
+          "summary": "Cereno planerar en IND-ansökan för CS014 under Q4 2026 och möjlig fas IIb-start under Q3 2027. EPIMODE förbereder fler kliniker.",
           "source": "Biostock",
-          "url": "https://news.google.com/rss/articles/CBMioAFBVV95cUxPQ0szVjVEUU04TjNadzk4RldFVDJzMG12YThsdlFjaFNvc1VsMVdVRFlzdnprOWZmNk91Wk9TcVN5WWZfUl8ydWxrXzNHcjlwYUxISFVZcjlCdWp5cjJtNHY0SWI1d3JneWFUZEd5UjJvRGtOWlVITUlub0dSVUFqaVV2WVBpV2FkZkdEckN0b1RKZkFRTGl5aHliX1NieHVZ?oc=5",
+          "url": "https://www.cerenoscientific.se/sv/nyhetsrum/pressmeddelanden?slug=cereno-scientific-publicerar-delarsrapport-for-tredje-kvartal-2026",
           "verified": false,
           "origin": "rubrik",
           "source_note": "Automatiskt insamlad rubrik – originalartikeln har inte fullständigt faktagranskats",
-          "details": "",
-          "importance": "",
-          "key_facts": [],
-          "editorial_verified": false
+          "details": "Bolaget beskriver en regulatorisk väg för CS014 mot fas IIb, förutsatt nödvändiga klartecken. För CS1-studien EPIMODE ligger målet om topline under Q4 2028 kvar trots längre uppstartsfas. Bolaget prioriterar patientrekrytering och centeraktivering.",
+          "importance": "Tidsplanerna påverkar när kliniska data kan komma och vilken finansiering som behövs innan dess.",
+          "key_facts": [
+            "CS014 IND: plan Q4 2026",
+            "CS014 fas IIb-start: plan Q3 2027",
+            "EPIMODE topline: mål Q4 2028"
+          ],
+          "editorial_verified": true,
+          "additional_source_url": "https://news.google.com/rss/articles/CBMioAFBVV95cUxPQ0szVjVEUU04TjNadzk4RldFVDJzMG12YThsdlFjaFNvc1VsMVdVRFlzdnprOWZmNk91Wk9TcVN5WWZfUl8ydWxrXzNHcjlwYUxISFVZcjlCdWp5cjJtNHY0SWI1d3JneWFUZEd5UjJvRGtOWlVITUlub0dSVUFqaVV2WVBpV2FkZkdEckN0b1RKZkFRTGl5aHliX1NieHVZ?oc=5"
         },
         {
           "date": "2026-11-04",
-          "title": "Cereno Scientific ökade rörelseförlusten till 17,9 miljoner kronor",
+          "title": "Cereno: rörelseförlusten steg till 17,9 Mkr i Q3",
           "category": "Rapport och ekonomi",
-          "summary": "",
+          "summary": "Rörelseförlusten ökade till 17,9 Mkr från 13,6 Mkr motsvarande kvartal 2025. Resultat efter finansiella poster var −27,4 Mkr och kassan 40,2 Mkr.",
           "source": "Börsvärlden",
-          "url": "https://news.google.com/rss/articles/CBMinwFBVV95cUxQYlBfcE9fTDFSdGp5XzcwM19zSHF6aHQ5bjROck1GZndkNUNNYnFTYTFyTGhoREE1cHhta2F4WGxqR0VUX214YUdCYXFaek0tLXpOWlpnZEN0Wm9EbHNZekVNZ0tTSHh2am8xUmh4YXYzYVd4TFIwX3g3OEVsd3lQU2l2N25SNzZESkxVZ0UtVWNyLXR6OEhFbmpkMTZER0U?oc=5",
+          "url": "https://www.cerenoscientific.se/sv/nyhetsrum/pressmeddelanden?slug=cereno-scientific-publicerar-delarsrapport-for-tredje-kvartal-2026",
           "verified": false,
           "origin": "rubrik",
           "source_note": "Automatiskt insamlad rubrik – originalartikeln har inte fullständigt faktagranskats",
-          "details": "",
-          "importance": "",
-          "key_facts": [],
-          "editorial_verified": false
+          "details": "Cerenos Q3-rapport visar att rörelsekostnaderna ökade under fortsatt klinisk utveckling. Under januari–september uppgick rörelseresultatet till cirka −58,8 Mkr mot −47,4 Mkr samma period 2025. Bolaget rapporterade fortsatt arbete med CS1, CS014 och CS585.",
+          "importance": "Kostnadsnivån och kassaläget är viktiga för analysen av Cerenos finansieringsbehov och den senare aviserade emissionen.",
+          "key_facts": [
+            "Rörelseförlust Q3 2026: −17,9 Mkr",
+            "Rörelseförlust Q3 2025: −13,6 Mkr",
+            "Resultat efter finansnetto Q3: −27,4 Mkr",
+            "Kassa 30 september: 40,2 Mkr"
+          ],
+          "editorial_verified": true,
+          "additional_source_url": "https://news.google.com/rss/articles/CBMinwFBVV95cUxQYlBfcE9fTDFSdGp5XzcwM19zSHF6aHQ5bjROck1GZndkNUNNYnFTYTFyTGhoREE1cHhta2F4WGxqR0VUX214YUdCYXFaek0tLXpOWlpnZEN0Wm9EbHNZekVNZ0tTSHh2am8xUmh4YXYzYVd4TFIwX3g3OEVsd3lQU2l2N25SNzZESkxVZ0UtVWNyLXR6OEhFbmpkMTZER0U?oc=5"
         },
         {
           "date": "2026-11-03",
