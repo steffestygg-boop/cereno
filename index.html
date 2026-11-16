@@ -900,7 +900,7 @@ footer{margin-top:30px;color:#90a4b0;border-top:1px solid #33434f;padding:25px 2
  <div class="weekly-head">
   <div><p class="section-kicker"><span class="section-number">02</span> Veckosammanfattning</p>
   <h2 id="weekly-heading">Veckans nyheter</h2>
-  <p class="weekly-intro">Veckans viktigaste händelser, finansieringsläget och förändringar i analyser och milstolpar. Källor och datum visas för varje händelse.</p></div>
+  <p class="weekly-intro">Veckans viktigaste händelser, emissionen, konkursrisk och ändringar i analyser och milstolpar. Källor och datum visas för varje händelse.</p></div>
   <span class="weekly-tag">Söndagskväll · veckovis</span>
  </div>
  <p class="weekly-status" id="weekly-status" role="status" aria-live="polite">Läser in veckans sammanställning …</p>
@@ -1183,7 +1183,7 @@ drawFenja();drawBankruptcy();drawDilution();getMilestones();loadFinance();loadNe
    }
   }else shell.append(make('p','weekly-small','Inga daterade händelser hittades i de källor som gick att läsa. Detta innebär inte att inget har hänt.'));
   const analysis=make('div','weekly-analysis');
-  analysis.append(make('h3','','Ändringar i emissionsbarometer och milstolpar'));
+  analysis.append(make('h3','','Emission, konkursbarometer och milstolpar'));
   const s=w.finance_snapshot||{},label=make('div','metric');
   if(typeof s.risk_6==='number'){
    label.append(make('span','','Emissionsrisk inom sex månader:'),
