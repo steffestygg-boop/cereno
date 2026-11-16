@@ -1,6 +1,6 @@
 {
-  "updated_at": "2026-11-15",
-  "feed": "Företagets officiella publiceringar, därefter RSS-rubriker separat",
+  "updated_at": "2026-11-16T09:11:24+00:00",
+  "feed": "Källkontrollerade notiser + automatiska, obekräftade Google News RSS-rubriker",
   "items": [
     {
       "date": "2026-11-13",
@@ -29,6 +29,55 @@
       "source": "Cereno",
       "url": "https://view.news.eu.nasdaq.com/view?id=bac2b3efd349cf90706b8cf56dc46c45d&lang=en&src=micro",
       "verified": true
+    },
+    {
+      "title": "Cereno Scientific: More runway, more opportunity - Edison - Börsvärlden",
+      "url": "https://news.google.com/rss/articles/CBMijwFBVV95cUxQYVZNek81RDhYclNMbkpZZFNYR0dDSjVIX3FJU0hBRnR0MktJZWtDUzgwWUpUeW1SY1NTa2NVVHZySngwUkNENHRzTngxREdiYXNWVGZ4R0NXcGtpRzR4dDRNZE4yQnRkcU9pQ2tTMnplUWZtMEVVSExGWkFoWGQ2czRuM3FJQ0NUM1hLeVUxdw?oc=5",
+      "date": "2026-11-16",
+      "source": "Börsvärlden",
+      "verified": false
+    },
+    {
+      "title": "Cereno Scientific rasar efter handelsstopp 13 november 2026 - HurBra.se",
+      "url": "https://news.google.com/rss/articles/CBMidEFVX3lxTE5CcFdTR3pIa0NUMnNMUklqX0NpWUNDV3F3RWloSEFZUWNzYWVwMVVFbFllaDRjaXVSNXZqdWFKczhrVktVeHk5R0dxTGVZZEJhaGxkTndOX0NmVUtSSmF0a3ladU42em5vakl1VWtwc3NjUkVz?oc=5",
+      "date": "2026-11-13",
+      "source": "HurBra.se",
+      "verified": false
+    },
+    {
+      "title": "Cereno Scientific planerar företrädesemission om 400 miljoner kronor för fortsatt klinisk utveckling - Biostock",
+      "url": "https://news.google.com/rss/articles/CBMiyAFBVV95cUxQVmRaek9sMVZyc0Y4MC1EakZQWmRvOHQ5MHE1VlZocGpWN1R1MTRkVzRLUEFRaGFHTHdOMEw2UE9BcjBGbkVXWDhnb2h5c3ZCZ09yNWh4d1BpaU9OdG9GbUJQanpVa25zZUI4azEyWTlyUk9TNlNGeURJWDhHa3lpaldtdlZzMEJZVTFqbjV1ek1RZTJVZUV6M2ZyM0xPcThhUThrRDhHTVVXOW1mRDFlc1NVbHRHWWtFeG5Kb0RMUDczRDN1a0tZVQ?oc=5",
+      "date": "2026-11-12",
+      "source": "Biostock",
+      "verified": false
+    },
+    {
+      "title": "Cereno Scientific planerar företrädesemission på 400 miljoner kronor – förlänger lån - Börsvärlden",
+      "url": "https://news.google.com/rss/articles/CBMitgFBVV95cUxQdGZjdVdjVWNHSURna1VrRWtLQ0xPNHRkV2NRamo4QnlhTEJsbUtpVW9meThLOUpna3dTWVUxMXlWYjZHRjNoaXJuc0JCWUUteERRRWlfd1EwSFBsdFFQT1NKVGpaRHdmSWJSeWJGQVRIVkZxXzFrc19xTFFYRUdSN1ctYWNPRkF1Q05YT0VkN1V3YU9aM1RqcXBLMkM1cS04bzU5Y0tUOG1nSHNranFRcFhPVkpuUQ?oc=5",
+      "date": "2026-11-12",
+      "source": "Börsvärlden",
+      "verified": false
+    },
+    {
+      "title": "Cereno Scientific ökade rörelseförlusten till 17,9 miljoner kronor - Börsvärlden",
+      "url": "https://news.google.com/rss/articles/CBMinwFBVV95cUxQYlBfcE9fTDFSdGp5XzcwM19zSHF6aHQ5bjROck1GZndkNUNNYnFTYTFyTGhoREE1cHhta2F4WGxqR0VUX214YUdCYXFaek0tLXpOWlpnZEN0Wm9EbHNZekVNZ0tTSHh2am8xUmh4YXYzYVd4TFIwX3g3OEVsd3lQU2l2N25SNzZESkxVZ0UtVWNyLXR6OEhFbmpkMTZER0U?oc=5",
+      "date": "2026-11-04",
+      "source": "Börsvärlden",
+      "verified": false
+    },
+    {
+      "title": "Cereno Scientific föreslår Johan Eriksson som ny styrelseledamot - Börsvärlden",
+      "url": "https://news.google.com/rss/articles/CBMingFBVV95cUxPVmRRclRrdGNqTFFySG43b29KZmxLN0lKbG5LUHJsUDN5M1NTZjlWRnFjU3BnWnJ6N2lPQlBUZEIyRE94Q25Cb3ptRUVXYjMxVjczQnAyOHFSQVFXTGJZbkM0UlBlUzBNdjhFSFZENk9nTjhyVjU5TEYwMU8xN29CWGVvS05YODhockN0QTZXcE9mS2xfYW1kRmozZnBDQQ?oc=5",
+      "date": "2026-10-09",
+      "source": "Börsvärlden",
+      "verified": false
+    },
+    {
+      "title": "Nollomsättning och ökad förlust för Cereno - Affärsvärlden",
+      "url": "https://news.google.com/rss/articles/CBMihgFBVV95cUxQd1o3dUZmVHlzUWVzRzhGRTFXclQ0SDdTTVZxY1Bjbi1JalViczQzNnVWZ1ltME8yWTM3ZU1xOHZ2SV9hZkZmS3ZIRDZLSGF4LUNvLURRaHVENVNxTEl1d0R3YjE2M1plSXY5Zzlud3RnbFFwMzNxYUI4c2JaRGdOVlRnTXNJQQ?oc=5",
+      "date": "2026-08-26",
+      "source": "Affärsvärlden",
+      "verified": false
     }
   ]
 }
