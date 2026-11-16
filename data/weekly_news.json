@@ -3,7 +3,7 @@
   "company": "Cereno Scientific",
   "timezone": "Europe/Stockholm",
   "schedule": "Söndag kväll 19:30 UTC (20:30 vintertid / 21:30 sommartid), med måndagskontroll",
-  "updated_at": "2026-11-16T11:19:53+01:00",
+  "updated_at": "2026-11-16T11:28:42+01:00",
   "latest_week": "2026-W46",
   "weeks": [
     {
@@ -12,63 +12,63 @@
       "year": 2026,
       "start": "2026-11-09",
       "end": "2026-11-15",
-      "generated_at": "2026-11-16T11:19:53+01:00",
-      "intro": "Veckans tydligaste källanknutna besked: Avsikt till emission om 400 Mkr.",
+      "generated_at": "2026-11-16T11:28:42+01:00",
+      "intro": "Veckans tydligaste källanknutna besked: Cereno planerar företrädesemission om 400 Mkr.",
       "events": [
         {
           "date": "2026-11-13",
-          "title": "Cereno förtydligar handelsstoppet – handeln återupptagen",
+          "title": "Cereno: handeln återupptogs den 13 november",
           "category": "Handelsstopp",
-          "summary": "Börshandelns status eller orsak berörs. Kontrollera börsens och bolagets daterade originalbesked.",
+          "summary": "Handeln i CRNO B återupptogs efter handelsstoppet som inleddes den 3 november. Bolaget har offentliggjort finansieringsplanen och kommenterat sin granskning av händelserna.",
           "source": "Cereno",
           "url": "https://www.cerenoscientific.se/sv/nyhetsrum/pressmeddelanden?slug=cereno-scientific-lamnar-ett-fortydligande-kring-handelsstoppet",
           "verified": true,
           "origin": "källgranskad",
-          "source_note": "Manuellt källgranskad post"
+          "source_note": "Manuellt källgranskad post",
+          "details": "I bolagets förtydligande uppgav Cereno att en extern juridisk granskning inte hade identifierat felaktigt agerande inom de frågor som undersökts. Handelsstoppet var kopplat till icke offentliggjord insiderinformation. Återupptagen handel ändrar inte i sig villkoren för den aviserade emissionen.",
+          "importance": "Att handeln återupptas innebär inte att finansieringen är genomförd eller att frågan om eventuell informationsläcka är avgjord.",
+          "key_facts": [
+            "Handelsstopp från: 3 november 2026",
+            "Handeln återupptagen: 13 november 2026",
+            "Emissionsbesked: 12 november 2026"
+          ],
+          "editorial_verified": true
         },
         {
           "date": "2026-11-13",
           "title": "Cereno Scientific rasar efter handelsstopp 13 november 2026 - HurBra.se",
           "category": "Handelsstopp",
-          "summary": "Börshandelns status eller orsak berörs. Kontrollera börsens och bolagets daterade originalbesked.",
+          "summary": "",
           "source": "HurBra.se",
           "url": "https://news.google.com/rss/articles/CBMidEFVX3lxTE5CcFdTR3pIa0NUMnNMUklqX0NpWUNDV3F3RWloSEFZUWNzYWVwMVVFbFllaDRjaXVSNXZqdWFKczhrVktVeHk5R0dxTGVZZEJhaGxkTndOX0NmVUtSSmF0a3ladU42em5vakl1VWtwc3NjUkVz?oc=5",
           "verified": false,
           "origin": "rubrik",
-          "source_note": "Automatiskt insamlad rubrik – originalartikeln har inte fullständigt faktagranskats"
-        },
-        {
-          "date": "2026-11-13",
-          "title": "Cereno Scientifics handelsstopp hävs",
-          "category": "Handelsstopp",
-          "summary": "Börshandelns status eller orsak berörs. Kontrollera börsens och bolagets daterade originalbesked.",
-          "source": "DI",
-          "url": "https://news.google.com/rss/articles/CBMibEFVX3lxTE9QWTAxNTBydHlpNmJOUDQtX3c1bmRELWRpellNQmFOSEhYRGRIMGxHcWlRQ0wwOFZkSkl2VzVVS3lOeldxdlZVUHBxR1cwb3d5VkhWVDJHd0RyTHBfemotTTI5UTlnX1JmWDBKWA?oc=5",
-          "verified": false,
-          "origin": "rubrik",
-          "source_note": "Automatiskt insamlad rubrik – originalartikeln har inte fullständigt faktagranskats"
+          "source_note": "Automatiskt insamlad rubrik – originalartikeln har inte fullständigt faktagranskats",
+          "details": "",
+          "importance": "",
+          "key_facts": [],
+          "editorial_verified": false
         },
         {
           "date": "2026-11-12",
-          "title": "Avsikt till emission om 400 Mkr",
+          "title": "Cereno planerar företrädesemission om 400 Mkr",
           "category": "Emission och finansiering",
-          "summary": "Finansieringsvillkor och möjlig utspädning behöver skiljas från faktiskt inbetald likvid.",
+          "summary": "Cereno aviserar units för cirka 400 Mkr brutto: 4 B-aktier, 2 TO6 och 1 TO7 per unit. Fenja-avtal omfattar lånefinansiering om upp till 175 Mkr.",
           "source": "Dokumenterad milstolpe",
           "url": "https://mfn.se/a/cereno-scientific/cereno-scientific-avser-genomfora-en-foretradesemission-av-units-om-cirka-400-msek-med-fokus-pa-den-globala-fas-iib-studien-epimode-och-erhaller-forlangd-lanefinansiering-om-upp-till-175-msek",
           "verified": true,
           "origin": "milstolpe",
-          "source_note": "Manuellt källgranskad post"
-        },
-        {
-          "date": "2026-11-12",
-          "title": "Cereno Scientific planerar företrädesemission om 400 miljoner kronor för fortsatt klinisk utveckling",
-          "category": "Emission och finansiering",
-          "summary": "Finansieringsvillkor och möjlig utspädning behöver skiljas från faktiskt inbetald likvid.",
-          "source": "Biostock",
-          "url": "https://news.google.com/rss/articles/CBMiyAFBVV95cUxQVmRaek9sMVZyc0Y4MC1EakZQWmRvOHQ5MHE1VlZocGpWN1R1MTRkVzRLUEFRaGFHTHdOMEw2UE9BcjBGbkVXWDhnb2h5c3ZCZ09yNWh4d1BpaU9OdG9GbUJQanpVa25zZUI4azEyWTlyUk9TNlNGeURJWDhHa3lpaldtdlZzMEJZVTFqbjV1ek1RZTJVZUV6M2ZyM0xPcThhUThrRDhHTVVXOW1mRDFlc1NVbHRHWWtFeG5Kb0RMUDczRDN1a0tZVQ?oc=5",
-          "verified": false,
-          "origin": "rubrik",
-          "source_note": "Automatiskt insamlad rubrik – originalartikeln har inte fullständigt faktagranskats"
+          "source_note": "Manuellt källgranskad post",
+          "details": "Den 12 november meddelade Cereno att emissionen ska finansiera bland annat den globala fas IIb-studien EPIMODE. Befintliga konvertibler om 105 Mkr förlängs till 12 november 2028, medan en separat lånefacilitet upp till 70 Mkr kan avropas under Q4 2027 om finansiella villkor uppfylls. Återstående 70 Mkr av befintligt lån ska regleras kontant och/eller genom kvittning mot units. Villkoren är beroende av bolagsbeslut, bland annat extra bolagsstämman 15 december.",
+          "importance": "De 400 Mkr är ett planerat bruttobelopp, inte bekräftad kontant emissionslikvid. Skuldkvittningar ger inte nytt kassatillskott.",
+          "key_facts": [
+            "Planerad emissionsvolym: cirka 400 Mkr brutto",
+            "Per unit: 4 B-aktier + 2 TO6 + 1 TO7",
+            "Förlängt befintligt lån: 105 Mkr till november 2028",
+            "Ny villkorad låneram: högst 70 Mkr under Q4 2027",
+            "Extra bolagsstämma: 15 december 2026"
+          ],
+          "editorial_verified": true
         }
       ],
       "updates": [],
