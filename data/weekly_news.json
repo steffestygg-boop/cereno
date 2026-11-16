@@ -402,18 +402,22 @@
         },
         {
           "date": "2026-11-03",
-          "title": "Cereno stärker patientkontakterna inför rekryteringen till EPIMODE",
+          "title": "EPIMODE: patientrekrytering förbereds inför 2027",
           "category": "Studie och resultat",
-          "summary": "",
+          "summary": "Cereno stärker patientkontakter och klinikaktivering inför EPIMODE-rekryteringen. Målet om topline för fas IIb i Q4 2028 kvarstår.",
           "source": "Biostock",
-          "url": "https://news.google.com/rss/articles/CBMimwFBVV95cUxQb0h0R2RBZmdZNWJfVVVUdW9vQ2hjTUdfUEFVbXZMeVV6SGFxVWxobE1ncnN2QTVYekRrVUtGZF82QjlOakVqUHlPdllwbTRDMG9CMVlGZ0R6S3ZLM1FVSXFyUUlHdkh4RURiTTliRWJoRHB2OXEwSjVqTy1GOGhubk00eGpRd0JoWm5DcW5JNzVwZ1FNWG56cUtfOA?oc=5",
+          "url": "https://www.cerenoscientific.se/sv/nyhetsrum/pressmeddelanden?slug=cereno-scientific-publicerar-delarsrapport-for-tredje-kvartal-2026",
           "verified": false,
           "origin": "rubrik",
           "source_note": "Automatiskt insamlad rubrik – originalartikeln har inte fullständigt faktagranskats",
-          "details": "",
-          "importance": "",
-          "key_facts": [],
-          "editorial_verified": false
+          "details": "EPIMODE är den globala fas IIb-studien av CS1 vid pulmonell arteriell hypertension. Det internationella programmet planeras omfatta cirka 126 patienter. Nya kliniker och kontakter med patientorganisationer ska stödja möjligheten att rekrytera enligt tidsplan.",
+          "importance": "Faktisk rekryteringstakt är viktig för när studiedata kan rapporteras och hur utvecklingskostnaderna utvecklas.",
+          "key_facts": [
+            "Studie: CS1 / EPIMODE fas IIb",
+            "Målgrupp: cirka 126 patienter",
+            "Mål för topline: Q4 2028"
+          ],
+          "editorial_verified": true
         }
       ],
       "updates": [],
