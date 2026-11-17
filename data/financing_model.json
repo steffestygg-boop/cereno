@@ -1,6 +1,6 @@
 {
-  "version": "1.0.0",
-  "curated_at": "2026-11-15",
+  "version": "1.1.0-partner-dd",
+  "curated_at": "2026-11-17",
   "sources": {
     "report": "https://www.cerenoscientific.com/~/media/Files/C/cereno-scientific/corp/results-and-presentations/2026/Cereno%20Scientific%20Delarsrapport%20Q3%202026.pdf",
     "announcement": "https://mfn.se/a/cereno-scientific/cereno-scientific-avser-genomfora-en-foretradesemission-av-units-om-cirka-400-msek-med-fokus-pa-den-globala-fas-iib-studien-epimode-och-erhaller-forlangd-lanefinansiering-om-upp-till-175-msek",
@@ -58,6 +58,70 @@
     "baseline_monthly_hazard_after_funding": 0.02,
     "low_multiplier": 0.6,
     "high_multiplier": 1.7,
-    "description": "Endast ett illustrativt scenario för YTTERLIGARE emissioner efter antagen full finansiering. Ingen empiriskt kalibrerad modell. Den redan aviserade emissionen är ett separat, känt faktum."
+    "description": "Endast ett illustrativt scenario för YTTERLIGARE emissioner efter antagen full finansiering. Ingen empiriskt kalibrerad modell. Den redan aviserade emissionen är ett separat, känt faktum. Efter en antagen emission läggs ett kvalitativt DD-/partner-timingpoäng på i konkursbarometerns stressindex, för att kvarstående utvecklingsfinansiering inte ska betraktas som automatiskt säkrad."
+  },
+  "partner_due_diligence": {
+    "framework": "Vision Lifesciences: The Complete Pharma Due Diligence Checklist for Licensing & M&A",
+    "framework_url": "https://visionlifesciences.com/insights/pharma-due-diligence-checklist",
+    "review_date": "2026-11-17",
+    "evidence_type": "Offentliga uppgifter + subjektiv analystolkning; inte tillgång till konfidentiellt data room",
+    "summary": "CS1/EPIMODE kan ha ett stort långsiktigt värde, men ett globalt förvärvs- eller licensbeslut kan förutsätta större kontrollerad studie, längre säkerhetsuppföljning och regulatorisk klarhet. Emissionen om cirka 400 Mkr är redan aviserad; den ska inte behandlas som en hypotetisk nyemissionsrisk.",
+    "next_decision_gate": "Granska EPIMODEs fas IIb-design, endpoints, patientrekrytering, jämförelsearm och vad en potentiell köpare faktiskt behöver innan riskdelning eller upfront kan motiveras.",
+    "time_to_cash_assessment": "Partnerlikvid före färdig riskreducerande klinisk evidens är osäker. Följ teckningsutfall, villkor för Fenjas låneförlängning och möjlighet att finansiera utvecklingen utan garanterat partneravtal.",
+    "uncertainty": "Det finns inga offentligt verifierade uppgifter om alla potentiella köpares interna DD-krav; frånvaro av affär är inte bevis på avslag.",
+    "pillars": [
+      {
+        "area": "Kliniska data",
+        "status": "Delvis styrkt",
+        "assessment": "CS1-fas IIa och EAP-signaler är inte ett substitut för en kontrollerad EPIMODE-studie; säkerhet och kliniskt relevanta endpoints granskas."
+      },
+      {
+        "area": "Patent/IP",
+        "status": "Ej fullständigt verifierat",
+        "assessment": "HDAC-plattform, CS1/CS014-patentfamiljer, marknadsexklusivitet och FTO måste bedömas."
+      },
+      {
+        "area": "Regulatoriskt",
+        "status": "Återstår att verifiera",
+        "assessment": "EPIMODE-förutsättningar samt IND och tidsplan för CS014 behöver granskas mot myndighetskrav."
+      },
+      {
+        "area": "Kommersiellt",
+        "status": "Analys krävs",
+        "assessment": "PAH och PH-ILD har betydande konkurrens och prispress; differentiering mot befintliga och kommande behandlingar måste kvantifieras."
+      },
+      {
+        "area": "Finansiellt",
+        "status": "Kritisk timing",
+        "assessment": "Aviserad 400 Mkr-emission, villkorade Fenja-lån och TO6/TO7 som ännu inte är likvida medel är centrala."
+      },
+      {
+        "area": "Tillverkning/CMC",
+        "status": "Ej fullständigt verifierat",
+        "assessment": "Kommersiell process, CMC-skalning, stabilitet och kvalitetsrisker är inte offentligt fullt granskbara."
+      },
+      {
+        "area": "Juridik/avtal",
+        "status": "Delvis känt",
+        "assessment": "Fenja-villkor, kvittning, låneförlängning och eventuella partner-/licensrättigheter påverkar möjlig affär."
+      }
+    ],
+    "assumptions_policy": "En DD-risk är en möjlig fördröjning av partnerfinansiering, inte ett bevis för att en affär avvisats. Alla sju områden, strategisk köparpassform och nästa värdehöjande data ska granskas vid omprövning; osäkrade upfronts förs inte som kassa.",
+    "scenarios": [
+      {
+        "name": "Avtal före avgörande data",
+        "effect": "Kan minska kapitalbehov om faktisk signerad upfront och betalningsdatum bekräftas; räknas inte i grundscenariot."
+      },
+      {
+        "name": "Partner avvaktar nästa data",
+        "effect": "Bolaget behöver bära studie- och rörelsekostnader själv längre; höjer refinansierings-/emissionspress."
+      },
+      {
+        "name": "Inget avtal / svag finansiering",
+        "effect": "Beakta ytterligare kapitalbehov, sämre emissionsvillkor eller utvecklingsstopp, utan att likställa finansieringsstress med juridisk konkurs."
+      }
+    ],
+    "post_financing_stress_points": 1,
+    "stress_point_note": "Ett extra subjektivt poängsteg efter antagen emission för att partnerfinansiering inte kan tas för given före ytterligare DD. Påverkar inte redan kritiskt rapporterat finansieringsläge (9/10) och innebär inte en konkurssannolikhet."
   }
 }
