@@ -1,9 +1,9 @@
 {
   "symbol": "CRNO-B.ST",
   "currency": "SEK",
-  "price": 0.1462,
-  "quote_time": "2026-11-17T16:08:56+01:00",
-  "fetched_at": "2026-11-17T16:09:30+01:00",
+  "price": 0.139,
+  "quote_time": "2026-11-17T17:14:19+01:00",
+  "fetched_at": "2026-11-17T17:14:22+01:00",
   "source": "Yahoo Finance chart / Nasdaq First North Stockholm",
   "source_url": "https://finance.yahoo.com/quote/CRNO-B.ST/",
   "delayed": true,
