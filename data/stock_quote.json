@@ -2,11 +2,10 @@
   "symbol": "CRNO-B.ST",
   "currency": "SEK",
   "price": 0.2268,
-  "quote_time": "2026-11-16",
-  "quote_granularity": "date",
-  "fetched_at": null,
-  "source": "StockAnalysis / Nasdaq First North",
-  "source_url": "https://stockanalysis.com/quote/sto/CRNO.B/",
+  "quote_time": "2026-11-16T17:29:46+01:00",
+  "fetched_at": "2026-11-17T08:58:10+01:00",
+  "source": "Yahoo Finance chart / Nasdaq First North Stockholm",
+  "source_url": "https://finance.yahoo.com/quote/CRNO-B.ST/",
   "delayed": true,
-  "source_note": "Senast kända stängningskurs 2026-11-16; exakt kursklockslag saknas för startvärdet. Nästa automatiska kurs uppdateras med källans faktiska tidsstämpel."
+  "source_note": "Extern, potentiellt fördröjd marknadskurs. Tidpunkten är kursens källtidsstämpel; kontrollera alltid tidsstämpeln."
 }
