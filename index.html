@@ -920,6 +920,27 @@ body.weekly-dialog-open{overflow:hidden}
 .shared-quote-status{font-size:11px;color:#c4d4df;line-height:1.45;margin-top:4px}
 .shared-quote-note{font-size:10px;color:#91b5bb;line-height:1.55}
 
+
+/* Buyer-side due diligence, complementary to capital/credit risk, not a second cash input */
+.dd-risk-module{margin:19px 0 20px;padding:16px 18px;background:rgba(14,31,43,.72);border:1px solid rgba(137,174,196,.35);border-radius:12px}
+.dd-risk-heading{display:flex;gap:12px;align-items:center;flex-wrap:wrap;font-size:12px;letter-spacing:.09em;text-transform:uppercase;font-weight:750;color:#aed5e2}
+.dd-risk-heading span{font-size:11px;letter-spacing:normal;text-transform:none;font-weight:450;color:#a6b7c4}
+.dd-risk-summary{font-size:13px;line-height:1.6;color:#e3eaf1;margin:9px 0 11px}
+.dd-risk-module details{border-top:1px solid rgba(157,180,192,.2);padding-top:11px}
+.dd-risk-module summary{cursor:pointer;font-size:13px;font-weight:650;color:#b9d5ed}
+.dd-risk-module .dd-block{margin:13px 0}
+.dd-risk-module .dd-block strong{display:block;color:#f4d8aa;font-size:12px;margin-bottom:3px}
+.dd-risk-module .dd-block p{font-size:12px;line-height:1.6;color:#c7d3df;margin:0}
+.dd-risk-module .dd-pillars{display:grid;grid-template-columns:repeat(auto-fit,minmax(225px,1fr));gap:9px;margin:15px 0}
+.dd-risk-module .dd-pillar{border:1px solid rgba(131,164,185,.22);border-radius:8px;padding:10px;background:rgba(13,23,35,.45)}
+.dd-risk-module .dd-pillar small{display:block;color:#e5b982;font-size:11px;margin:3px 0}
+.dd-risk-module .dd-pillar strong{font-size:12px}
+.dd-risk-module .dd-pillar p{font-size:12px;line-height:1.5;margin:0;color:#c3d2db}
+.dd-risk-module .dd-scenarios{padding-left:20px;font-size:12px;line-height:1.55;color:#cbdae4}
+.dd-risk-module .dd-scenarios li{margin:7px 0}
+.dd-risk-module .dd-caveat{font-size:11px;color:#9eaebd;line-height:1.55;margin:12px 0 0}
+.dd-risk-module a{color:#9ed5ff}
+
 </style></head><body><main class="wrap">
 <nav class="sitenav" aria-label="Sektionsnavigering"><span>INVESTERARÖVERSIKT / CRNO B</span><div class="navlinks"><a href="#stock-heading">Aktien</a><a href="#pipeline-heading">Pipeline</a><a href="#fin-title">Finansiering</a><a href="#bankruptcy-title">Konkursrisk</a><a href="#milestones-heading">Milstolpar</a><a href="#valuation-heading">Värdering</a><a href="#news-heading">Nyheter</a></div></nav>
 <header class="hero"><div class="hero-content"><div class="eyebrow"><span class="eyebrow-dot"></span>OBEROENDE ANALYS · NASDAQ FIRST NORTH · CRNO B</div>
@@ -993,6 +1014,7 @@ body.weekly-dialog-open{overflow:hidden}
 <h3 style="margin-top:29px">Utspädningsscenario – när emissionskursen är okänd</h3><p class="section-intro">Ingen officiell teckningskurs finns per 15 november. Testa en <b>egen antagen</b> aktiekurs för att se hur många nya aktier ett bruttobelopp på 400 Mkr skulle kräva.</p>
 <div class="kcalc"><label>Hypotetisk emissionskurs (kr/aktie)<input id="issue-price" type="number" min="0.1" max="3" step="0.01" value="0.20"></label><div class="calcbox"><small>Beräknat antal nya B-aktier</small><div class="metric-head"><strong id="new-shares">–</strong><button class="mathbtn" data-calc="dilution" aria-label="Visa utspädningsformeln">∑</button></div></div><div class="calcbox"><small>Utspädning efter enbart aktieemission</small><strong id="dilution-pct">–</strong><small>Ej TO6, TO7 eller Fenja-optioner</small></div></div>
 <p class="fine">Varje unit innehåller 4 aktier, 2 TO6 och 1 TO7. Full TO6/TO7-övning kan öka antalet aktier ytterligare. Fenja-optioner om 5 % efter emission och konverteringsrisk tillkommer. Det faktiska utfallet beror på kommande prospekt.</p>
+<p class="fine"><b>Partneravtal är inte garanterad finansiering:</b> En köpares kliniska, kommersiella och juridiska due diligence kan innebära väntan på ytterligare EPIMODE-data. Den aviserade emissionen och Fenja-villkoren redovisas därför separat från hypotetisk framtida partnerlikvid.</p>
 </section>
 <section class="bankruptcy-overview" aria-labelledby="bankruptcy-title">
 <p class="section-kicker"><span class="section-number">05</span> Likviditet, skulder och överlevnad</p>
@@ -1030,7 +1052,13 @@ body.weekly-dialog-open{overflow:hidden}
 <div class="tile"><small>Skuldrisk</small><strong>Fenja</strong><p>105 Mkr förlängt lån är villkorat av genomförd emission. En del av 70 Mkr måste regleras kontant om inte hela delen kvittas. Minst 12 % låneränta på dragna belopp.</p></div>
 <div class="tile"><small>Operativ risk</small><strong>Studieförsening</strong><p>EPIMODEs rekrytering och kostnadskontroll avgör hur länge kapitalet räcker. TO6/TO7 ger bara likvid om optionerna faktiskt utnyttjas.</p></div>
 </div>
-<p class="fine bank-disclaimer"><b>Metod:</b> två separata bedömningar – dagens finansieringsberoende och ett hypotetiskt scenario efter en genomförd emission. Riskindexet är ett öppet poängsystem för likviditetsbuffert, emissionsbortfall och skuldexponering, inte en statistisk sannolikhet. Beräkningarna är förenklade och bortser bland annat från framtida kostnadsförändringar, vissa transaktionskostnader och avtalsvillkor.</p>
+<div class="dd-risk-module" id="dd-risk-module">
+ <div class="dd-risk-heading">Big Pharma · due diligence <span>Partneravtalets timing och finansieringsrisk</span></div>
+ <p class="dd-risk-summary" id="dd-risk-summary">Granskar risk för att en möjlig partner vill invänta mer data innan avtal.</p>
+ <details><summary>Visa de sju granskningsområdena, beslutströsklar och scenarier</summary>
+ <div id="dd-risk-detail"><p class="dd-caveat">Läser källmärkt DD-underlag …</p></div></details>
+</div>
+<p class="fine bank-disclaimer"><b>Metod:</b> två separata bedömningar – dagens finansieringsberoende och ett hypotetiskt scenario efter en genomförd emission. Riskindexet är ett öppet poängsystem för likviditetsbuffert, emissionsbortfall, skuldexponering och osäker partnerfinansiering efter DD, inte en statistisk sannolikhet. Beräkningarna är förenklade och bortser bland annat från framtida kostnadsförändringar, vissa transaktionskostnader och avtalsvillkor.</p>
 <div class="fin-signals">
 <div class="fin-signals-heading"><div><h3>Varningssignaler <span class="fin-signals-counter" id="warning-count">–</span></h3><p>Finansiering, skulder, betalningar, handel, rekrytering och kostnader – med originalkällor.</p></div><span class="fin-signals-frequency">Daglig RSS-bevakning</span></div>
 <p class="fine" id="fin-updated">Senaste verifierade finansieringsgrund: 15 november 2026.</p>
@@ -1079,12 +1107,13 @@ body.weekly-dialog-open{overflow:hidden}
 "use strict";
 var ISSUE={"announced_at":"2026-11-12","status":"avsikt offentliggjord, villkor ej fastställda","target_msek":400,"shares_per_unit":4,"to6_per_unit":2,"to7_per_unit":1,"discount_to_terp_percent":35,"additional_share_price_cap_discount_percent":40,"shares_price_known":false,"unit_rights_ratio_known":false,"egm_date":"2026-12-15","final_terms_approx":"2026-12-17/18","to6_window":"2027-05-24–2027-06-07","to7_window":"2027-10-25–2027-11-08","to6_potential_msek":250,"to7_potential_msek":150,"external_subscription_cash_not_guaranteed":true}, SNAP={"report_date":"2026-09-30","report_published":"2026-11-04","cash_msek":40.238566,"operating_cashflow_q3_msek":-33.740891,"investment_cashflow_q3_msek":-24.001259,"shares_outstanding_at_report":323852029,"share_quota_value_sek":0.1,"cashflow_note":"Q3:s operativa + investeringskassaflöde summeras som historisk förbrukning. Detta är inte ett framtida kassaflödesestimat.","financing_guidance":"Fulltecknad emission beräknas stödja verksamheten in i Q1 2028; TO6/TO7 kan ge ytterligare finansiering av EPIMODE fram till Q4 2028 men är inte säkrad."}, FIN={"old_debt_msek":175,"extended_debt_msek":105,"debt_to_repay_or_offset_msek":70,"offset_cap_msek":70,"offset_full_below_external_msek":125,"offset_zero_above_external_msek":265,"loan_facility_msek":70,"facility_window":"2027-10-01–2027-12-31","maturity":"2028-11-12","interest_floor_percent":12,"undrawn_interest_floor_percent":6,"arrangement_fee_msek":8.75,"warrants_extra_dilution_percent":5,"loan_not_cash_now":true,"agreement_conditional_on_issue":true}, SCENARIO={"baseline_monthly_hazard_after_funding":0.02,"low_multiplier":0.6,"high_multiplier":1.7,"description":"Endast ett illustrativt scenario för YTTERLIGARE emissioner efter antagen full finansiering. Ingen empiriskt kalibrerad modell. Den redan aviserade emissionen är ett separat, känt faktum."};
 var MILESTONES=[],TRACKS=[["cs1","CS1 / PAH"],["cs014","CS014 / PH-ILD"],["cs585","CS585 / APS"],["company","Bolaget / finansiering"]],selectedTracks=new Set(["cs1","cs014","cs585","company"]),selectedPeriod="relevant",showDelays=true,currentPrice=0.2,outside=265,hazard=2;
+var PARTNER_DD_STRESS_POINTS=1;
 var $=function(id){return document.getElementById(id)}, round=function(v,d){return Number(v).toLocaleString("sv-SE",{minimumFractionDigits:d||0,maximumFractionDigits:d===undefined?2:d})}, pct=function(v){return round(v,1)+" %"}, money=function(v){return round(v,1)+" Mkr"};
 function openModal(title,dates,body,links){$("modal-title").textContent=title;$("modal-date").textContent=dates||"";$("modal-body").replaceChildren();if(typeof body==="string"){var p=document.createElement("p");p.textContent=body;$("modal-body").append(p)}else if(Array.isArray(body)){var ol=document.createElement("ol");body.forEach(function(line){var li=document.createElement("li");li.textContent=line;ol.append(li)});$("modal-body").append(ol)};$("modal-links").replaceChildren();(links||[]).forEach(function(x){if(!x.url)return;var a=document.createElement("a");a.href=x.url;a.target="_blank";a.rel="noopener noreferrer";a.textContent=x.label+" ↗";$("modal-links").append(a)});$("modal").classList.add("open");$("modal").setAttribute("aria-hidden","false");$("modal-close").focus()}
 function closeModal(){$("modal").classList.remove("open");$("modal").setAttribute("aria-hidden","true")}
 $("modal-close").onclick=closeModal;$("modal").addEventListener("click",function(e){if(e.target===$("modal"))closeModal()});document.addEventListener("keydown",function(e){if(e.key==="Escape")closeModal()});
 function classifyBankMonths(months,outside){
- let score=(months<3?5:months<6?4:months<12?3:months<18?2:1)+(outside<265?2:1)+(outside<400?2:0)+1;
+ let score=(months<3?5:months<6?4:months<12?3:months<18?2:1)+(outside<265?2:1)+(outside<400?2:0)+1+PARTNER_DD_STRESS_POINTS;
  score=Math.min(10,score);
  return {score,level:score>=9?"Kritisk finansieringsstress":score>=7?"Hög finansiell stress":score>=4?"Förhöjd finansiell stress":"Lägre finansiell stress"};
 }
@@ -1433,6 +1462,39 @@ drawFenja();drawBankruptcy();drawDilution();getMilestones();loadFinance();loadNe
   }
   refresh();
   setInterval(refresh,120000);
+})();
+
+
+/* Shared buyer-side DD panel. Data is manually reviewed; news/RSS cannot change ratings. */
+(async function renderPartnerDueDiligence(){
+ const summary=document.getElementById("dd-risk-summary"),host=document.getElementById("dd-risk-detail");
+ if(!summary||!host)return;
+ const add=(tag,cls,value,parent)=>{const el=document.createElement(tag);if(cls)el.className=cls;if(value!==undefined)el.textContent=value;(parent||host).appendChild(el);return el};
+ try{
+  const res=await fetch("./data/financing_model.json",{cache:"no-store"});
+  if(!res.ok)throw new Error("HTTP "+res.status);
+  const model=await res.json(),dd=model.partner_due_diligence;
+  if(!dd||!Array.isArray(dd.pillars)||dd.pillars.length!==7)throw new Error("Ofullständig partner-DD");
+  summary.textContent=dd.summary;
+  host.replaceChildren();
+  const block=(title,body)=>{const b=add("div","dd-block","");add("strong","",title,b);add("p","",body,b)};
+  block("Vad behöver en möjlig köpare härnäst?",dd.next_decision_gate);
+  block("Koppling till kassalivslängd och emission",dd.time_to_cash_assessment);
+  const factor=model.calculation&&Number(model.calculation.partner_dd_multiplier);
+  if(Number.isFinite(factor)&&factor>0)block("Påverkan på emissionsbarometern","Riskfaktor ×"+factor.toLocaleString("sv-SE",{minimumFractionDigits:2,maximumFractionDigits:2})+" ingår i det publicerade scenariotalet. Detta är en subjektiv försiktighetsfaktor för möjlig affärsfördröjning, inte verifierad partnerstatistik.");
+  if(typeof PARTNER_DD_STRESS_POINTS!=="undefined" && Number.isFinite(Number(dd.post_financing_stress_points))){
+    PARTNER_DD_STRESS_POINTS=Number(dd.post_financing_stress_points);
+    block("Påverkan på konkursbarometern","Efter antagen emission: +"+PARTNER_DD_STRESS_POINTS+" subjektiv stresspoäng för osäker partnerfinansiering efter nästa DD-granskning. Nuvarande stressindex 9/10 för ej genomförd emission räknas inte om; ingen konkurssannolikhet visas.");
+    if(typeof drawBankruptcy==="function")drawBankruptcy();
+  }
+  const grid=add("div","dd-pillars","");
+  dd.pillars.forEach(p=>{const card=add("div","dd-pillar","",grid);add("strong","",p.area,card);add("small","",p.status,card);add("p","",p.assessment,card)});
+  const cases=add("div","dd-block","");add("strong","","Partner-/kapitalscenarier",cases);const ul=add("ul","dd-scenarios","",cases);
+  (dd.scenarios||[]).forEach(c=>add("li","",c.name+": "+c.effect,ul));
+  add("p","dd-caveat",dd.uncertainty+" "+dd.assumptions_policy);
+  const src=add("p","dd-caveat","Ramverk: ",host),a=document.createElement("a");
+  a.href=dd.framework_url;a.rel="noopener noreferrer";a.target="_blank";a.textContent="Vision Lifesciences checklista";src.appendChild(a);src.appendChild(document.createTextNode(" · bedömning "+dd.review_date+"."));
+ }catch(err){summary.textContent="DD-underlag kunde inte läsas – använd inte framtida partnerbetalningar som säker finansiering.";host.textContent="Kontrollera data/financing_model.json: "+err.message}
 })();
 
 </script></body></html>
