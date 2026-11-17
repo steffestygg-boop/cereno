@@ -43,7 +43,7 @@ CONFIG = {
     },
     "cereno": {
         "name": "Cereno Scientific",
-"queries": ['"Cereno" when:14d',
+        "queries": ['"Cereno" when:14d',
                     '"Cereno Scientific" OR "EPIMODE" OR "CS014" when:14d',
                     'site:mfn.se/a/cereno-scientific/ when:14d',
                     '"Cereno" (styrelse OR avgår OR emission OR Edison OR handelsstopp OR studier) when:14d'],
@@ -519,6 +519,14 @@ def enrich_events(events):
             entry["key_facts"] = []
             entry["editorial_verified"] = False
         result.append(entry)
+    # Ignore secondary Google News mirrors of the same company's MFN feed
+    # when the original dated issuer announcement is already available.
+    issuer_days = {e["date"] for e in result if e.get("origin") == "bolagsflöde"}
+    result = [e for e in result if not (
+        e.get("origin") != "bolagsflöde" and
+        str(e.get("source", "")).casefold().startswith("mfn") and
+        e.get("date") in issuer_days
+    )]
     # Two separately syndicated headlines about a single issuer announcement
     # should become one well-sourced story, not repetitive cards.
     compact, duplicates = [], set()
@@ -649,6 +657,7 @@ def main():
             [e for e in final_events if iso_date(e.get("date")) and
              begin <= iso_date(e.get("date")) <= end],
             key=lambda e: (e.get("date", ""), event_priority(e)), reverse=True)
+        edition["intro"] = intro_text(edition["events"], edition["updates"])
         edition["stock_change"] = weekly_stock_change(begin, local_now, previous.get("stock_change") if isinstance(previous, dict) else None)
         known[week_id] = edition
     weeks = sorted(known.values(), key=lambda e: e["id"], reverse=True)
