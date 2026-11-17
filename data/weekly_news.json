@@ -3,7 +3,7 @@
   "company": "Cereno Scientific",
   "timezone": "Europe/Stockholm",
   "schedule": "Varje dag kl. 09:00 Europe/Stockholm med extra kontroll på eftermiddagen; ISO-vecka från måndag",
-  "updated_at": "2026-11-17T09:27:00+01:00",
+  "updated_at": "2026-11-17T15:45:24+01:00",
   "latest_week": "2026-W47",
   "weeks": [
     {
@@ -12,8 +12,8 @@
       "year": 2026,
       "start": "2026-11-16",
       "end": "2026-11-17",
-      "generated_at": "2026-11-17T09:27:00+01:00",
-      "intro": "En framträdande nyhetsrubrik: Johan Eriksson lämnar Cerenos styrelse. Innehållet i artikeln behöver kontrolleras mot originalkällan.",
+      "generated_at": "2026-11-17T15:45:24+01:00",
+      "intro": "En framträdande nyhetsrubrik: Johan Eriksson lämnar Cerenos styrelse. Innehållet i artikeln behöver kontrolleras mot originalkällan. Dessutom finns 1 noterade förändringar i sidans finansieringsanalys eller milstolpar.",
       "events": [
         {
           "date": "2026-11-16",
@@ -80,7 +80,13 @@
           "editorial_verified": true
         }
       ],
-      "updates": [],
+      "updates": [
+        {
+          "title": "Konkurs- och finansieringsantaganden justerade",
+          "detail": "Källdata eller modellantaganden har ändrats sedan förra veckoutgåvan. Läs modellens metodavsnitt för vad uppdateringen innebär; ändringen ska inte automatiskt tolkas som ett nytt bolagsbesked.",
+          "kind": "modell"
+        }
+      ],
       "omitted_events": 0,
       "finance_snapshot": {
         "risk_3": null,
@@ -95,8 +101,8 @@
         "risk_6": null,
         "risk_12": null,
         "risk_as_of": "2026-11-15",
-        "model_version": "1.0.0",
-        "model_fingerprint": "a466a1eb6526b351",
+        "model_version": "1.2.0-partner-dd-process",
+        "model_fingerprint": "de0e3d872f308d7b",
         "emission_status": "aviserad_2026-11-12",
         "alerts": {
           "Företrädesemission annonserad, men ännu inte beslutad i slutliga villkor": {
@@ -133,11 +139,6 @@
             "title": "Rubrik kräver faktagranskning: Cereno Scientific planerar företrädesemission om 400 miljoner kronor för fortsatt klinisk utveckling - Biostock",
             "level": "bevakning",
             "source": "https://news.google.com/rss/articles/CBMiyAFBVV95cUxQVmRaek9sMVZyc0Y4MC1EakZQWmRvOHQ5MHE1VlZocGpWN1R1MTRkVzRLUEFRaGFHTHdOMEw2UE9BcjBGbkVXWDhnb2h5c3ZCZ09yNWh4d1BpaU9OdG9GbUJQanpVa25zZUI4azEyWTlyUk9TNlNGeURJWDhHa3lpaldtdlZzMEJZVTFqbjV1ek1RZTJVZUV6M2ZyM0xPcThhUThrRDhHTVVXOW1mRDFlc1NVbHRHWWtFeG5Kb0RMUDczRDN1a0tZVQ?oc=5"
-          },
-          "Rubrik kräver faktagranskning: Cereno Scientific planerar företrädesemission på 400 miljoner kronor – förlänger lån - Börsvärlden": {
-            "title": "Rubrik kräver faktagranskning: Cereno Scientific planerar företrädesemission på 400 miljoner kronor – förlänger lån - Börsvärlden",
-            "level": "bevakning",
-            "source": "https://news.google.com/rss/articles/CBMitgFBVV95cUxQdGZjdVdjVWNHSURna1VrRWtLQ0xPNHRkV2NRamo4QnlhTEJsbUtpVW9meThLOUpna3dTWVUxMXlWYjZHRjNoaXJuc0JCWUUteERRRWlfd1EwSFBsdFFQT1NKVGpaRHdmSWJSeWJGQVRIVkZxXzFrc19xTFFYRUdSN1ctYWNPRkF1Q05YT0VkN1V3YU9aM1RqcXBLMkM1cS04bzU5Y0tUOG1nSHNranFRcFhPVkpuUQ?oc=5"
           },
           "Rubrik kräver faktagranskning: Cereno Scientifics handelsstopp hävs - DI": {
             "title": "Rubrik kräver faktagranskning: Cereno Scientifics handelsstopp hävs - DI",
@@ -341,9 +342,9 @@
         "baseline_date": "2026-11-13",
         "baseline": 0.2696,
         "latest_date": "2026-11-17",
-        "latest": 0.1613,
-        "change_sek": -0.1083,
-        "change_percent": -40.17,
+        "latest": 0.1488,
+        "change_sek": -0.1208,
+        "change_percent": -44.81,
         "source_url": "https://finance.yahoo.com/quote/CRNO-B.ST/history/",
         "note": "Jämfört med föregående handelsveckas sista stängningskurs. Fördröjda dagsstängningar, inte realtid."
       }
