@@ -3,7 +3,7 @@
   "company": "Cereno Scientific",
   "timezone": "Europe/Stockholm",
   "schedule": "Varje dag kl. 09:00 Europe/Stockholm med extra kontroll på eftermiddagen; ISO-vecka från måndag",
-  "updated_at": "2026-11-17T09:25:27+01:00",
+  "updated_at": "2026-11-17T09:25:54+01:00",
   "latest_week": "2026-W47",
   "weeks": [
     {
@@ -12,7 +12,7 @@
       "year": 2026,
       "start": "2026-11-16",
       "end": "2026-11-17",
-      "generated_at": "2026-11-17T09:25:27+01:00",
+      "generated_at": "2026-11-17T09:25:54+01:00",
       "intro": "En framträdande nyhetsrubrik: Johan Eriksson lämnar Cerenos styrelse. Innehållet i artikeln behöver kontrolleras mot originalkällan.",
       "events": [
         {
@@ -54,8 +54,8 @@
             "Avgång: styrelseledamot i SynAct",
             "Besked: 16 november 2026 kl. 07.00"
           ],
-          "editorial_verified": true,
-          "additional_source_url": "https://news.google.com/rss/articles/CBMieEFVX3lxTE1pbW50M29qMkpsRC1sSTk0Vm5vREdRbkVxcjBJekU0TjNob092em9zTWlkZ1htc3lfakdrTVQ0RkFzc1NBSDlwYU5LN1IyMlVMYm84cFFac2JDWi1PUU5POVEyZ2FVQk12MXV2cFBLaXNtU3BNVVVwbw?oc=5"
+          "additional_source_url": "https://news.google.com/rss/articles/CBMieEFVX3lxTE1pbW50M29qMkpsRC1sSTk0Vm5vREdRbkVxcjBJekU0TjNob092em9zTWlkZ1htc3lfakdrTVQ0RkFzc1NBSDlwYU5LN1IyMlVMYm84cFFac2JDWi1PUU5POVEyZ2FVQk12MXV2cFBLaXNtU3BNVVVwbw?oc=5",
+          "editorial_verified": true
         },
         {
           "date": "2026-11-16",
@@ -341,9 +341,9 @@
         "baseline_date": "2026-11-13",
         "baseline": 0.2696,
         "latest_date": "2026-11-17",
-        "latest": 0.1615,
-        "change_sek": -0.1081,
-        "change_percent": -40.1,
+        "latest": 0.1613,
+        "change_sek": -0.1083,
+        "change_percent": -40.17,
         "source_url": "https://finance.yahoo.com/quote/CRNO-B.ST/history/",
         "note": "Jämfört med föregående handelsveckas sista stängningskurs. Fördröjda dagsstängningar, inte realtid."
       }
