@@ -1,10 +1,20 @@
 # Cereno Scientific – oberoende investeraröversikt
 
-Statisk investerarsida på svenska inspirerad av [SynAct-sidan](https://steffestygg-boop.github.io/synact/) med mörkt responsivt gränssnitt, finansieringskalkyler, emissionsbarometer, klickbara kvartalsmilstolpar, värderingsscenario och nyhetsflöde.
+Statisk investerarsida på svenska inspirerad av [SynAct-sidan](https://steffestygg-boop.github.io/synact/) med mörkt responsivt gränssnitt, finansieringskalkyler, aviserad emission och konkursbarometer, klickbara kvartalsmilstolpar, värderingsscenario och nyhetsflöde.
 
 **Webbadress efter aktiverad GitHub Pages:** https://steffestygg-boop.github.io/cereno/
 
 Om publicering inte sker automatiskt: öppna **Settings → Pages → Build and deployment → Source = GitHub Actions** och kontrollera Actions-loggar.
+
+
+## Big Pharma-due diligence och riskbarometrar (17 november 2026)
+
+Ramverk: [Vision Lifesciences – Pharma Due Diligence Checklist](https://visionlifesciences.com/insights/pharma-due-diligence-checklist). `data/financing_model.json → partner_due_diligence` innehåller den **manuellt granskade** bedömningen för sju områden: klinik, patent/IP, regulatoriskt, kommersiellt, finansiellt, tillverkning/CMC och juridik/avtal. Den visar också nästa tänkbara beslutströskel hos en köpare, kapitaltiming, tre finansieringsscenarier och okända faktorer. Sidan läser detta underlag direkt från JSON.
+
+**Princip:** Klinisk/långsiktig potential, sannolikhet och **timing** för ett Big Pharma-avtal samt bolagets finansieringsbehov är olika frågor. Ett uteblivet avtal är inte bevis på en avvisad tillgång. Antag inga garanterade framtida upfrontbetalningar eller optionslikvider som kassa. Skilj verifierade rapportuppgifter från subjektiva DD-bedömningar och undvik att dubbelräkna risk.
+
+Cerenos redan **aviserade** företrädesemission visas separat från konkursbarometern. Konkursskalan är ett subjektivt **stressindex**, inte en konkurssannolikhet. Efter en antagen emission får osäker partner-timing en extra analytisk poäng i stresscenariot; dagens ej fullföljda emission behåller sin separata risknivå.
+
 
 ## Det som ingår
 - **Aktien:** extern TradingView-widget. Rapporterat antal aktier och kassa är historiska och tydligt daterade.
