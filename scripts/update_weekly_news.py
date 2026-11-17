@@ -46,7 +46,10 @@ CONFIG = {
         "queries": ['"Cereno" when:14d',
                     '"Cereno Scientific" OR "EPIMODE" OR "CS014" when:14d',
                     'site:mfn.se/a/cereno-scientific/ when:14d',
-                    '"Cereno" (styrelse OR avgår OR emission OR Edison OR handelsstopp OR studier) when:14d'],
+                    '"Cereno" (styrelse OR avgår OR emission OR Edison OR handelsstopp OR studier) when:14d',
+                    'site:biostock.se "Cereno" when:14d',
+                    'site:inderes.se "Cereno" when:14d',
+                    'site:borsvarlden.com "Cereno" when:14d'],
         "aliases": ("cereno", "epimode", "cs014", "cs585"),
     },
 }
