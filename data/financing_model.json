@@ -1,5 +1,5 @@
 {
-  "version": "1.1.0-partner-dd",
+  "version": "1.2.0-partner-dd-process",
   "curated_at": "2026-11-17",
   "sources": {
     "report": "https://www.cerenoscientific.com/~/media/Files/C/cereno-scientific/corp/results-and-presentations/2026/Cereno%20Scientific%20Delarsrapport%20Q3%202026.pdf",
@@ -106,7 +106,7 @@
         "assessment": "Fenja-villkor, kvittning, låneförlängning och eventuella partner-/licensrättigheter påverkar möjlig affär."
       }
     ],
-    "assumptions_policy": "En DD-risk är en möjlig fördröjning av partnerfinansiering, inte ett bevis för att en affär avvisats. Alla sju områden, strategisk köparpassform och nästa värdehöjande data ska granskas vid omprövning; osäkrade upfronts förs inte som kassa.",
+    "assumptions_policy": "En DD-risk är en möjlig fördröjning av partnerfinansiering, inte ett bevis för att en affär avvisats. Alla sju områden, strategisk köparpassform och nästa värdehöjande data ska granskas vid omprövning; osäkrade upfronts förs inte som kassa. Även säljprocessens konkurrens, tajming, budekonomi, CIM-kvalitet och sekretess beaktas kvalitativt, men okända interna förhållanden utlöser aldrig ett extra automatiskt riskpåslag.",
     "scenarios": [
       {
         "name": "Avtal före avgörande data",
@@ -122,6 +122,47 @@
       }
     ],
     "post_financing_stress_points": 1,
-    "stress_point_note": "Ett extra subjektivt poängsteg efter antagen emission för att partnerfinansiering inte kan tas för given före ytterligare DD. Påverkar inte redan kritiskt rapporterat finansieringsläge (9/10) och innebär inte en konkurssannolikhet."
+    "stress_point_note": "Ett extra subjektivt poängsteg efter antagen emission för att partnerfinansiering inte kan tas för given före ytterligare DD. Påverkar inte redan kritiskt rapporterat finansieringsläge (9/10) och innebär inte en konkurssannolikhet.",
+    "sell_side_process": {
+      "title": "Affärsprocess, förhandlingsstyrka och Big Pharma",
+      "source_note": "Fem användartillförda sell-side M&A-principer, tillämpade med försiktighet även på licens-/partneravtal. Separat från köparens sju due diligence-områden.",
+      "review_date": "2026-11-17",
+      "summary": "Förhandlingsstyrka kan påverkas av om Cereno får emissionsfinansiering på plats innan nästa kliniska värdehöjande EPIMODE-besked. Ingen offentlig information visar en aktiv budprocess.",
+      "items": [
+        {
+          "key": "buyer_competition",
+          "title": "1. Konkurrens mellan köpare",
+          "principle": "Ett spontant bud bör, där det är genomförbart, jämföras med alternativa köpare och en strukturerad process. Ett enda intressebevis garanterar inte högsta möjliga pris.",
+          "company_assessment": "Ingen verifierad offentlig uppgift om ett konkret bud eller flera konkurrerande budgivare. Ett framtida CS1-/CS014-intresse ska därför inte prissättas som en budstrid."
+        },
+        {
+          "key": "milestone_timing",
+          "title": "2. Tajming mot kliniska milstolpar och kassa",
+          "principle": "Bedöm om bolaget kan förbereda och driva en process före nästa värdehöjande datapunkt och utan press från kort kassalivslängd. 12–18 månader är en föreslagen planeringshorisont, inte ett bevisat universellt optimum.",
+          "company_assessment": "Den aviserade cirka 400 Mkr-emissionen är ett faktiskt separat finansieringsspår. Följ om emissionsutfall och EPIMODE-data ger tid att förhandla utan akut kassapress; behandla inte 12–18 månader som en känd bolagsplan."
+        },
+        {
+          "key": "certainty_vs_economics",
+          "title": "3. Affärsekonomi kontra genomförandesäkerhet",
+          "principle": "Jämför riskjusterat totalvärde, upfront, milstolpar, royalties, regulatoriska villkor och sannolikheten att affären fullföljs. Ett säkert men lågt bud kan innebära värdeförlust.",
+          "company_assessment": "Jämför framtida erbjudanden mot kapitalbehov, utspädning, kostnader för EPIMODE och CS014 samt sannolikheten för betalning; en icke verifierad upfront räknas aldrig som kassa."
+        },
+        {
+          "key": "buyer_oriented_cim",
+          "title": "4. Köparorienterat investeringsunderlag (CIM)",
+          "principle": "Ett Confidential Information Memorandum bör tydliggöra köparens strategiska och kommersiella nytta, marknad, konkurrens och ekonomi — inte bara verkningsmekanism och kliniska data.",
+          "company_assessment": "För en potentiell partner måste PAH-positionering, differentiering mot konkurrenter, kombinationsmöjligheter och marknadspotential gå att styrka; innehållet i ett eventuellt konfidentiellt CIM är okänt."
+        },
+        {
+          "key": "process_confidentiality",
+          "title": "5. Sekretess och läckagerisk",
+          "principle": "Rykten eller offentliggjorda strategiska överväganden kan påverka köparnas beteende och prissättning. Ingen offentlig nyhet är däremot inte bevis för att dialoger saknas.",
+          "company_assessment": "Vi kan inte avgöra om förhandlingar eller läckor förekommer. Offentlig tystnad eller kortsiktiga kursrörelser får inte användas som bevis för en affär eller desperation."
+        }
+      ],
+      "risk_model_application": "Konkursbarometerns nuvarande 9/10 gäller finansieringsläget före genomförd emission. Det befintliga +1-stresspåslaget i scenariet efter emission täcker osäkerhet om partnerfinansiering; de fem processpunkterna ger inte automatiskt ytterligare poäng. Ett faktiskt finansieringsgap eller sämre verifierade villkor kan däremot ändra scenarierna.",
+      "numeric_adjustment_policy": "Ingen separat procentsats eller stresspoäng sätts utifrån antagna budgivare, CIM-kvalitet, läckor eller en schablon om 12–18 månader. Redan modellerad partner-DD och kassapress dubbelräknas inte; endast granskade bolagsspecifika fakta får ändra talen.",
+      "uncertainty_note": "Det går inte att se konfidentiella bud, processen, CIM eller data room. Påståendet om 50–100 % skillnad i affärsvärde är inte verifierat som generell effekt och används inte som värderingsmultiplikator. Utfallet för licensaffärer kan skilja sig från rena förvärv."
+    }
   }
 }
