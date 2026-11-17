@@ -912,6 +912,14 @@ footer{margin-top:30px;color:#90a4b0;border-top:1px solid #33434f;padding:25px 2
 .weekly-event-close:hover,.weekly-event-close:focus-visible{background:#536671;outline:2px solid #f3d5a4;outline-offset:2px}
 body.weekly-dialog-open{overflow:hidden}
 @media(max-width:650px){.weekly-event-overlay{padding:10px}.weekly-event-dialog{padding:22px 16px 18px;max-height:90vh}}
+
+/* Identical timestamped stock-quote tile to the SynAct dashboard. */
+.shared-quote-tile{display:flex;flex-direction:column;justify-content:center;gap:5px;min-height:91px;padding:7px 0}
+.shared-quote-tile>strong{font-size:clamp(30px,3vw,43px);font-weight:780;letter-spacing:-.04em;color:#f1f7f4;line-height:1.15;font-variant-numeric:tabular-nums}
+.shared-quote-tile>strong small{font-size:17px;letter-spacing:0;color:#c0d1dc}
+.shared-quote-status{font-size:11px;color:#c4d4df;line-height:1.45;margin-top:4px}
+.shared-quote-note{font-size:10px;color:#91b5bb;line-height:1.55}
+
 </style></head><body><main class="wrap">
 <nav class="sitenav" aria-label="Sektionsnavigering"><span>INVESTERARÖVERSIKT / CRNO B</span><div class="navlinks"><a href="#stock-heading">Aktien</a><a href="#pipeline-heading">Pipeline</a><a href="#fin-title">Finansiering</a><a href="#bankruptcy-title">Konkursrisk</a><a href="#milestones-heading">Milstolpar</a><a href="#valuation-heading">Värdering</a><a href="#news-heading">Nyheter</a></div></nav>
 <header class="hero"><div class="hero-content"><div class="eyebrow"><span class="eyebrow-dot"></span>OBEROENDE ANALYS · NASDAQ FIRST NORTH · CRNO B</div>
@@ -920,11 +928,18 @@ body.weekly-dialog-open{overflow:hidden}
 </div></header>
 <div class="notice" role="status"><span class="issuebadge">AVISERAD · 12 NOV 2026</span><div><strong>Planerad företrädesemission: cirka 400 miljoner kronor</strong><p>Emissionen är ännu inte genomförd. Teckningskurs, rättighetsförhållande och faktisk utspädning fastställs först senare. Extra bolagsstämma planeras 15 december 2026. <a href="https://mfn.se/a/cereno-scientific/cereno-scientific-avser-genomfora-en-foretradesemission-av-units-om-cirka-400-msek-med-fokus-pa-den-globala-fas-iib-studien-epimode-och-erhaller-forlangd-lanefinansiering-om-upp-till-175-msek" target="_blank" rel="noopener">Originalkälla ↗</a></p></div></div>
 <section class="stock-overview" aria-labelledby="stock-heading"><p class="section-kicker"><span class="section-number">01</span> Aktieöversikt</p><div class="market-heading"><h2 id="stock-heading">Aktien · CRNO B</h2><span class="market-exchange">Nasdaq First North Growth Market Stockholm</span></div>
-<div class="market-board"><div class="market-quote"><div class="market-quote-heading"><span>Kurs · extern / kan vara fördröjd</span><a href="https://www.tradingview.com/symbols/OMXSTO-CRNO_B/" target="_blank" rel="noopener">TradingView ↗</a></div><div class="tv-quote"><div class="tradingview-widget-container"><div class="tradingview-widget-container__widget"></div><script type="text/javascript" src="https://s3.tradingview.com/external-embedding/embed-widget-single-quote.js" async>{"symbol":"OMXSTO:CRNO_B","width":"100%","isTransparent":false,"colorTheme":"dark","locale":"sv"}</script></div></div></div>
-<div class="market-metric"><span class="metric-label">Antal aktier 30 sep 2026</span><strong>323 852 029</strong><a href="https://www.cerenoscientific.com/~/media/Files/C/cereno-scientific/corp/results-and-presentations/2026/Cereno%20Scientific%20Delarsrapport%20Q3%202026.pdf" target="_blank" rel="noopener">Q3-rapport ↗</a></div>
+<div class="market-board"><div class="market-quote">
+  <div class="market-quote-heading"><span>Kurs · Cereno Scientific B · potentiellt fördröjd</span><a href="https://www.tradingview.com/symbols/OMXSTO-CRNO_B/" target="_blank" rel="noopener noreferrer">Jämför på TradingView ↗</a></div>
+  <div class="shared-quote-tile" aria-label="Tidsstämplad senaste tillgängliga aktiekurs för Cereno Scientific B">
+   <strong id="shared-stock-price">0,2268 <small>kr</small></strong>
+   <div id="shared-stock-quote-status" class="shared-quote-status">Stängningskurs 16 nov 2026. Läser in senaste tillgängliga börskurs …</div>
+   <div class="shared-quote-note">Automatiskt uppdaterad börskurs med källtidsstämpel.</div>
+  </div>
+ </div>
+ <div class="market-metric"><span class="metric-label">Antal aktier 30 sep 2026</span><strong>323 852 029</strong><a href="https://www.cerenoscientific.com/~/media/Files/C/cereno-scientific/corp/results-and-presentations/2026/Cereno%20Scientific%20Delarsrapport%20Q3%202026.pdf" target="_blank" rel="noopener">Q3-rapport ↗</a></div>
 <div class="market-metric"><span class="metric-label">Senast rapporterad kassa</span><strong>40,24 <small>Mkr</small></strong><a href="https://www.cerenoscientific.com/~/media/Files/C/cereno-scientific/corp/results-and-presentations/2026/Cereno%20Scientific%20Delarsrapport%20Q3%202026.pdf" target="_blank" rel="noopener">30 sep 2026 ↗</a></div>
 <div class="market-metric"><span class="metric-label">Status för emission</span><strong>Avsikt</strong><a href="https://mfn.se/a/cereno-scientific/cereno-scientific-avser-genomfora-en-foretradesemission-av-units-om-cirka-400-msek-med-fokus-pa-den-globala-fas-iib-studien-epimode-och-erhaller-forlangd-lanefinansiering-om-upp-till-175-msek" target="_blank" rel="noopener">Villkor väntas i dec ↗</a></div></div>
-<p class="fine">Ingen hårdkodad dagskurs. TradingViews widget laddas från tredje part och kan vara fördröjd eller blockeras av din webbläsare. Antal aktier och kassa är historiska rapportvärden.</p></section>
+<p class="fine">Börskursen hämtas automatiskt från en extern kurskälla och visas med källtidsstämpel. Vid hämtningsfel ligger senast tillgängliga verifierade kurs kvar. Antal aktier och kassa är historiska rapportvärden. Antal aktier och kassa är historiska rapportvärden.</p></section>
 <section class="weekly-overview" aria-labelledby="weekly-heading">
  <div class="weekly-head">
   <div><p class="section-kicker"><span class="section-number">02</span> Veckosammanfattning</p>
@@ -1360,6 +1375,64 @@ drawFenja();drawBankruptcy();drawDilution();getMilestones();loadFinance();loadNe
   status.textContent='Kunde inte läsa Veckans nyheter: '+e.message;
   current.replaceChildren(make('p','weekly-small','Se nyhetsflödet längre ned på sidan och GitHub Actions för källkontroll.'));
  });
+})();
+
+
+/* Sourced exchange quote: updated by GitHub Actions approximately every 20
+   minutes; browser checks the cached project file every two minutes. */
+(function initSharedStockQuote(){
+  const expectedSymbol='CRNO-B.ST';
+  const digits=4;
+  const value=document.getElementById('shared-stock-price');
+  const status=document.getElementById('shared-stock-quote-status');
+  if(!value||!status)return;
+  let lastKey='';
+  const fmt=price=>Number(price).toLocaleString('sv-SE',{
+    minimumFractionDigits:digits,maximumFractionDigits:digits
+  });
+  function showPrice(quote){
+    const price=Number(quote.price);
+    value.replaceChildren(document.createTextNode(fmt(price)+' '));
+    const kr=document.createElement('small');
+    kr.textContent='kr';value.append(kr);
+    const traded=String(quote.quote_time||'');
+    let timeString='';
+    const dateOnly=quote.quote_granularity==='date'||/^\d{4}-\d{2}-\d{2}$/.test(traded);
+    if(dateOnly){
+      const date=new Date(traded.slice(0,10)+'T12:00:00Z');
+      timeString='Stängningskurs '+date.toLocaleDateString('sv-SE',{
+        day:'numeric',month:'short',year:'numeric',timeZone:'Europe/Stockholm'});
+    }else{
+      const date=new Date(traded);
+      const age=(Date.now()-date.getTime())/86400000;
+      const qualifier=age>1.25?'Senast tillgängliga kurs':'Senast tillgängliga kurs';
+      timeString=qualifier+' '+date.toLocaleString('sv-SE',{
+        day:'numeric',month:'short',hour:'2-digit',minute:'2-digit',
+        timeZone:'Europe/Stockholm'});
+    }
+    status.textContent=timeString+' · '+(quote.source||'Extern kurskälla')+' · kan vara fördröjd.';
+  }
+  async function refresh(){
+    try{
+      const response=await fetch('./data/stock_quote.json?cache_bust='+Date.now(),{cache:'no-store'});
+      if(!response.ok)throw Error('HTTP '+response.status);
+      const q=await response.json();
+      const numeric=Number(q.price);
+      if(q.symbol!==expectedSymbol||q.currency!=='SEK'||
+         !Number.isFinite(numeric)||numeric<=0||!q.quote_time||
+         Number.isNaN(Date.parse(q.quote_time))){
+        throw Error('Ogiltig kurs, valutasort eller tidsstämpel');
+      }
+      const sourceDate=Date.parse(q.quote_time);
+      if(sourceDate>Date.now()+10*60*1000)throw Error('Kurs från framtiden');
+      const key=q.quote_time+'|'+numeric;
+      if(key!==lastKey){lastKey=key;showPrice(q);}
+    }catch(error){
+      status.textContent='Senaste angivna kurs visas – uppdateringen kunde inte kontrolleras ('+error.message+').';
+    }
+  }
+  refresh();
+  setInterval(refresh,120000);
 })();
 
 </script></body></html>
