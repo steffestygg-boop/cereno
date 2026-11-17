@@ -3,7 +3,7 @@
   "company": "Cereno Scientific",
   "timezone": "Europe/Stockholm",
   "schedule": "Varje dag kl. 09:00 Europe/Stockholm med extra kontroll på eftermiddagen; ISO-vecka från måndag",
-  "updated_at": "2026-11-17T09:24:16+01:00",
+  "updated_at": "2026-11-17T09:25:03+01:00",
   "latest_week": "2026-W47",
   "weeks": [
     {
@@ -12,9 +12,31 @@
       "year": 2026,
       "start": "2026-11-16",
       "end": "2026-11-17",
-      "generated_at": "2026-11-17T09:24:16+01:00",
-      "intro": "En framträdande nyhetsrubrik: Edison: fulltecknad emission kan räcka till Q1 2028. Innehållet i artikeln behöver kontrolleras mot originalkällan.",
+      "generated_at": "2026-11-17T09:25:03+01:00",
+      "intro": "En framträdande nyhetsrubrik: Johan Eriksson lämnar Cerenos styrelse. Innehållet i artikeln behöver kontrolleras mot originalkällan.",
       "events": [
+        {
+          "date": "2026-11-16",
+          "title": "Johan Eriksson lämnar Cerenos styrelse",
+          "category": "Bolagsledning och styrelse",
+          "summary": "Johan Eriksson avgår som styrelseledamot i Cereno med omedelbar verkan. Styrelsen har därefter fem ledamöter och uppfyller fortfarande bolagsordningen.",
+          "source": "MFN · bolagets pressmeddelande",
+          "url": "https://mfn.se/a/cereno-scientific/cereno-scientific-meddelar-att-styrelseledamot-avgar-pa-egen-begaran",
+          "verified": false,
+          "origin": "bolagsflöde",
+          "source_note": "Direkt hämtad publicerad bolagsrubrik; eventuella detaljer kräver granskning av pressmeddelandet.",
+          "published_at": "2026-11-16 \n         22:35:00",
+          "details": "Cereno offentliggjorde beskedet den 16 november kl. 22.35. Johan Eriksson lämnar styrelsen på egen begäran. Enligt bolagets ordinarie bolagsordning ska styrelsen bestå av minst fyra och högst åtta ledamöter. Efter avgången återstår fem ledamöter.",
+          "importance": "Avgången är en bolagsstyrningshändelse. Inget ytterligare skäl till avgången anges i pressmeddelandet, och orsaken bör därför inte spekuleras i.",
+          "key_facts": [
+            "Styrelseledamot: Johan Eriksson",
+            "Avgången gäller omedelbart",
+            "Återstående styrelse: 5 personer",
+            "Publicering: 16 november 22.35"
+          ],
+          "additional_source_url": "https://mfn.se/a/cereno-scientific/cereno-scientific-meddelar-att-styrelseledamot-avgar-pa-egen-begaran.iframe",
+          "editorial_verified": true
+        },
         {
           "date": "2026-11-16",
           "title": "Cereno-vd:n avgår som ledamot i Synact Pharma",
@@ -51,28 +73,6 @@
           ],
           "additional_source_url": "https://news.google.com/rss/articles/CBMilAFBVV95cUxObGpPR3E3TmYtbzZReFh2c1Q3WUgyaXJlakF0cTJKa0h6bTNBcm1KaDB2WlpBTTlySUxLWmtST003bEZwVmMyUE9CcmdBUVdreUl1WmxLUFVrZHdCU1hlWFVGWlpkUEpQQm8tSGc5cnJ4Y1VtLUdyaEJncmZ3UE5xU21DNFNGaWZ0dGZnek5aaktqY2lt?oc=5",
           "editorial_verified": true
-        },
-        {
-          "date": "2026-11-16",
-          "title": "Johan Eriksson lämnar Cerenos styrelse",
-          "category": "Övrigt",
-          "summary": "Johan Eriksson avgår som styrelseledamot i Cereno med omedelbar verkan. Styrelsen har därefter fem ledamöter och uppfyller fortfarande bolagsordningen.",
-          "source": "MFN · bolagets pressmeddelande",
-          "url": "https://mfn.se/a/cereno-scientific/cereno-scientific-meddelar-att-styrelseledamot-avgar-pa-egen-begaran",
-          "verified": false,
-          "origin": "bolagsflöde",
-          "source_note": "Direkt hämtad publicerad bolagsrubrik; eventuella detaljer kräver granskning av pressmeddelandet.",
-          "published_at": "2026-11-16 \n         22:35:00",
-          "details": "Cereno offentliggjorde beskedet den 16 november kl. 22.35. Johan Eriksson lämnar styrelsen på egen begäran. Enligt bolagets ordinarie bolagsordning ska styrelsen bestå av minst fyra och högst åtta ledamöter. Efter avgången återstår fem ledamöter.",
-          "importance": "Avgången är en bolagsstyrningshändelse. Inget ytterligare skäl till avgången anges i pressmeddelandet, och orsaken bör därför inte spekuleras i.",
-          "key_facts": [
-            "Styrelseledamot: Johan Eriksson",
-            "Avgången gäller omedelbart",
-            "Återstående styrelse: 5 personer",
-            "Publicering: 16 november 22.35"
-          ],
-          "editorial_verified": true,
-          "additional_source_url": "https://mfn.se/a/cereno-scientific/cereno-scientific-meddelar-att-styrelseledamot-avgar-pa-egen-begaran.iframe"
         }
       ],
       "updates": [],
