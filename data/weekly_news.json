@@ -3,7 +3,7 @@
   "company": "Cereno Scientific",
   "timezone": "Europe/Stockholm",
   "schedule": "Varje dag kl. 09:00 Europe/Stockholm med extra kontroll på eftermiddagen; ISO-vecka från måndag",
-  "updated_at": "2026-11-17T09:22:59+01:00",
+  "updated_at": "2026-11-17T09:24:16+01:00",
   "latest_week": "2026-W47",
   "weeks": [
     {
@@ -12,7 +12,7 @@
       "year": 2026,
       "start": "2026-11-16",
       "end": "2026-11-17",
-      "generated_at": "2026-11-17T09:22:59+01:00",
+      "generated_at": "2026-11-17T09:24:16+01:00",
       "intro": "En framträdande nyhetsrubrik: Edison: fulltecknad emission kan räcka till Q1 2028. Innehållet i artikeln behöver kontrolleras mot originalkällan.",
       "events": [
         {
@@ -22,21 +22,6 @@
           "summary": "",
           "source": "DI",
           "url": "https://news.google.com/rss/articles/CBMieEFVX3lxTE1pbW50M29qMkpsRC1sSTk0Vm5vREdRbkVxcjBJekU0TjNob092em9zTWlkZ1htc3lfakdrTVQ0RkFzc1NBSDlwYU5LN1IyMlVMYm84cFFac2JDWi1PUU5POVEyZ2FVQk12MXV2cFBLaXNtU3BNVVVwbw?oc=5",
-          "verified": false,
-          "origin": "rubrik",
-          "source_note": "Automatiskt insamlad rubrik – originalartikeln har inte fullständigt faktagranskats",
-          "details": "",
-          "importance": "",
-          "key_facts": [],
-          "editorial_verified": false
-        },
-        {
-          "date": "2026-11-16",
-          "title": "Cereno Scientific meddelar att styrelseledamot avgår på egen beg�... - MFN",
-          "category": "Bolagsledning och styrelse",
-          "summary": "",
-          "source": "MFN",
-          "url": "https://news.google.com/rss/articles/CBMipgFBVV95cUxOZjdTUW5aT2JlSmMyQzhCREFQb21CQWgxSG5aNUc2V2Q0ZUpaSmtrNDJrNmVxZ2NnNElBaFgzMzBNMHZNRUtUYnhIem43VjBlQXpaLUViQ0lkWkFUdW1vNHY1NEpEVTRNeEVrcVRPcFk5djFuUXdqc2JsTGdFRml0TVNISHBhRGhaVGpucWdqS1hJN2I3UkdhWDAtWUE5cE5peXVYMUZn?oc=5",
           "verified": false,
           "origin": "rubrik",
           "source_note": "Automatiskt insamlad rubrik – originalartikeln har inte fullständigt faktagranskats",
@@ -64,8 +49,8 @@
             "TO6 och TO7: ytterligare cirka 400 Mkr potentiellt",
             "EPIMODE-topline: planerad Q4 2028"
           ],
-          "editorial_verified": true,
-          "additional_source_url": "https://news.google.com/rss/articles/CBMilAFBVV95cUxObGpPR3E3TmYtbzZReFh2c1Q3WUgyaXJlakF0cTJKa0h6bTNBcm1KaDB2WlpBTTlySUxLWmtST003bEZwVmMyUE9CcmdBUVdreUl1WmxLUFVrZHdCU1hlWFVGWlpkUEpQQm8tSGc5cnJ4Y1VtLUdyaEJncmZ3UE5xU21DNFNGaWZ0dGZnek5aaktqY2lt?oc=5"
+          "additional_source_url": "https://news.google.com/rss/articles/CBMilAFBVV95cUxObGpPR3E3TmYtbzZReFh2c1Q3WUgyaXJlakF0cTJKa0h6bTNBcm1KaDB2WlpBTTlySUxLWmtST003bEZwVmMyUE9CcmdBUVdreUl1WmxLUFVrZHdCU1hlWFVGWlpkUEpQQm8tSGc5cnJ4Y1VtLUdyaEJncmZ3UE5xU21DNFNGaWZ0dGZnek5aaktqY2lt?oc=5",
+          "editorial_verified": true
         },
         {
           "date": "2026-11-16",
@@ -88,21 +73,6 @@
           ],
           "editorial_verified": true,
           "additional_source_url": "https://mfn.se/a/cereno-scientific/cereno-scientific-meddelar-att-styrelseledamot-avgar-pa-egen-begaran.iframe"
-        },
-        {
-          "date": "2026-11-16",
-          "title": "Cereno Scientific announces resignation of Board member at own request - MFN",
-          "category": "Övrigt",
-          "summary": "",
-          "source": "MFN",
-          "url": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxPdzMtSGVzQlc4WVgxcHFZQnN2UE9YYjFULUJiU0lLMGdBT2FMVWFIOGxQOVRVSGUwLWNtOEJSTmJ4UU5oM2dfcE5TcUdPREhseXl3Rk04YlZ5UGptMkN1a0dCdjhNb1dkVHJvN0NMaWJPc0NUSWJTMFhHUlFVcFoxZnpDSzJQb1NsWWZYMkx3UGdnZDNNTlRFdFZMUzFpNV9CVDNnbE1XaUM?oc=5",
-          "verified": false,
-          "origin": "rubrik",
-          "source_note": "Automatiskt insamlad rubrik – originalartikeln har inte fullständigt faktagranskats",
-          "details": "",
-          "importance": "",
-          "key_facts": [],
-          "editorial_verified": false
         }
       ],
       "updates": [],
@@ -366,9 +336,9 @@
         "baseline_date": "2026-11-13",
         "baseline": 0.2696,
         "latest_date": "2026-11-17",
-        "latest": 0.1618,
-        "change_sek": -0.1078,
-        "change_percent": -39.99,
+        "latest": 0.1635,
+        "change_sek": -0.1061,
+        "change_percent": -39.35,
         "source_url": "https://finance.yahoo.com/quote/CRNO-B.ST/history/",
         "note": "Jämfört med föregående handelsveckas sista stängningskurs. Fördröjda dagsstängningar, inte realtid."
       }
