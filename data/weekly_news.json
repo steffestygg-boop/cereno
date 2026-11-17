@@ -3,7 +3,7 @@
   "company": "Cereno Scientific",
   "timezone": "Europe/Stockholm",
   "schedule": "Varje dag kl. 09:00 Europe/Stockholm med extra kontroll på eftermiddagen; ISO-vecka från måndag",
-  "updated_at": "2026-11-17T09:20:24+01:00",
+  "updated_at": "2026-11-17T09:20:58+01:00",
   "latest_week": "2026-W47",
   "weeks": [
     {
@@ -12,7 +12,7 @@
       "year": 2026,
       "start": "2026-11-16",
       "end": "2026-11-17",
-      "generated_at": "2026-11-17T09:20:24+01:00",
+      "generated_at": "2026-11-17T09:20:58+01:00",
       "intro": "En framträdande nyhetsrubrik: Cereno Scientific: More runway, more opportunity - Edison. Innehållet i artikeln behöver kontrolleras mot originalkällan.",
       "events": [
         {
@@ -41,6 +41,21 @@
           "origin": "bolagsflöde",
           "source_note": "Direkt hämtad publicerad bolagsrubrik; eventuella detaljer kräver granskning av pressmeddelandet.",
           "published_at": "2026-11-16 \n         22:35:00",
+          "details": "",
+          "importance": "",
+          "key_facts": [],
+          "editorial_verified": false
+        },
+        {
+          "date": "2026-11-16",
+          "title": "Cereno Scientific: More runway, more opportunity - Edison",
+          "category": "Emission och finansiering",
+          "summary": "",
+          "source": "Börsvärlden",
+          "url": "https://news.google.com/rss/articles/CBMijwFBVV95cUxQYVZNek81RDhYclNMbkpZZFNYR0dDSjVIX3FJU0hBRnR0MktJZWtDUzgwWUpUeW1SY1NTa2NVVHZySngwUkNENHRzTngxREdiYXNWVGZ4R0NXcGtpRzR4dDRNZE4yQnRkcU9pQ2tTMnplUWZtMEVVSExGWkFoWGQ2czRuM3FJQ0NUM1hLeVUxdw?oc=5",
+          "verified": false,
+          "origin": "rubrik",
+          "source_note": "Automatiskt insamlad rubrik – originalartikeln har inte fullständigt faktagranskats",
           "details": "",
           "importance": "",
           "key_facts": [],
@@ -396,9 +411,9 @@
         "baseline_date": "2026-11-13",
         "baseline": 0.2696,
         "latest_date": "2026-11-17",
-        "latest": 0.161,
-        "change_sek": -0.1086,
-        "change_percent": -40.28,
+        "latest": 0.1617,
+        "change_sek": -0.1079,
+        "change_percent": -40.02,
         "source_url": "https://finance.yahoo.com/quote/CRNO-B.ST/history/",
         "note": "Jämfört med föregående handelsveckas sista stängningskurs. Fördröjda dagsstängningar, inte realtid."
       }
