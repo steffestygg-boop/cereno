@@ -1,5 +1,10 @@
 name: Publicera Cereno-sidan
 on:
+  # Kursjobbets git push använder GITHUB_TOKEN och utlöser därför inte ett nytt push-flöde.
+  # Publicera om GitHub Pages när kursjobbet slutförts framgångsrikt.
+  workflow_run:
+    workflows: ["Uppdatera Cereno Scientific B aktiekurs"]
+    types: [completed]
   push:
     branches: [main]
     paths:
@@ -16,6 +21,7 @@ concurrency:
   cancel-in-progress: true
 jobs:
   deploy:
+    if: ${{ github.event_name != 'workflow_run' || github.event.workflow_run.conclusion == 'success' }}
     environment:
       name: github-pages
       url: ${{ steps.deployment.outputs.page_url }}
