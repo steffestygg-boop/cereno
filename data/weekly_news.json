@@ -3,7 +3,7 @@
   "company": "Cereno Scientific",
   "timezone": "Europe/Stockholm",
   "schedule": "Varje dag kl. 09:00 Europe/Stockholm med extra kontroll på eftermiddagen; ISO-vecka från måndag",
-  "updated_at": "2026-11-17T09:20:58+01:00",
+  "updated_at": "2026-11-17T09:22:25+01:00",
   "latest_week": "2026-W47",
   "weeks": [
     {
@@ -12,8 +12,8 @@
       "year": 2026,
       "start": "2026-11-16",
       "end": "2026-11-17",
-      "generated_at": "2026-11-17T09:20:58+01:00",
-      "intro": "En framträdande nyhetsrubrik: Cereno Scientific: More runway, more opportunity - Edison. Innehållet i artikeln behöver kontrolleras mot originalkällan.",
+      "generated_at": "2026-11-17T09:22:25+01:00",
+      "intro": "En framträdande nyhetsrubrik: Edison: fulltecknad emission kan räcka till Q1 2028. Innehållet i artikeln behöver kontrolleras mot originalkällan.",
       "events": [
         {
           "date": "2026-11-16",
@@ -60,6 +60,50 @@
           "importance": "",
           "key_facts": [],
           "editorial_verified": false
+        },
+        {
+          "date": "2026-11-16",
+          "title": "Edison: fulltecknad emission kan räcka till Q1 2028",
+          "category": "Emission och finansiering",
+          "summary": "Edison analyserar Cerenos planerade 400 Mkr-emission och omstruktureringen av Fenja-skulden. Vid full teckning väntas finansieringen enligt bolagets bedömning räcka in i Q1 2028.",
+          "source": "Börsvärlden",
+          "url": "https://www.inderes.se/third-party-research/cereno-scientific-more-runway-more-opportunity-edison",
+          "verified": false,
+          "origin": "rubrik",
+          "source_note": "Automatiskt insamlad rubrik – originalartikeln har inte fullständigt faktagranskats",
+          "details": "Edison framhåller att en fulltecknad emission kan ge ökat finansieringsutrymme bortom den planerade avslutningen av EPIMODE-rekryteringen vid slutet av 2027. Två teckningsoptionsserier, TO6 och TO7, skulle potentiellt kunna ge ytterligare omkring 400 Mkr. Edison lyfter samtidigt utspädning, genomföranderisk och behovet av ytterligare kapital fram till topline Q4 2028.",
+          "importance": "Rapporten är extern aktieanalys, inte ett nytt bindande finansieringsbesked. Emissionen måste först genomföras för att kassan ska stärkas.",
+          "key_facts": [
+            "Planerad företrädesemission: cirka 400 Mkr",
+            "Omstrukturering av Fenja-skuld: 175 Mkr",
+            "Vid full teckning: beräknad finansieringshorisont Q1 2028",
+            "TO6 och TO7: ytterligare cirka 400 Mkr potentiellt",
+            "EPIMODE-topline: planerad Q4 2028"
+          ],
+          "additional_source_url": "https://news.google.com/rss/articles/CBMilAFBVV95cUxObGpPR3E3TmYtbzZReFh2c1Q3WUgyaXJlakF0cTJKa0h6bTNBcm1KaDB2WlpBTTlySUxLWmtST003bEZwVmMyUE9CcmdBUVdreUl1WmxLUFVrZHdCU1hlWFVGWlpkUEpQQm8tSGc5cnJ4Y1VtLUdyaEJncmZ3UE5xU21DNFNGaWZ0dGZnek5aaktqY2lt?oc=5",
+          "editorial_verified": true
+        },
+        {
+          "date": "2026-11-16",
+          "title": "Johan Eriksson lämnar Cerenos styrelse",
+          "category": "Övrigt",
+          "summary": "Johan Eriksson avgår som styrelseledamot i Cereno med omedelbar verkan. Styrelsen har därefter fem ledamöter och uppfyller fortfarande bolagsordningen.",
+          "source": "MFN · bolagets pressmeddelande",
+          "url": "https://mfn.se/a/cereno-scientific/cereno-scientific-meddelar-att-styrelseledamot-avgar-pa-egen-begaran",
+          "verified": false,
+          "origin": "bolagsflöde",
+          "source_note": "Direkt hämtad publicerad bolagsrubrik; eventuella detaljer kräver granskning av pressmeddelandet.",
+          "published_at": "2026-11-16 \n         22:35:00",
+          "details": "Cereno offentliggjorde beskedet den 16 november kl. 22.35. Johan Eriksson lämnar styrelsen på egen begäran. Enligt bolagets ordinarie bolagsordning ska styrelsen bestå av minst fyra och högst åtta ledamöter. Efter avgången återstår fem ledamöter.",
+          "importance": "Avgången är en bolagsstyrningshändelse. Inget ytterligare skäl till avgången anges i pressmeddelandet, och orsaken bör därför inte spekuleras i.",
+          "key_facts": [
+            "Styrelseledamot: Johan Eriksson",
+            "Avgången gäller omedelbart",
+            "Återstående styrelse: 5 personer",
+            "Publicering: 16 november 22.35"
+          ],
+          "additional_source_url": "https://mfn.se/a/cereno-scientific/cereno-scientific-meddelar-att-styrelseledamot-avgar-pa-egen-begaran.iframe",
+          "editorial_verified": true
         },
         {
           "date": "2026-11-13",
@@ -411,9 +455,9 @@
         "baseline_date": "2026-11-13",
         "baseline": 0.2696,
         "latest_date": "2026-11-17",
-        "latest": 0.1617,
-        "change_sek": -0.1079,
-        "change_percent": -40.02,
+        "latest": 0.1608,
+        "change_sek": -0.1088,
+        "change_percent": -40.36,
         "source_url": "https://finance.yahoo.com/quote/CRNO-B.ST/history/",
         "note": "Jämfört med föregående handelsveckas sista stängningskurs. Fördröjda dagsstängningar, inte realtid."
       }
