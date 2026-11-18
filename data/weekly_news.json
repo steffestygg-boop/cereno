@@ -3,7 +3,7 @@
   "company": "Cereno Scientific",
   "timezone": "Europe/Stockholm",
   "schedule": "Varje dag kl. 09:00 Europe/Stockholm med extra kontroll på eftermiddagen; ISO-vecka från måndag",
-  "updated_at": "2026-11-17T15:45:24+01:00",
+  "updated_at": "2026-11-18T09:57:17+01:00",
   "latest_week": "2026-W47",
   "weeks": [
     {
@@ -11,10 +11,62 @@
       "week": 47,
       "year": 2026,
       "start": "2026-11-16",
-      "end": "2026-11-17",
-      "generated_at": "2026-11-17T15:45:24+01:00",
+      "end": "2026-11-18",
+      "generated_at": "2026-11-18T09:57:17+01:00",
       "intro": "En framträdande nyhetsrubrik: Johan Eriksson lämnar Cerenos styrelse. Innehållet i artikeln behöver kontrolleras mot originalkällan. Dessutom finns 1 noterade förändringar i sidans finansieringsanalys eller milstolpar.",
       "events": [
+        {
+          "date": "2026-11-17",
+          "title": "Johan Eriksson lämnar Cerenos styrelse",
+          "category": "Bolagsledning och styrelse",
+          "summary": "Johan Eriksson avgår som styrelseledamot i Cereno med omedelbar verkan. Styrelsen har därefter fem ledamöter och uppfyller fortfarande bolagsordningen.",
+          "source": "Biostock",
+          "url": "https://mfn.se/a/cereno-scientific/cereno-scientific-meddelar-att-styrelseledamot-avgar-pa-egen-begaran",
+          "verified": false,
+          "origin": "rubrik",
+          "source_note": "Automatiskt insamlad rubrik – originalartikeln har inte fullständigt faktagranskats",
+          "details": "Cereno offentliggjorde beskedet den 16 november kl. 22.35. Johan Eriksson lämnar styrelsen på egen begäran. Enligt bolagets ordinarie bolagsordning ska styrelsen bestå av minst fyra och högst åtta ledamöter. Efter avgången återstår fem ledamöter.",
+          "importance": "Avgången är en bolagsstyrningshändelse. Inget ytterligare skäl till avgången anges i pressmeddelandet, och orsaken bör därför inte spekuleras i.",
+          "key_facts": [
+            "Styrelseledamot: Johan Eriksson",
+            "Avgången gäller omedelbart",
+            "Återstående styrelse: 5 personer",
+            "Publicering: 16 november 22.35"
+          ],
+          "additional_source_url": "https://news.google.com/rss/articles/CBMidkFVX3lxTE15MjlwQVhKRkpaSG5YaF9ZZXlLMzRQeE1DVXRPYkZsM3hQWXhLbjhQMVRrdGdGNGJQdFdUZ2t1elNUV01IbmF6eVR3ZlE3bTVjRjNsMzduby03M0F1c01WTktWaWpWcEhkWUxSNHVwYm1BSFE3X2c?oc=5",
+          "editorial_verified": true
+        },
+        {
+          "date": "2026-11-17",
+          "title": "Cereno Scientific meddelar att styrelseordföranden avgår på egen begäran",
+          "category": "Bolagsledning och styrelse",
+          "summary": "",
+          "source": "MFN · bolagets pressmeddelande",
+          "url": "https://mfn.se/a/cereno-scientific/cereno-scientific-meddelar-att-styrelseordforanden-avgar-pa-egen-begaran.iframe",
+          "verified": false,
+          "origin": "bolagsflöde",
+          "source_note": "Direkt hämtad publicerad bolagsrubrik; eventuella detaljer kräver granskning av pressmeddelandet.",
+          "published_at": "2026-11-17 \n         17:11:00",
+          "details": "",
+          "importance": "",
+          "key_facts": [],
+          "editorial_verified": false
+        },
+        {
+          "date": "2026-11-17",
+          "title": "Cereno Scientifics styrelseordförande avgår med omedelbar verkan",
+          "category": "Bolagsledning och styrelse",
+          "summary": "",
+          "source": "Affärsvärlden",
+          "url": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxONWdaZkJKYlB0eU80LXVJTWxSel9nWFZHN0xXVnpiTllfeEVvLXFZY3pOUm9IX3EyLXBoNmM2UTFEY29JXzQzQ2dNZ2tUQ1ZnRnJMR3l0Rl95MHBWYzZyMTc2dmduckZ1Z2FIUHRGeUhJQ0xGeUZQSTFfeGlXbmpac3JXaVhwMG5ISlNCUWtYOFZiSDY3bnhueHJEb0t6bWlSdFNIWUNfcXQ?oc=5",
+          "verified": false,
+          "origin": "rubrik",
+          "source_note": "Automatiskt insamlad rubrik – originalartikeln har inte fullständigt faktagranskats",
+          "details": "",
+          "importance": "",
+          "key_facts": [],
+          "editorial_verified": false
+        },
         {
           "date": "2026-11-16",
           "title": "Johan Eriksson lämnar Cerenos styrelse",
@@ -341,10 +393,10 @@
         "symbol": "CRNO-B.ST",
         "baseline_date": "2026-11-13",
         "baseline": 0.2696,
-        "latest_date": "2026-11-17",
-        "latest": 0.1488,
-        "change_sek": -0.1208,
-        "change_percent": -44.81,
+        "latest_date": "2026-11-18",
+        "latest": 0.1603,
+        "change_sek": -0.1093,
+        "change_percent": -40.54,
         "source_url": "https://finance.yahoo.com/quote/CRNO-B.ST/history/",
         "note": "Jämfört med föregående handelsveckas sista stängningskurs. Fördröjda dagsstängningar, inte realtid."
       }
