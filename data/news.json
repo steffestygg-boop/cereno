@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-11-16T09:11:24+00:00",
+  "updated_at": "2026-11-18T07:43:07+00:00",
   "feed": "Källkontrollerade notiser + automatiska, obekräftade Google News RSS-rubriker",
   "items": [
     {
@@ -31,8 +31,15 @@
       "verified": true
     },
     {
+      "title": "Cereno Scientifics styrelseordförande avgår med omedelbar verkan - Affärsvärlden",
+      "url": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxONWdaZkJKYlB0eU80LXVJTWxSel9nWFZHN0xXVnpiTllfeEVvLXFZY3pOUm9IX3EyLXBoNmM2UTFEY29JXzQzQ2dNZ2tUQ1ZnRnJMR3l0Rl95MHBWYzZyMTc2dmduckZ1Z2FIUHRGeUhJQ0xGeUZQSTFfeGlXbmpac3JXaVhwMG5ISlNCUWtYOFZiSDY3bnhueHJEb0t6bWlSdFNIWUNfcXQ?oc=5",
+      "date": "2026-11-17",
+      "source": "Affärsvärlden",
+      "verified": false
+    },
+    {
       "title": "Cereno Scientific: More runway, more opportunity - Edison - Börsvärlden",
-      "url": "https://news.google.com/rss/articles/CBMijwFBVV95cUxQYVZNek81RDhYclNMbkpZZFNYR0dDSjVIX3FJU0hBRnR0MktJZWtDUzgwWUpUeW1SY1NTa2NVVHZySngwUkNENHRzTngxREdiYXNWVGZ4R0NXcGtpRzR4dDRNZE4yQnRkcU9pQ2tTMnplUWZtMEVVSExGWkFoWGQ2czRuM3FJQ0NUM1hLeVUxdw?oc=5",
+      "url": "https://news.google.com/rss/articles/CBMilAFBVV95cUxObGpPR3E3TmYtbzZReFh2c1Q3WUgyaXJlakF0cTJKa0h6bTNBcm1KaDB2WlpBTTlySUxLWmtST003bEZwVmMyUE9CcmdBUVdreUl1WmxLUFVrZHdCU1hlWFVGWlpkUEpQQm8tSGc5cnJ4Y1VtLUdyaEJncmZ3UE5xU21DNFNGaWZ0dGZnek5aaktqY2lt?oc=5",
       "date": "2026-11-16",
       "source": "Börsvärlden",
       "verified": false
@@ -63,6 +70,13 @@
       "url": "https://news.google.com/rss/articles/CBMinwFBVV95cUxQYlBfcE9fTDFSdGp5XzcwM19zSHF6aHQ5bjROck1GZndkNUNNYnFTYTFyTGhoREE1cHhta2F4WGxqR0VUX214YUdCYXFaek0tLXpOWlpnZEN0Wm9EbHNZekVNZ0tTSHh2am8xUmh4YXYzYVd4TFIwX3g3OEVsd3lQU2l2N25SNzZESkxVZ0UtVWNyLXR6OEhFbmpkMTZER0U?oc=5",
       "date": "2026-11-04",
       "source": "Börsvärlden",
+      "verified": false
+    },
+    {
+      "title": "Starkt engagemang när Cereno samlar prövare till EPIMODE - Biostock",
+      "url": "https://news.google.com/rss/articles/CBMiaEFVX3lxTE02WEpMMzRzSW1rajlzQk9XNnVxNjh6NGUwTTVZQS00azhZb3dIWjJKbGNLNkd2NkxZSC1VdTlqSFMxc2hFdUF3SU1UdDY0bzA5S2ZUQW1ZaGgyZHVyVXAyc2I5Ukc1NHl1?oc=5",
+      "date": "2026-11-02",
+      "source": "Biostock",
       "verified": false
     },
     {
