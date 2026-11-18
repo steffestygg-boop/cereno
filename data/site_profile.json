@@ -1,0 +1,11 @@
+{
+  "slug": "cereno",
+  "name": "Cereno Scientific",
+  "ticker": "CRNO B",
+  "exchange": "Nasdaq First North Growth Market Stockholm",
+  "description": "Cereno utvecklar läkemedel för sällsynta sjukdomar inom hjärta, kärl och lungor. Portföljen omfattar CS1, CS014 och CS585.",
+  "official": "https://www.cerenoscientific.com/sv",
+  "quote_url": "https://www.tradingview.com/symbols/OMXSTO-CRNO_B/",
+  "price_id": "shared-stock-price",
+  "status_id": "shared-stock-quote-status"
+}
