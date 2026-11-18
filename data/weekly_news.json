@@ -3,7 +3,7 @@
   "company": "Cereno Scientific",
   "timezone": "Europe/Stockholm",
   "schedule": "Varje dag kl. 09:00 Europe/Stockholm med extra kontroll på eftermiddagen; ISO-vecka från måndag",
-  "updated_at": "2026-11-18T09:57:17+01:00",
+  "updated_at": "2026-11-18T11:20:49+01:00",
   "latest_week": "2026-W47",
   "weeks": [
     {
@@ -12,7 +12,7 @@
       "year": 2026,
       "start": "2026-11-16",
       "end": "2026-11-18",
-      "generated_at": "2026-11-18T09:57:17+01:00",
+      "generated_at": "2026-11-18T11:20:49+01:00",
       "intro": "En framträdande nyhetsrubrik: Johan Eriksson lämnar Cerenos styrelse. Innehållet i artikeln behöver kontrolleras mot originalkällan. Dessutom finns 1 noterade förändringar i sidans finansieringsanalys eller milstolpar.",
       "events": [
         {
@@ -191,6 +191,11 @@
             "title": "Rubrik kräver faktagranskning: Cereno Scientific planerar företrädesemission om 400 miljoner kronor för fortsatt klinisk utveckling - Biostock",
             "level": "bevakning",
             "source": "https://news.google.com/rss/articles/CBMiyAFBVV95cUxQVmRaek9sMVZyc0Y4MC1EakZQWmRvOHQ5MHE1VlZocGpWN1R1MTRkVzRLUEFRaGFHTHdOMEw2UE9BcjBGbkVXWDhnb2h5c3ZCZ09yNWh4d1BpaU9OdG9GbUJQanpVa25zZUI4azEyWTlyUk9TNlNGeURJWDhHa3lpaldtdlZzMEJZVTFqbjV1ek1RZTJVZUV6M2ZyM0xPcThhUThrRDhHTVVXOW1mRDFlc1NVbHRHWWtFeG5Kb0RMUDczRDN1a0tZVQ?oc=5"
+          },
+          "Rubrik kräver faktagranskning: Cereno Scientific planerar företrädesemission på 400 miljoner kronor – förlänger lån - Börsvärlden": {
+            "title": "Rubrik kräver faktagranskning: Cereno Scientific planerar företrädesemission på 400 miljoner kronor – förlänger lån - Börsvärlden",
+            "level": "bevakning",
+            "source": "https://news.google.com/rss/articles/CBMitgFBVV95cUxQdGZjdVdjVWNHSURna1VrRWtLQ0xPNHRkV2NRamo4QnlhTEJsbUtpVW9meThLOUpna3dTWVUxMXlWYjZHRjNoaXJuc0JCWUUteERRRWlfd1EwSFBsdFFQT1NKVGpaRHdmSWJSeWJGQVRIVkZxXzFrc19xTFFYRUdSN1ctYWNPRkF1Q05YT0VkN1V3YU9aM1RqcXBLMkM1cS04bzU5Y0tUOG1nSHNranFRcFhPVkpuUQ?oc=5"
           },
           "Rubrik kräver faktagranskning: Cereno Scientifics handelsstopp hävs - DI": {
             "title": "Rubrik kräver faktagranskning: Cereno Scientifics handelsstopp hävs - DI",
@@ -394,9 +399,9 @@
         "baseline_date": "2026-11-13",
         "baseline": 0.2696,
         "latest_date": "2026-11-18",
-        "latest": 0.1603,
-        "change_sek": -0.1093,
-        "change_percent": -40.54,
+        "latest": 0.1599,
+        "change_sek": -0.1097,
+        "change_percent": -40.69,
         "source_url": "https://finance.yahoo.com/quote/CRNO-B.ST/history/",
         "note": "Jämfört med föregående handelsveckas sista stängningskurs. Fördröjda dagsstängningar, inte realtid."
       }
