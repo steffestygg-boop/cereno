@@ -1,5 +1,7 @@
 # Cereno Scientific – oberoende investeraröversikt
 
+Arbetsregler för alla uppdateringar: läs [AGENTS.md](AGENTS.md), följ varje följdändring tills inget återstår och kontrollera därefter de andra aktiesidorna.
+
 Statisk investerarsida på svenska inspirerad av [SynAct-sidan](https://steffestygg-boop.github.io/synact/) med mörkt responsivt gränssnitt, finansieringskalkyler, aviserad emission och konkursbarometer, klickbara kvartalsmilstolpar, värderingsscenario och nyhetsflöde.
 
 **Webbadress efter aktiverad GitHub Pages:** https://steffestygg-boop.github.io/cereno/
