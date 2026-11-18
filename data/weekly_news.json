@@ -3,7 +3,7 @@
   "company": "Cereno Scientific",
   "timezone": "Europe/Stockholm",
   "schedule": "Varje dag kl. 09:00 Europe/Stockholm med extra kontroll på eftermiddagen; ISO-vecka från måndag",
-  "updated_at": "2026-11-18T11:20:49+01:00",
+  "updated_at": "2026-11-18T15:42:20+01:00",
   "latest_week": "2026-W47",
   "weeks": [
     {
@@ -12,9 +12,24 @@
       "year": 2026,
       "start": "2026-11-16",
       "end": "2026-11-18",
-      "generated_at": "2026-11-18T11:20:49+01:00",
+      "generated_at": "2026-11-18T15:42:20+01:00",
       "intro": "En framträdande nyhetsrubrik: Johan Eriksson lämnar Cerenos styrelse. Innehållet i artikeln behöver kontrolleras mot originalkällan. Dessutom finns 1 noterade förändringar i sidans finansieringsanalys eller milstolpar.",
       "events": [
+        {
+          "date": "2026-11-18",
+          "title": "Även Cerenos styrelseordförande lämnar",
+          "category": "Bolagsledning och styrelse",
+          "summary": "",
+          "source": "Biostock",
+          "url": "https://news.google.com/rss/articles/CBMidkFVX3lxTE1uWm04Rk9tWDFjN2ZCZXllcmt1UHhqRFdScV9qUlNmTGRQZ1BnTHVlLUJzQUlaOTdSdFFRNzYzZER4VkxJaWxyWlBxZjBxdElIWW5NSGNZNGxsUE55S3NiVUIxSmYyZnB0bV9NQmlELXNiWVg4RkE?oc=5",
+          "verified": false,
+          "origin": "rubrik",
+          "source_note": "Automatiskt insamlad rubrik – originalartikeln har inte fullständigt faktagranskats",
+          "details": "",
+          "importance": "",
+          "key_facts": [],
+          "editorial_verified": false
+        },
         {
           "date": "2026-11-17",
           "title": "Johan Eriksson lämnar Cerenos styrelse",
@@ -399,9 +414,9 @@
         "baseline_date": "2026-11-13",
         "baseline": 0.2696,
         "latest_date": "2026-11-18",
-        "latest": 0.1599,
-        "change_sek": -0.1097,
-        "change_percent": -40.69,
+        "latest": 0.1668,
+        "change_sek": -0.1028,
+        "change_percent": -38.13,
         "source_url": "https://finance.yahoo.com/quote/CRNO-B.ST/history/",
         "note": "Jämfört med föregående handelsveckas sista stängningskurs. Fördröjda dagsstängningar, inte realtid."
       }
