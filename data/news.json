@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-11-18T07:43:07+00:00",
+  "updated_at": "2026-11-19T08:23:37+00:00",
   "feed": "Källkontrollerade notiser + automatiska, obekräftade Google News RSS-rubriker",
   "items": [
     {
@@ -29,13 +29,6 @@
       "source": "Cereno",
       "url": "https://view.news.eu.nasdaq.com/view?id=bac2b3efd349cf90706b8cf56dc46c45d&lang=en&src=micro",
       "verified": true
-    },
-    {
-      "title": "Cereno Scientifics styrelseordförande avgår med omedelbar verkan - Affärsvärlden",
-      "url": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxONWdaZkJKYlB0eU80LXVJTWxSel9nWFZHN0xXVnpiTllfeEVvLXFZY3pOUm9IX3EyLXBoNmM2UTFEY29JXzQzQ2dNZ2tUQ1ZnRnJMR3l0Rl95MHBWYzZyMTc2dmduckZ1Z2FIUHRGeUhJQ0xGeUZQSTFfeGlXbmpac3JXaVhwMG5ISlNCUWtYOFZiSDY3bnhueHJEb0t6bWlSdFNIWUNfcXQ?oc=5",
-      "date": "2026-11-17",
-      "source": "Affärsvärlden",
-      "verified": false
     },
     {
       "title": "Cereno Scientific: More runway, more opportunity - Edison - Börsvärlden",
@@ -84,6 +77,13 @@
       "url": "https://news.google.com/rss/articles/CBMingFBVV95cUxPVmRRclRrdGNqTFFySG43b29KZmxLN0lKbG5LUHJsUDN5M1NTZjlWRnFjU3BnWnJ6N2lPQlBUZEIyRE94Q25Cb3ptRUVXYjMxVjczQnAyOHFSQVFXTGJZbkM0UlBlUzBNdjhFSFZENk9nTjhyVjU5TEYwMU8xN29CWGVvS05YODhockN0QTZXcE9mS2xfYW1kRmozZnBDQQ?oc=5",
       "date": "2026-10-09",
       "source": "Börsvärlden",
+      "verified": false
+    },
+    {
+      "title": "RX Securities upprepar köp på Cereno Scientific - ser fortsatt stor potential - Affärsvärlden",
+      "url": "https://news.google.com/rss/articles/CBMitwFBVV95cUxNSEZPRTBlWnl0YjFtUFJqNXQ2YW5WSnhKeXA2Rm9jRjFuRHJvVGNRaFFZbC1GMFZoc3MzUXRsbGcyd0ZjVWZXejFGSU9lUUpCMlY5d0FvZWkwanE3S1dJTXh0V2tJQ0JfU1ZpWXJEdTBVSXFWUlZGN0cxTWI4VXRkWTlPbGJWcUZ6WGNyaEpEbWgyM0hMU0hQczlIXzRVSk9CM1NMZVZOTEhLNFRWZlJZOEVPMlRrTGM?oc=5",
+      "date": "2026-10-08",
+      "source": "Affärsvärlden",
       "verified": false
     },
     {
