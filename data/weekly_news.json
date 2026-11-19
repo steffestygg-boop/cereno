@@ -3,7 +3,7 @@
   "company": "Cereno Scientific",
   "timezone": "Europe/Stockholm",
   "schedule": "Varje dag kl. 09:00 Europe/Stockholm med extra kontroll på eftermiddagen; ISO-vecka från måndag",
-  "updated_at": "2026-11-19T09:57:27+01:00",
+  "updated_at": "2026-11-19T15:42:26+01:00",
   "latest_week": "2026-W47",
   "weeks": [
     {
@@ -12,7 +12,7 @@
       "year": 2026,
       "start": "2026-11-16",
       "end": "2026-11-19",
-      "generated_at": "2026-11-19T09:57:27+01:00",
+      "generated_at": "2026-11-19T15:42:26+01:00",
       "intro": "En framträdande nyhetsrubrik: Johan Eriksson lämnar Cerenos styrelse. Innehållet i artikeln behöver kontrolleras mot originalkällan. Dessutom finns 1 noterade förändringar i sidans finansieringsanalys eller milstolpar.",
       "events": [
         {
@@ -22,6 +22,21 @@
           "summary": "",
           "source": "Biostock",
           "url": "https://news.google.com/rss/articles/CBMijwFBVV95cUxQNXo5X3l0bHFQR0tNZFpWbUVVM2Qxai1paFVJOUlSOWJxeGhTckRvSFQ1dFZxdE1DZGZmUkJKVEhZUWZoVnltUklRWEJlLWtwSDk3OTVrZW8zYk9TM2ZmVnpxbG1BY01ITWJHQWhyMWFaYjBtTDFkbV93TTgxdFlpLVc1QmdfdXpGbVZZUnFzTQ?oc=5",
+          "verified": false,
+          "origin": "rubrik",
+          "source_note": "Automatiskt insamlad rubrik – originalartikeln har inte fullständigt faktagranskats",
+          "details": "",
+          "importance": "",
+          "key_facts": [],
+          "editorial_verified": false
+        },
+        {
+          "date": "2026-11-19",
+          "title": "Cereno Scientific: First patient, fresh momentum - Edison",
+          "category": "Studie och resultat",
+          "summary": "",
+          "source": "Börsvärlden",
+          "url": "https://news.google.com/rss/articles/CBMijwFBVV95cUxPckh6ZlRrSUZPUDlWLWdfeWhUSXpFVHNjQVNSRUEwYUE1NmFrRUpwbnRCb2prQzJySWdxQ2RMS1dFdmk1Z1JURUtmcnIwNS1fSXdUZFN1aWttODZFMXQwUExYdW14MjZZMEZwS01PTjNwWjRPc0c4MGduMDdKc3dwQTU3R2hhb0hLZi0tRGxESQ?oc=5",
           "verified": false,
           "origin": "rubrik",
           "source_note": "Automatiskt insamlad rubrik – originalartikeln har inte fullständigt faktagranskats",
@@ -445,9 +460,9 @@
         "baseline_date": "2026-11-13",
         "baseline": 0.2696,
         "latest_date": "2026-11-19",
-        "latest": 0.1678,
-        "change_sek": -0.1018,
-        "change_percent": -37.76,
+        "latest": 0.1746,
+        "change_sek": -0.095,
+        "change_percent": -35.24,
         "source_url": "https://finance.yahoo.com/quote/CRNO-B.ST/history/",
         "note": "Jämfört med föregående handelsveckas sista stängningskurs. Fördröjda dagsstängningar, inte realtid."
       }
