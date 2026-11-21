@@ -77,16 +77,6 @@
       "next_step": "Öppna bolagets originalmeddelande och verifiera innehållet innan grunddata ändras."
     },
     {
-      "auto_id": "https://news.google.com/rss/articles/CBMimwFBVV95cUxNczhkaXVpTGptbllqRlBucmhnb2RrV2VsS1AzUzNaVmxpSkpvOEYxbExWT0hNaEdpNi1QdXpSQk0ycURzN0YzczNoT3JfT2JQS1BXcmlOOGVvQTZHNDV1UU90MXIzVkFBT1JYRFA2QUNsTDU5MGJGMlY2Q3dxZW1VVVd6WXQ4TmliVTJQZDhuNUtPVHdBb0tjbTBXTQ?oc=5",
-      "level": "bevakning",
-      "title": "Rubrik kräver faktagranskning: Cereno Scientifics aktie handelsstoppas på First North - Affärsvärlden",
-      "detail": "Automatiskt hittad rubrik. Ingen självständig verifiering av belopp, avtal, kursrörelse eller faktisk nyemission.",
-      "status": "Obekräftad RSS-träff",
-      "date": "2026-11-03",
-      "source": "https://news.google.com/rss/articles/CBMimwFBVV95cUxNczhkaXVpTGptbllqRlBucmhnb2RrV2VsS1AzUzNaVmxpSkpvOEYxbExWT0hNaEdpNi1QdXpSQk0ycURzN0YzczNoT3JfT2JQS1BXcmlOOGVvQTZHNDV1UU90MXIzVkFBT1JYRFA2QUNsTDU5MGJGMlY2Q3dxZW1VVVd6WXQ4TmliVTJQZDhuNUtPVHdBb0tjbTBXTQ?oc=5",
-      "next_step": "Öppna bolagets originalmeddelande och verifiera innehållet innan grunddata ändras."
-    },
-    {
       "auto_id": "https://news.google.com/rss/articles/CBMitgFBVV95cUxQdGZjdVdjVWNHSURna1VrRWtLQ0xPNHRkV2NRamo4QnlhTEJsbUtpVW9meThLOUpna3dTWVUxMXlWYjZHRjNoaXJuc0JCWUUteERRRWlfd1EwSFBsdFFQT1NKVGpaRHdmSWJSeWJGQVRIVkZxXzFrc19xTFFYRUdSN1ctYWNPRkF1Q05YT0VkN1V3YU9aM1RqcXBLMkM1cS04bzU5Y0tUOG1nSHNranFRcFhPVkpuUQ?oc=5",
       "level": "bevakning",
       "title": "Rubrik kräver faktagranskning: Cereno Scientific planerar företrädesemission på 400 miljoner kronor – förlänger lån - Börsvärlden",
@@ -124,17 +114,12 @@
     "official_feed": "https://www.cerenoscientific.com/sv/nyhetsrum/pressmeddelanden"
   },
   "failed_sources": [],
-  "automated_checked_at": "2026-11-20T09:34:24+00:00",
+  "automated_checked_at": "2026-11-21T09:22:57+00:00",
   "review_needed": [
     {
       "date": "2026-11-12",
       "title": "Rubrik kräver faktagranskning: Cereno Scientific planerar företrädesemission om 400 miljoner kronor för fortsatt klinisk utveckling - Biostock",
       "source": "https://news.google.com/rss/articles/CBMiyAFBVV95cUxQVmRaek9sMVZyc0Y4MC1EakZQWmRvOHQ5MHE1VlZocGpWN1R1MTRkVzRLUEFRaGFHTHdOMEw2UE9BcjBGbkVXWDhnb2h5c3ZCZ09yNWh4d1BpaU9OdG9GbUJQanpVa25zZUI4azEyWTlyUk9TNlNGeURJWDhHa3lpaldtdlZzMEJZVTFqbjV1ek1RZTJVZUV6M2ZyM0xPcThhUThrRDhHTVVXOW1mRDFlc1NVbHRHWWtFeG5Kb0RMUDczRDN1a0tZVQ?oc=5"
-    },
-    {
-      "date": "2026-11-03",
-      "title": "Rubrik kräver faktagranskning: Cereno Scientifics aktie handelsstoppas på First North - Affärsvärlden",
-      "source": "https://news.google.com/rss/articles/CBMimwFBVV95cUxNczhkaXVpTGptbllqRlBucmhnb2RrV2VsS1AzUzNaVmxpSkpvOEYxbExWT0hNaEdpNi1QdXpSQk0ycURzN0YzczNoT3JfT2JQS1BXcmlOOGVvQTZHNDV1UU90MXIzVkFBT1JYRFA2QUNsTDU5MGJGMlY2Q3dxZW1VVVd6WXQ4TmliVTJQZDhuNUtPVHdBb0tjbTBXTQ?oc=5"
     },
     {
       "date": "2026-11-12",
