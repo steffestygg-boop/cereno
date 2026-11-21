@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-11-20T08:18:48+00:00",
+  "updated_at": "2026-11-21T08:10:12+00:00",
   "feed": "Källkontrollerade notiser + automatiska, obekräftade Google News RSS-rubriker",
   "items": [
     {
@@ -45,6 +45,13 @@
       "verified": false
     },
     {
+      "title": "Cereno Scientific kallar till extra bolagsstämma (MFN) - Aktiellt",
+      "url": "https://news.google.com/rss/articles/CBMiX0FVX3lxTE9pUXU4OFRpU0w2MUQwRXEyWXNCTHZuaUtvcmRiTC1HbXdBcHhTOUdKTW1za21KVTk4QktrV1FQMnpuZjJJelJIckdmeEdHcXFjX0MybnZ2TjVtd3lDZmlZ?oc=5",
+      "date": "2026-11-13",
+      "source": "Aktiellt",
+      "verified": false
+    },
+    {
       "title": "Cereno Scientific rasar efter handelsstopp 13 november 2026 - HurBra.se",
       "url": "https://news.google.com/rss/articles/CBMidEFVX3lxTE5CcFdTR3pIa0NUMnNMUklqX0NpWUNDV3F3RWloSEFZUWNzYWVwMVVFbFllaDRjaXVSNXZqdWFKczhrVktVeHk5R0dxTGVZZEJhaGxkTndOX0NmVUtSSmF0a3ladU42em5vakl1VWtwc3NjUkVz?oc=5",
       "date": "2026-11-13",
@@ -83,13 +90,6 @@
       "title": "RX Securities upprepar köp på Cereno Scientific - ser fortsatt stor potential - Affärsvärlden",
       "url": "https://news.google.com/rss/articles/CBMitwFBVV95cUxNSEZPRTBlWnl0YjFtUFJqNXQ2YW5WSnhKeXA2Rm9jRjFuRHJvVGNRaFFZbC1GMFZoc3MzUXRsbGcyd0ZjVWZXejFGSU9lUUpCMlY5d0FvZWkwanE3S1dJTXh0V2tJQ0JfU1ZpWXJEdTBVSXFWUlZGN0cxTWI4VXRkWTlPbGJWcUZ6WGNyaEpEbWgyM0hMU0hQczlIXzRVSk9CM1NMZVZOTEhLNFRWZlJZOEVPMlRrTGM?oc=5",
       "date": "2026-10-08",
-      "source": "Affärsvärlden",
-      "verified": false
-    },
-    {
-      "title": "Nollomsättning och ökad förlust för Cereno - Affärsvärlden",
-      "url": "https://news.google.com/rss/articles/CBMihgFBVV95cUxQd1o3dUZmVHlzUWVzRzhGRTFXclQ0SDdTTVZxY1Bjbi1JalViczQzNnVWZ1ltME8yWTM3ZU1xOHZ2SV9hZkZmS3ZIRDZLSGF4LUNvLURRaHVENVNxTEl1d0R3YjE2M1plSXY5Zzlud3RnbFFwMzNxYUI4c2JaRGdOVlRnTXNJQQ?oc=5",
-      "date": "2026-08-26",
       "source": "Affärsvärlden",
       "verified": false
     }
