@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-11-22T08:10:46+00:00",
+  "updated_at": "2026-11-23T08:33:40+00:00",
   "feed": "Källkontrollerade notiser + automatiska, obekräftade Google News RSS-rubriker",
   "items": [
     {
@@ -42,6 +42,13 @@
       "url": "https://news.google.com/rss/articles/CBMijwFBVV95cUxQYVZNek81RDhYclNMbkpZZFNYR0dDSjVIX3FJU0hBRnR0MktJZWtDUzgwWUpUeW1SY1NTa2NVVHZySngwUkNENHRzTngxREdiYXNWVGZ4R0NXcGtpRzR4dDRNZE4yQnRkcU9pQ2tTMnplUWZtMEVVSExGWkFoWGQ2czRuM3FJQ0NUM1hLeVUxdw?oc=5",
       "date": "2026-11-16",
       "source": "Börsvärlden",
+      "verified": false
+    },
+    {
+      "title": "Handelsstoppet i Cereno Scientific hävs - EFN",
+      "url": "https://news.google.com/rss/articles/CBMiZEFVX3lxTE9xRTRibDU3eW04VVlfU0dhQU5rVVZiN2ZCYWM3LVhwSDhyREpPZzFZZmt2Z2tnZmliWUp3dWstZ25Ua3RuVU1CdmhmWEVvWWtqQ3lrTTdtOUFacjlxMFZqaXpoSXU?oc=5",
+      "date": "2026-11-13",
+      "source": "EFN",
       "verified": false
     },
     {
