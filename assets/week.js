@@ -101,7 +101,7 @@
 
  function currentChange() {
    const q = window.currentMarketQuote;
-   if (!q || !(q.baseline > 0) || !q.baseline_date) return null;
+   if (!q || !Number.isFinite(q.price) || !(q.baseline > 0) || !q.baseline_date) return null;
    const difference = q.price - q.baseline;
    return {baseline: q.baseline, baseline_date: q.baseline_date, latest: q.price,
      latest_date: q.quote_time.slice(0, 10), change_sek: difference,
