@@ -77,7 +77,8 @@
 <section data-surface="timeline" data-nav-label="Milstolpar" aria-labelledby="milestones-heading">
 <p class="section-kicker"><span class="section-number">06</span> Klinisk utveckling &amp; bolaget</p>
 <h2 class="section" id="milestones-heading">Milstolpar <span id="milestone-total" class="milestone-total"></span></h2>
-<p class="intro">Cerenos milstolpar i samma kompakta format som på SynAct-sidan. Ljusa kort är levererat; mörka, streckade kort är planerat. Klicka för information och källor. Orange markerar förseningar.</p>
+<p class="intro">Läs av tidpunkten på tidsaxeln. Öppna en milstolpe för detaljer och källor.</p>
+<div class="milestone-key" aria-label="Teckenförklaring"><span><i aria-hidden="true"></i>Levererad · grön, heldragen</span><span><i class="upcoming" aria-hidden="true"></i>Kommande · blå, streckad</span><span class="delay-key"><i aria-hidden="true"></i>Ändrad tidsplan · orange</span></div>
 <p class="status" id="research-status">Läser in källkontrollerad milstolpshistorik …</p>
 <div class="toolbar">
   <div class="group"><span class="hint">PERIOD</span>
@@ -99,11 +100,7 @@
 </div>
 <div class="timeline-overview"><span id="milestone-count">Laddar händelser …</span><span>Sidled för fler år <span aria-hidden="true">↔</span></span></div>
 <div class="timeline-scroll" id="timeline-scroll"><div class="timeline" id="timeline"><div class="axis-filler"></div><div class="axis" id="timeline-axis"></div></div></div>
-<div class="milestone-key" aria-label="Milstolpsstatus">
-<span><i aria-hidden="true"></i>Levererad</span>
-<span><i class="upcoming" aria-hidden="true"></i>Kommande</span>
-<span class="milestone-disclaimer">≈ betyder uppskattat kvartal. Orange anger en verifierad tidplansförskjutning, som kan döljas med Förseningar-knappen.</span>
-</div>
+
 </section>
 
 <section class="partner-overview" data-surface="paper" data-nav-label="Kliniska program" aria-labelledby="pipeline-heading"><h2 id="pipeline-heading">Tre program, olika värdedrivare</h2>
@@ -260,12 +257,9 @@ function renderTimeline(){
    let cell=document.createElement("div");cell.className="cell";
    entries.filter(m=>m.era===era).forEach(m=>{
     let tile=document.createElement("button");tile.type="button";tile.className="milestone "+track+(m.status==="future"?" future":"")+(showDelays&&m.delayed?" has-delay":"")+(m.time_basis==="estimated"||/kvartal ej angivet|placeholder/i.test((m.date||"")+" "+(m.caveat||""))?" estimated-time":"");
-    const statusLabel = document.createElement('span');
-    statusLabel.className = 'milestone-status';
-    statusLabel.textContent = m.status === 'future' ? 'Kommande' : 'Levererad';
-    tile.append(statusLabel);
+    tile.setAttribute('aria-label', (m.status === 'future' ? 'Kommande' : 'Levererad') + ': ' + m.title);
     let name=document.createElement("strong");name.textContent=m.title;
-    let when=document.createElement("small");when.textContent=m.subtitle||((m.status==="done"?"Rapporterat":"Planerat")+" · "+(m.date||""));tile.append(name,when);
+    let when=document.createElement("small");when.textContent=m.subtitle||(/\d/.test(m.date||"")&&!/\bQ[1-4]\b|kvartal/i.test(m.date)?m.date:"");tile.append(name);if(when.textContent)tile.append(when);
     if(showDelays&&m.delayed){let shift=document.createElement("small");shift.className="delay-caption";shift.textContent=m.delayQuarters?"⏱ "+m.originalQuarter+" → "+m.currentQuarter+" (+"+m.delayQuarters+" kv.)":"⏱ Försenat";tile.append(shift)}
     tile.addEventListener("click",()=>showMilestone(m));cell.append(tile);count++;
    });row.append(cell);
