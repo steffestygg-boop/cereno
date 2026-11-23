@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-11-15",
+  "updated_at": "2026-11-23",
   "editorial_note": "Dokumenterade historiska fakta och uttryckligt prognosmarkerade framtidshändelser. Datum är Cerenos officiella uppgifter; kvartalsplacering av årsbaserade mål är endast visning.",
   "milestones": [
     {
@@ -303,6 +303,33 @@
       "body": "105 Mkr av befintliga konvertibler får ny förfallodag efter genomförd emission; kan efter avtal förlängas till maj 2029.",
       "meaning": "Refinansiering/konvertering är separata framtida kassaflödesrisker.",
       "url": "https://mfn.se/a/cereno-scientific/cereno-scientific-avser-genomfora-en-foretradesemission-av-units-om-cirka-400-msek-med-fokus-pa-den-globala-fas-iib-studien-epimode-och-erhaller-forlangd-lanefinansiering-om-upp-till-175-msek"
+    },
+    {
+      "era": "2024",
+      "track": "cs585",
+      "status": "done",
+      "date": "December 2024",
+      "title": "Prekliniska data på ASH",
+      "body": "På ASH presenterades prekliniska resultat om CS585:s selektivitet och varaktigheten av effekten på trombbildning.",
+      "url": "https://mb.cision.com/Public/14131/4082345/b1496a9d14f879c7.pdf"
+    },
+    {
+      "era": "Q3 2026",
+      "track": "cs585",
+      "status": "done",
+      "date": "Q2-rapporten, publicerad under Q3 2026",
+      "title": "Prioriteringar för CS585 offentliggörs",
+      "body": "Cereno anger studier i APS-modeller och förberedelser inför en första studie på människa som prioriteringar för andra halvåret.",
+      "url": "https://view.news.eu.nasdaq.com/view?id=b117459fc400c67bd40660c67f384c2ba&lang=en&src=micro"
+    },
+    {
+      "era": "Q4 2026",
+      "track": "cs585",
+      "status": "done",
+      "date": "November 2026 · Q3-rapporten",
+      "title": "Pågående APS-studier bekräftas",
+      "body": "Cereno rapporterar att studier i prekliniska modeller av antifosfolipidsyndrom (APS) pågår. Bolaget planerar fortsatt IND-förberedande arbete. Rapporten anger inget startkvartal för fas I.",
+      "url": "https://mfn.se/a/cereno-scientific/cereno-scientific-publishes-interim-report-for-q3-2026"
     }
   ]
 }
