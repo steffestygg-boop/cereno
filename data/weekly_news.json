@@ -3,7 +3,7 @@
   "company": "Cereno Scientific",
   "timezone": "Europe/Stockholm",
   "schedule": "Varje dag kl. 09:00 Europe/Stockholm med extra kontroll på eftermiddagen; ISO-vecka från måndag",
-  "updated_at": "2026-11-23T09:33:43+01:00",
+  "updated_at": "2026-11-23T10:18:40+01:00",
   "latest_week": "2026-W48",
   "weeks": [
     {
@@ -12,10 +12,17 @@
       "year": 2026,
       "start": "2026-11-23",
       "end": "2026-11-23",
-      "generated_at": "2026-11-23T09:33:43+01:00",
-      "intro": "Inga daterade nya händelser hittades i de källflöden som kunde läsas. Det betyder inte att ingenting har hänt.",
+      "generated_at": "2026-11-23T10:18:40+01:00",
+      "intro": "Veckans uppdateringar gäller främst analys och bevakade nyckeltal. Dessutom finns 1 noterade förändringar i sidans finansieringsanalys eller milstolpar.",
       "events": [],
-      "updates": [],
+      "updates": [
+        {
+          "title": "Ny finansieringsvarning: Rubrik kräver faktagranskning: Handelsstoppet i Cereno Scientific hävs - EFN",
+          "detail": "Prioritet: bevakning. Läs varningsrutan och dess källa innan slutsatser dras.",
+          "kind": "varning",
+          "url": "https://news.google.com/rss/articles/CBMiZEFVX3lxTE9xRTRibDU3eW04VVlfU0dhQU5rVVZiN2ZCYWM3LVhwSDhyREpPZzFZZmt2Z2tnZmliWUp3dWstZ25Ua3RuVU1CdmhmWEVvWWtqQ3lrTTdtOUFacjlxMFZqaXpoSXU?oc=5"
+        }
+      ],
       "omitted_events": 0,
       "finance_snapshot": {
         "risk_3": null,
@@ -68,6 +75,11 @@
             "title": "Rubrik kräver faktagranskning: Cereno Scientific planerar företrädesemission om 400 miljoner kronor för fortsatt klinisk utveckling - Biostock",
             "level": "bevakning",
             "source": "https://news.google.com/rss/articles/CBMiyAFBVV95cUxQVmRaek9sMVZyc0Y4MC1EakZQWmRvOHQ5MHE1VlZocGpWN1R1MTRkVzRLUEFRaGFHTHdOMEw2UE9BcjBGbkVXWDhnb2h5c3ZCZ09yNWh4d1BpaU9OdG9GbUJQanpVa25zZUI4azEyWTlyUk9TNlNGeURJWDhHa3lpaldtdlZzMEJZVTFqbjV1ek1RZTJVZUV6M2ZyM0xPcThhUThrRDhHTVVXOW1mRDFlc1NVbHRHWWtFeG5Kb0RMUDczRDN1a0tZVQ?oc=5"
+          },
+          "Rubrik kräver faktagranskning: Handelsstoppet i Cereno Scientific hävs - EFN": {
+            "title": "Rubrik kräver faktagranskning: Handelsstoppet i Cereno Scientific hävs - EFN",
+            "level": "bevakning",
+            "source": "https://news.google.com/rss/articles/CBMiZEFVX3lxTE9xRTRibDU3eW04VVlfU0dhQU5rVVZiN2ZCYWM3LVhwSDhyREpPZzFZZmt2Z2tnZmliWUp3dWstZ25Ua3RuVU1CdmhmWEVvWWtqQ3lrTTdtOUFacjlxMFZqaXpoSXU?oc=5"
           },
           "Rubrik kräver faktagranskning: Cereno Scientific planerar företrädesemission på 400 miljoner kronor – förlänger lån - Börsvärlden": {
             "title": "Rubrik kräver faktagranskning: Cereno Scientific planerar företrädesemission på 400 miljoner kronor – förlänger lån - Börsvärlden",
@@ -276,9 +288,9 @@
         "baseline_date": "2026-11-20",
         "baseline": 0.15,
         "latest_date": "2026-11-23",
-        "latest": 0.14,
-        "change_sek": -0.01,
-        "change_percent": -6.67,
+        "latest": 0.141,
+        "change_sek": -0.009,
+        "change_percent": -6.0,
         "source_url": "https://finance.yahoo.com/quote/CRNO-B.ST/history/",
         "note": "Jämfört med föregående handelsveckas sista stängningskurs. Fördröjda dagsstängningar, inte realtid."
       }
