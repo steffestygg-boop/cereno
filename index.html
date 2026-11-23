@@ -271,7 +271,7 @@ function renderTimeline(){
  let all=document.querySelector('.toolbar [data-track="all"]');all.classList.toggle("active",selectedTracks.size===TRACKS.length);
 }
 function showMilestone(m){
- let details=[m.body,"Betydelse: "+m.meaning];if(m.caveat)details.push("Reservation: "+m.caveat);if(m.delayed)details.push("Försening: "+m.delayText);
+ let details=[m.body];if(m.meaning)details.push("Betydelse: "+m.meaning);if(m.caveat)details.push("Reservation: "+m.caveat);if(m.delayed)details.push("Försening: "+m.delayText);
  openModal(m.title,(m.date||"")+" · "+(m.status==="done"?"Rapporterad händelse":"Framtidsprognos"),details,[{url:m.url,label:"Originalkälla"},{url:m.secondarySource,label:"Tidigare tidplan"}]);
 }
 document.querySelectorAll(".toolbar [data-period]").forEach(btn=>btn.addEventListener("click",()=>{selectedPeriod=btn.dataset.period;document.querySelectorAll(".toolbar [data-period]").forEach(b=>b.classList.toggle("active",b===btn));renderTimeline()}));
