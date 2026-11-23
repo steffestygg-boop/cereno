@@ -499,7 +499,6 @@ body.desk {
 [data-surface="timeline"] .delay-wire::after { border-left-color: var(--delay); }
 
 /* Appearance switch shares the masthead row with the company links on compact screens. */
-
 .desk-theme {
   align-self: center; flex: none; white-space: nowrap; cursor: pointer; font: 650 14px/1.4 var(--reading-font);
   padding: 7px 12px; border-radius: 6px; color: var(--ink);
