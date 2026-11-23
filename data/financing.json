@@ -77,6 +77,16 @@
       "next_step": "Öppna bolagets originalmeddelande och verifiera innehållet innan grunddata ändras."
     },
     {
+      "auto_id": "https://news.google.com/rss/articles/CBMiZEFVX3lxTE9xRTRibDU3eW04VVlfU0dhQU5rVVZiN2ZCYWM3LVhwSDhyREpPZzFZZmt2Z2tnZmliWUp3dWstZ25Ua3RuVU1CdmhmWEVvWWtqQ3lrTTdtOUFacjlxMFZqaXpoSXU?oc=5",
+      "level": "bevakning",
+      "title": "Rubrik kräver faktagranskning: Handelsstoppet i Cereno Scientific hävs - EFN",
+      "detail": "Automatiskt hittad rubrik. Ingen självständig verifiering av belopp, avtal, kursrörelse eller faktisk nyemission.",
+      "status": "Obekräftad RSS-träff",
+      "date": "2026-11-13",
+      "source": "https://news.google.com/rss/articles/CBMiZEFVX3lxTE9xRTRibDU3eW04VVlfU0dhQU5rVVZiN2ZCYWM3LVhwSDhyREpPZzFZZmt2Z2tnZmliWUp3dWstZ25Ua3RuVU1CdmhmWEVvWWtqQ3lrTTdtOUFacjlxMFZqaXpoSXU?oc=5",
+      "next_step": "Öppna bolagets originalmeddelande och verifiera innehållet innan grunddata ändras."
+    },
+    {
       "auto_id": "https://news.google.com/rss/articles/CBMitgFBVV95cUxQdGZjdVdjVWNHSURna1VrRWtLQ0xPNHRkV2NRamo4QnlhTEJsbUtpVW9meThLOUpna3dTWVUxMXlWYjZHRjNoaXJuc0JCWUUteERRRWlfd1EwSFBsdFFQT1NKVGpaRHdmSWJSeWJGQVRIVkZxXzFrc19xTFFYRUdSN1ctYWNPRkF1Q05YT0VkN1V3YU9aM1RqcXBLMkM1cS04bzU5Y0tUOG1nSHNranFRcFhPVkpuUQ?oc=5",
       "level": "bevakning",
       "title": "Rubrik kräver faktagranskning: Cereno Scientific planerar företrädesemission på 400 miljoner kronor – förlänger lån - Börsvärlden",
@@ -114,12 +124,17 @@
     "official_feed": "https://www.cerenoscientific.com/sv/nyhetsrum/pressmeddelanden"
   },
   "failed_sources": [],
-  "automated_checked_at": "2026-11-22T09:23:04+00:00",
+  "automated_checked_at": "2026-11-23T08:42:18+00:00",
   "review_needed": [
     {
       "date": "2026-11-12",
       "title": "Rubrik kräver faktagranskning: Cereno Scientific planerar företrädesemission om 400 miljoner kronor för fortsatt klinisk utveckling - Biostock",
       "source": "https://news.google.com/rss/articles/CBMiyAFBVV95cUxQVmRaek9sMVZyc0Y4MC1EakZQWmRvOHQ5MHE1VlZocGpWN1R1MTRkVzRLUEFRaGFHTHdOMEw2UE9BcjBGbkVXWDhnb2h5c3ZCZ09yNWh4d1BpaU9OdG9GbUJQanpVa25zZUI4azEyWTlyUk9TNlNGeURJWDhHa3lpaldtdlZzMEJZVTFqbjV1ek1RZTJVZUV6M2ZyM0xPcThhUThrRDhHTVVXOW1mRDFlc1NVbHRHWWtFeG5Kb0RMUDczRDN1a0tZVQ?oc=5"
+    },
+    {
+      "date": "2026-11-13",
+      "title": "Rubrik kräver faktagranskning: Handelsstoppet i Cereno Scientific hävs - EFN",
+      "source": "https://news.google.com/rss/articles/CBMiZEFVX3lxTE9xRTRibDU3eW04VVlfU0dhQU5rVVZiN2ZCYWM3LVhwSDhyREpPZzFZZmt2Z2tnZmliWUp3dWstZ25Ua3RuVU1CdmhmWEVvWWtqQ3lrTTdtOUFacjlxMFZqaXpoSXU?oc=5"
     },
     {
       "date": "2026-11-12",
@@ -137,6 +152,6 @@
       "source": "https://news.google.com/rss/articles/CBMidEFVX3lxTE5CcFdTR3pIa0NUMnNMUklqX0NpWUNDV3F3RWloSEFZUWNzYWVwMVVFbFllaDRjaXVSNXZqdWFKczhrVktVeHk5R0dxTGVZZEJhaGxkTndOX0NmVUtSSmF0a3ladU42em5vakl1VWtwc3NjUkVz?oc=5"
     }
   ],
-  "weekly_checked_at": "2026-11-16T09:45:22+00:00",
+  "weekly_checked_at": "2026-11-23T08:42:18+00:00",
   "weekly_note": "Nya rubriker sökta; verifierade finansfakta och användarstyrt sannolikhetsscenario är oförändrade utan originalkällor."
 }
