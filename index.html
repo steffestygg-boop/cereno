@@ -100,8 +100,8 @@
 <div class="timeline-overview"><span id="milestone-count">Laddar händelser …</span><span>Sidled för fler år <span aria-hidden="true">↔</span></span></div>
 <div class="timeline-scroll" id="timeline-scroll"><div class="timeline" id="timeline"><div class="axis-filler"></div><div class="axis" id="timeline-axis"></div></div></div>
 <div class="milestone-key" aria-label="Milstolpsstatus">
-<span><i aria-hidden="true"></i>Genomförd / rapporterad</span>
-<span><i class="upcoming" aria-hidden="true"></i>Planerad / prognos</span>
+<span><i aria-hidden="true"></i>Levererad</span>
+<span><i class="upcoming" aria-hidden="true"></i>Kommande</span>
 <span class="milestone-disclaimer">≈ betyder uppskattat kvartal. Orange anger en verifierad tidplansförskjutning, som kan döljas med Förseningar-knappen.</span>
 </div>
 </section>
@@ -260,6 +260,10 @@ function renderTimeline(){
    let cell=document.createElement("div");cell.className="cell";
    entries.filter(m=>m.era===era).forEach(m=>{
     let tile=document.createElement("button");tile.type="button";tile.className="milestone "+track+(m.status==="future"?" future":"")+(showDelays&&m.delayed?" has-delay":"")+(m.time_basis==="estimated"||/kvartal ej angivet|placeholder/i.test((m.date||"")+" "+(m.caveat||""))?" estimated-time":"");
+    const statusLabel = document.createElement('span');
+    statusLabel.className = 'milestone-status';
+    statusLabel.textContent = m.status === 'future' ? 'Kommande' : 'Levererad';
+    tile.append(statusLabel);
     let name=document.createElement("strong");name.textContent=m.title;
     let when=document.createElement("small");when.textContent=m.subtitle||((m.status==="done"?"Rapporterat":"Planerat")+" · "+(m.date||""));tile.append(name,when);
     if(showDelays&&m.delayed){let shift=document.createElement("small");shift.className="delay-caption";shift.textContent=m.delayQuarters?"⏱ "+m.originalQuarter+" → "+m.currentQuarter+" (+"+m.delayQuarters+" kv.)":"⏱ Försenat";tile.append(shift)}
