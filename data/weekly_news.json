@@ -3,7 +3,7 @@
   "company": "Cereno Scientific",
   "timezone": "Europe/Stockholm",
   "schedule": "Varje dag kl. 09:00 Europe/Stockholm med extra kontroll på eftermiddagen; ISO-vecka från måndag",
-  "updated_at": "2026-11-24T09:57:55+01:00",
+  "updated_at": "2026-11-24T15:48:32+01:00",
   "latest_week": "2026-W48",
   "weeks": [
     {
@@ -12,7 +12,7 @@
       "year": 2026,
       "start": "2026-11-23",
       "end": "2026-11-24",
-      "generated_at": "2026-11-24T09:57:55+01:00",
+      "generated_at": "2026-11-24T15:48:32+01:00",
       "intro": "Veckans uppdateringar gäller främst analys och bevakade nyckeltal. Dessutom finns 4 noterade förändringar i sidans finansieringsanalys eller milstolpar.",
       "events": [],
       "updates": [
@@ -21,12 +21,6 @@
           "detail": "Prioritet: bevakning. Läs varningsrutan och dess källa innan slutsatser dras.",
           "kind": "varning",
           "url": "https://news.google.com/rss/articles/CBMiZEFVX3lxTE9xRTRibDU3eW04VVlfU0dhQU5rVVZiN2ZCYWM3LVhwSDhyREpPZzFZZmt2Z2tnZmliWUp3dWstZ25Ua3RuVU1CdmhmWEVvWWtqQ3lrTTdtOUFacjlxMFZqaXpoSXU?oc=5"
-        },
-        {
-          "title": "Milstolpe tillagd: Prekliniska data på ASH",
-          "detail": "Placerad: December 2024 (genomförd).",
-          "kind": "milstolpe",
-          "url": "https://mb.cision.com/Public/14131/4082345/b1496a9d14f879c7.pdf"
         },
         {
           "title": "Milstolpe tillagd: Prioriteringar för CS585 offentliggörs",
@@ -39,6 +33,12 @@
           "detail": "Placerad: November 2026 · Q3-rapporten (genomförd).",
           "kind": "milstolpe",
           "url": "https://mfn.se/a/cereno-scientific/cereno-scientific-publishes-interim-report-for-q3-2026"
+        },
+        {
+          "title": "Milstolpe tillagd: Prekliniska data på ASH",
+          "detail": "Placerad: December 2024 (genomförd).",
+          "kind": "milstolpe",
+          "url": "https://mb.cision.com/Public/14131/4082345/b1496a9d14f879c7.pdf"
         }
       ],
       "omitted_events": 0,
@@ -324,9 +324,9 @@
         "baseline_date": "2026-11-20",
         "baseline": 0.15,
         "latest_date": "2026-11-24",
-        "latest": 0.1636,
-        "change_sek": 0.0136,
-        "change_percent": 9.07,
+        "latest": 0.185,
+        "change_sek": 0.035,
+        "change_percent": 23.33,
         "source_url": "https://finance.yahoo.com/quote/CRNO-B.ST/history/",
         "note": "Jämfört med föregående handelsveckas sista stängningskurs. Fördröjda dagsstängningar, inte realtid."
       }
