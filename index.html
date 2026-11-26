@@ -193,7 +193,7 @@
 
 <section data-surface="paper" data-nav-label="Nyhetsflöde" aria-labelledby="news-heading"><h2 id="news-heading">Nyhetsflöde</h2><p class="section-intro">Verifierade ursprungskällor överst; automatiskt inlästa rubriker visas separat och är inte självständigt verifierade.</p><p id="news-status" class="fine">Läser nyhetsfil …</p><div id="news-list" class="three-grid"></div></section>
 </main>
-<footer class="desk-footer"><p>Privat, oberoende investeraröversikt · Grundmaterial kontrollerat 15 november 2026 · Inte investeringsrådgivning. Modellscenarier är inte empiriskt kalibrerade. Nyhetsrubriker uppdateras automatiskt; klinik, finansvillkor och milstolpar redigeras källkritiskt. <a href="https://github.com/steffestygg-boop/cereno" target="_blank" rel="noopener">Källkod & data ↗</a></p><a class="back-top" href="#sidtopp">Till toppen ↑</a></footer>
+<footer class="desk-footer"><p>Privat, oberoende investeraröversikt · Grundmaterial kontrollerat 15 november 2026 · Inte investeringsrådgivning. Modellscenarier är inte empiriskt kalibrerade. Nyhetsrubriker uppdateras automatiskt; klinik, finansvillkor och milstolpar redigeras källkritiskt. <a href="https://github.com/steffestygg-boop/cereno" target="_blank" rel="noopener">Källkod & data ↗</a></p><p data-visits="cereno" id="besok"><strong>Besök totalt</strong> <span id="visits-total">—</span><br><strong>Besök senaste 7 dagarna</strong> <span id="visits-week">—</span></p><a class="back-top" href="#sidtopp">Till toppen ↑</a></footer>
 <div class="weekly-event-overlay" id="weekly-event-overlay" role="presentation" hidden>
  <div class="weekly-event-dialog" role="dialog" aria-modal="true" aria-labelledby="weekly-event-title" aria-describedby="weekly-event-lead" tabindex="-1">
   <button class="weekly-event-close" id="weekly-event-close" type="button" aria-label="Stäng veckans nyhet">×</button>
@@ -444,4 +444,5 @@ drawFenja();drawBankruptcy();drawDilution();getMilestones();loadFinance();loadNe
  }catch(err){summary.textContent="DD-underlag kunde inte läsas – använd inte framtida partnerbetalningar som säker finansiering.";host.textContent="Kontrollera data/financing_model.json: "+err.message}
 })();
 
-</script></body></html>
+</script><script src="./assets/visits.js" defer></script>
+</body></html>
