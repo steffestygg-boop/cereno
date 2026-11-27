@@ -3,7 +3,7 @@
   "company": "Cereno Scientific",
   "timezone": "Europe/Stockholm",
   "schedule": "Varje dag kl. 09:00 Europe/Stockholm med extra kontroll på eftermiddagen; ISO-vecka från måndag",
-  "updated_at": "2026-11-27T09:29:56+01:00",
+  "updated_at": "2026-11-27T09:58:53+01:00",
   "latest_week": "2026-W48",
   "weeks": [
     {
@@ -12,7 +12,7 @@
       "year": 2026,
       "start": "2026-11-23",
       "end": "2026-11-27",
-      "generated_at": "2026-11-27T09:29:56+01:00",
+      "generated_at": "2026-11-27T09:58:53+01:00",
       "intro": "En framträdande nyhetsrubrik: Cereno Scientific utser Anders Svensson till tillförordnad styrelseordförande – valberedningen ser över styrelsens sammansättning. Innehållet i artikeln behöver kontrolleras mot originalkällan. Dessutom finns 4 noterade förändringar i sidans finansieringsanalys eller milstolpar.",
       "events": [
         {
@@ -46,6 +46,21 @@
           "importance": "",
           "key_facts": [],
           "editorial_verified": false
+        },
+        {
+          "date": "2026-11-27",
+          "title": "Anders Svensson blir tillförordnad ordförande i Cereno",
+          "category": "Övrigt",
+          "summary": "",
+          "source": "Biostock",
+          "url": "https://news.google.com/rss/articles/CBMiiwFBVV95cUxNdEtIajR4VHVhMHBlaEUxdVZRbTJIYmx4SFdWVFE2NXh5YjFFbEFqdmtxaDNYVjdXNDZpVnc1U08yaU9QdHMxekhUMjZmaVdBNTFfRjBWRko0c0RkMGwzMzlTWVdsMFVweU5HVnRLT0k5bU9qc3paNm92NUNjdjVya1VMNnNSZlVrcWZB?oc=5",
+          "verified": false,
+          "origin": "rubrik",
+          "source_note": "Automatiskt insamlad rubrik – originalartikeln har inte fullständigt faktagranskats",
+          "details": "",
+          "importance": "",
+          "key_facts": [],
+          "editorial_verified": false
         }
       ],
       "updates": [
@@ -62,16 +77,16 @@
           "url": "https://mfn.se/a/cereno-scientific/cereno-scientific-publishes-interim-report-for-q3-2026"
         },
         {
-          "title": "Milstolpe tillagd: Prekliniska data på ASH",
-          "detail": "Placerad: December 2024 (genomförd).",
-          "kind": "milstolpe",
-          "url": "https://mb.cision.com/Public/14131/4082345/b1496a9d14f879c7.pdf"
-        },
-        {
           "title": "Milstolpe tillagd: Prioriteringar för CS585 offentliggörs",
           "detail": "Placerad: Q2-rapporten, publicerad under Q3 2026 (genomförd).",
           "kind": "milstolpe",
           "url": "https://view.news.eu.nasdaq.com/view?id=b117459fc400c67bd40660c67f384c2ba&lang=en&src=micro"
+        },
+        {
+          "title": "Milstolpe tillagd: Prekliniska data på ASH",
+          "detail": "Placerad: December 2024 (genomförd).",
+          "kind": "milstolpe",
+          "url": "https://mb.cision.com/Public/14131/4082345/b1496a9d14f879c7.pdf"
         }
       ],
       "omitted_events": 0,
@@ -357,9 +372,9 @@
         "baseline_date": "2026-11-20",
         "baseline": 0.15,
         "latest_date": "2026-11-27",
-        "latest": 0.2148,
-        "change_sek": 0.0648,
-        "change_percent": 43.2,
+        "latest": 0.2184,
+        "change_sek": 0.0684,
+        "change_percent": 45.6,
         "source_url": "https://finance.yahoo.com/quote/CRNO-B.ST/history/",
         "note": "Jämfört med föregående handelsveckas sista stängningskurs. Fördröjda dagsstängningar, inte realtid."
       }
