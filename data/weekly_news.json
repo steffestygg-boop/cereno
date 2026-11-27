@@ -3,7 +3,7 @@
   "company": "Cereno Scientific",
   "timezone": "Europe/Stockholm",
   "schedule": "Varje dag kl. 09:00 Europe/Stockholm med extra kontroll på eftermiddagen; ISO-vecka från måndag",
-  "updated_at": "2026-11-26T15:48:54+01:00",
+  "updated_at": "2026-11-27T09:29:56+01:00",
   "latest_week": "2026-W48",
   "weeks": [
     {
@@ -11,10 +11,43 @@
       "week": 48,
       "year": 2026,
       "start": "2026-11-23",
-      "end": "2026-11-26",
-      "generated_at": "2026-11-26T15:48:54+01:00",
-      "intro": "Veckans uppdateringar gäller främst analys och bevakade nyckeltal. Dessutom finns 4 noterade förändringar i sidans finansieringsanalys eller milstolpar.",
-      "events": [],
+      "end": "2026-11-27",
+      "generated_at": "2026-11-27T09:29:56+01:00",
+      "intro": "En framträdande nyhetsrubrik: Cereno Scientific utser Anders Svensson till tillförordnad styrelseordförande – valberedningen ser över styrelsens sammansättning. Innehållet i artikeln behöver kontrolleras mot originalkällan. Dessutom finns 4 noterade förändringar i sidans finansieringsanalys eller milstolpar.",
+      "events": [
+        {
+          "date": "2026-11-27",
+          "title": "Cereno Scientific utser Anders Svensson till tillförordnad styrelseordförande – valberedningen ser över styrelsens sammansättning",
+          "category": "Bolagsledning och styrelse",
+          "summary": "",
+          "source": "MFN · bolagets pressmeddelande",
+          "url": "https://mfn.se/a/cereno-scientific/cereno-scientific-utser-anders-svensson-till-tillforordnad-styrelseordforande-valberedningen-ser-over-styrelsens-sammansattning.iframe",
+          "verified": false,
+          "origin": "bolagsflöde",
+          "source_note": "Direkt hämtad publicerad bolagsrubrik; eventuella detaljer kräver granskning av pressmeddelandet.",
+          "published_at": "2026-11-27 \n         07:30:00",
+          "details": "",
+          "importance": "",
+          "key_facts": [],
+          "editorial_verified": false
+        },
+        {
+          "date": "2026-11-27",
+          "title": "Cereno Scientific kallar till extra bolagsstämma",
+          "category": "Övrigt",
+          "summary": "",
+          "source": "MFN · bolagets pressmeddelande",
+          "url": "https://mfn.se/a/cereno-scientific/cereno-scientific-kallar-till-extra-bolagsstamma-2.iframe",
+          "verified": false,
+          "origin": "bolagsflöde",
+          "source_note": "Direkt hämtad publicerad bolagsrubrik; eventuella detaljer kräver granskning av pressmeddelandet.",
+          "published_at": "2026-11-27 \n         08:55:00",
+          "details": "",
+          "importance": "",
+          "key_facts": [],
+          "editorial_verified": false
+        }
+      ],
       "updates": [
         {
           "title": "Ny finansieringsvarning: Rubrik kräver faktagranskning: Handelsstoppet i Cereno Scientific hävs - EFN",
@@ -23,16 +56,16 @@
           "url": "https://news.google.com/rss/articles/CBMiZEFVX3lxTE9xRTRibDU3eW04VVlfU0dhQU5rVVZiN2ZCYWM3LVhwSDhyREpPZzFZZmt2Z2tnZmliWUp3dWstZ25Ua3RuVU1CdmhmWEVvWWtqQ3lrTTdtOUFacjlxMFZqaXpoSXU?oc=5"
         },
         {
-          "title": "Milstolpe tillagd: Prekliniska data på ASH",
-          "detail": "Placerad: December 2024 (genomförd).",
-          "kind": "milstolpe",
-          "url": "https://mb.cision.com/Public/14131/4082345/b1496a9d14f879c7.pdf"
-        },
-        {
           "title": "Milstolpe tillagd: Pågående APS-studier bekräftas",
           "detail": "Placerad: November 2026 · Q3-rapporten (genomförd).",
           "kind": "milstolpe",
           "url": "https://mfn.se/a/cereno-scientific/cereno-scientific-publishes-interim-report-for-q3-2026"
+        },
+        {
+          "title": "Milstolpe tillagd: Prekliniska data på ASH",
+          "detail": "Placerad: December 2024 (genomförd).",
+          "kind": "milstolpe",
+          "url": "https://mb.cision.com/Public/14131/4082345/b1496a9d14f879c7.pdf"
         },
         {
           "title": "Milstolpe tillagd: Prioriteringar för CS585 offentliggörs",
@@ -323,10 +356,10 @@
         "symbol": "CRNO-B.ST",
         "baseline_date": "2026-11-20",
         "baseline": 0.15,
-        "latest_date": "2026-11-26",
-        "latest": 0.179,
-        "change_sek": 0.029,
-        "change_percent": 19.33,
+        "latest_date": "2026-11-27",
+        "latest": 0.2148,
+        "change_sek": 0.0648,
+        "change_percent": 43.2,
         "source_url": "https://finance.yahoo.com/quote/CRNO-B.ST/history/",
         "note": "Jämfört med föregående handelsveckas sista stängningskurs. Fördröjda dagsstängningar, inte realtid."
       }
