@@ -3,7 +3,7 @@
   "company": "Cereno Scientific",
   "timezone": "Europe/Stockholm",
   "schedule": "Varje dag kl. 09:00 Europe/Stockholm med extra kontroll på eftermiddagen; ISO-vecka från måndag",
-  "updated_at": "2026-11-27T15:44:19+01:00",
+  "updated_at": "2026-11-28T09:14:23+01:00",
   "latest_week": "2026-W48",
   "weeks": [
     {
@@ -11,8 +11,8 @@
       "week": 48,
       "year": 2026,
       "start": "2026-11-23",
-      "end": "2026-11-27",
-      "generated_at": "2026-11-27T15:44:18+01:00",
+      "end": "2026-11-28",
+      "generated_at": "2026-11-28T09:14:22+01:00",
       "intro": "En framträdande nyhetsrubrik: Cereno Scientific utser Anders Svensson till tillförordnad styrelseordförande – valberedningen ser över styrelsens sammansättning. Innehållet i artikeln behöver kontrolleras mot originalkällan. Dessutom finns 4 noterade förändringar i sidans finansieringsanalys eller milstolpar.",
       "events": [
         {
@@ -86,10 +86,10 @@
           "url": "https://news.google.com/rss/articles/CBMiZEFVX3lxTE9xRTRibDU3eW04VVlfU0dhQU5rVVZiN2ZCYWM3LVhwSDhyREpPZzFZZmt2Z2tnZmliWUp3dWstZ25Ua3RuVU1CdmhmWEVvWWtqQ3lrTTdtOUFacjlxMFZqaXpoSXU?oc=5"
         },
         {
-          "title": "Milstolpe tillagd: Prekliniska data på ASH",
-          "detail": "Placerad: December 2024 (genomförd).",
+          "title": "Milstolpe tillagd: Pågående APS-studier bekräftas",
+          "detail": "Placerad: November 2026 · Q3-rapporten (genomförd).",
           "kind": "milstolpe",
-          "url": "https://mb.cision.com/Public/14131/4082345/b1496a9d14f879c7.pdf"
+          "url": "https://mfn.se/a/cereno-scientific/cereno-scientific-publishes-interim-report-for-q3-2026"
         },
         {
           "title": "Milstolpe tillagd: Prioriteringar för CS585 offentliggörs",
@@ -98,10 +98,10 @@
           "url": "https://view.news.eu.nasdaq.com/view?id=b117459fc400c67bd40660c67f384c2ba&lang=en&src=micro"
         },
         {
-          "title": "Milstolpe tillagd: Pågående APS-studier bekräftas",
-          "detail": "Placerad: November 2026 · Q3-rapporten (genomförd).",
+          "title": "Milstolpe tillagd: Prekliniska data på ASH",
+          "detail": "Placerad: December 2024 (genomförd).",
           "kind": "milstolpe",
-          "url": "https://mfn.se/a/cereno-scientific/cereno-scientific-publishes-interim-report-for-q3-2026"
+          "url": "https://mb.cision.com/Public/14131/4082345/b1496a9d14f879c7.pdf"
         }
       ],
       "omitted_events": 0,
@@ -386,10 +386,10 @@
         "symbol": "CRNO-B.ST",
         "baseline_date": "2026-11-20",
         "baseline": 0.15,
-        "latest_date": "2026-11-27",
-        "latest": 0.192,
-        "change_sek": 0.042,
-        "change_percent": 28.0,
+        "latest_date": "2026-11-26",
+        "latest": 0.1772,
+        "change_sek": 0.0272,
+        "change_percent": 18.13,
         "source_url": "https://finance.yahoo.com/quote/CRNO-B.ST/history/",
         "note": "Jämfört med föregående handelsveckas sista stängningskurs. Fördröjda dagsstängningar, inte realtid."
       }
